@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div>
+    <h1 id="our-history" style="font-size: 2em;">Our History</h1>
+    <p>
+        AOSC was originally founded as Anthon.Dev (Anthon Dev. Team)
+        by Mingcong Bai and his two classmates in late 2011. Following
+        a year of mismanagement, the team was disbanded and refactored
+        as the Anthon Open Source Community in late 2012.
+    </p>
+    <p>
+        AOSC OS, the community's main project, was originally known as
+        AnthonOS - an OpenSUSE derivative built with the now defunct
+        SUSE Studio. The OS project was then remade as a Debian
+        derivative focusing on a customised KDE 4 UI and CJK support.
+    </p>
+    <p>
+        In 2014, with the help of Icenowy Zheng, developer of the
+        Eastern Heart Linux distribution, the Anthon :Next project was
+        established to rebuild the distribution from scratch. With the
+        rebuild, AnthonOS was renamed as AOSC OS, and has become the
+        general-purpose distribution as we know it today.
+    </p>
+    <p>
+        In the following years, AOSC OS expanded its package repostory
+        and scope of arcthitectural support. To this day, AOSC OS
+        continues to diversify its software selection and device
+        support, owing to our developer's dedication.
+    </p>
+    <h1 id="our-history" style="font-size: 2em;">Our Sponsors</h1>
+    <p>
+        Without the support from our generous sponsors, AOSC, our
+        volunteer-driven community will not have survived. Here below
+        is a list of sponsors who has supported us along the way.
+    </p>
+    <ul>
+        {% for sponsor in site.data.sponsors %}
+        <a href="{{ sponsor.homepage }}">{{ sponsor.sponsor }}</a>
+        {% endfor %}
+    </ul>
+</div>

@@ -1,0 +1,29 @@
+- title: News
+  url: /news
+
+- title: People
+  url: /people
+
+- title: Packages
+  url: https://packages.aosc.io
+
+- title: Wiki
+  url: https://wiki.aosc.io
+
+- title: About
+  url: /about
+
+- title: Downloads
+  url: /downloads
+
+- title: Repositories
+  url: /repo
+
+- title: Git
+  url: https://github.com/AOSC-Dev/
+
+- title: Mail
+  url: https://hermes.aosc.io/
+
+- title: Pastebin
+  url: https://pastebin.aosc.io/
