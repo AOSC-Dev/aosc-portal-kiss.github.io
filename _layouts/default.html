@@ -7,15 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
     {% if page.title %}
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} | AOSC Portal</title>
     {% else %}
-    <title>{{ site.name }}</title>
+    <title>{{ site.name }} | AOSC Portal</title>
     {% endif %}
 
     <meta name="description" content="{{ site.description }}" />
 
     <link rel="icon" href="{{ '/assets/img/aosc.svg' | relative_url }}" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:400,600|Source+Serif+Pro:400,600&display=swap" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:400,600|Source+Serif+Pro:400,600&display=swap" />
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | relative_url }}" />
 </head>
 
@@ -23,18 +24,24 @@
     <div class="wrapper">
         <!-- navbar -->
         <nav class="header">
-                <img class="logo" onclick="window.location = '/';" height="40" src="{{ '/assets/img/aosc.svg' | relative_url }}">
-                <h1>/{{ site.name }}</h1>
-            <ul>
-                {% for item in site.data.navigation %}
-                <li>
-                    <a href="{{ item.url }}">{{ item.title }}</a>
-                    {% unless item.title == "Pastebin" %}
-                    <!-- <span>|</span> -->
-                    {% endunless %}
-                </li>
-                {% endfor %}
-            </ul>
+            <div class="columns">
+                <div class="columns">
+                    <img class="logo" onclick="window.location = '/';" width="40" height="40"
+                        src="{{ '/assets/img/aosc.svg' | relative_url }}">
+                    {% if page.title %}
+                    <h1 class="page-title">/{{ page.title }}</h1>
+                    {% else %}
+                    <h1 class="page-title">/{{ site.name }}</h1>
+                    {% endif %}
+                </div>
+                <ul class="column is-two-thirds">
+                    {% for item in site.data.navigation %}
+                    <li>
+                        <a href="{{ item.url }}">{{ item.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
         </nav>
         <hr class="hr-nav">
         <!-- !navbar -->

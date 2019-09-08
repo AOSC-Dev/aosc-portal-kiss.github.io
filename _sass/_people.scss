@@ -10,14 +10,18 @@
 .profile-pic {
     display: table-cell;
     padding-right: 10px;
+
+    img {
+        max-width: unset;
+    }
 }
 
 .description {
     display: table-cell;
     vertical-align: top;
-    h2 {
+    h3 {
         font-weight: 600;
-        margin-bottom: 1em;
+        margin-bottom: 0.7em;
     }
     p {
         line-height: 100%;

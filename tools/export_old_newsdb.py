@@ -19,10 +19,16 @@ def get_filename(key, value):
         return None
 
 
+def escape_title(title):
+    if title.find("'") >= 0:
+        return '"%s"' % title.replace('"', '\\"')
+    return "'%s'" % title
+
+
 def write_file(filename, value):
     with open(filename, 'wt') as f:
         f.write('---\nlayout: post\ntitle: %s\ntype: %s\n---\n\n' %
-                (value.get('title'), value.get('type')))
+                (escape_title(value.get('title')), value.get('type')))
         f.write(value.get('content'))
 
 

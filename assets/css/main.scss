@@ -7,6 +7,10 @@
 @import "people";
 @import "repo";
 @import "common";
+// Bulma CSS Framework
+@import "bulma/utilities/_all";
+@import "bulma/base/_all";
+@import "bulma/grid/_all";
 
 #quote, .center {
 	display:flex;
@@ -28,6 +32,14 @@ nav {
 	li {
 		margin-right: 1em;
 	}
+	h1 {
+		display: inline-flex;
+		min-width: 4em;
+	}
+	img {
+		margin-left: 1em;
+		vertical-align: bottom;
+	}
 }
 
 #quote {
@@ -40,7 +52,7 @@ nav {
 }
 
 .logo {
-	margin-top: auto;
+	margin-top: 3em;
 	cursor: pointer;
 }
 
@@ -82,7 +94,6 @@ a {
 
 ul {
 	list-style: disc;
-	list-style-position: inside;
 	li {
 		padding: 5px;
 		padding-left: 10px;
@@ -96,7 +107,7 @@ ul {
 .wrapper {
 	max-width: 600px;
 	margin: auto;
-	padding: 60px 30px 60px 30px;
+	padding: 30px 30px 60px 30px;
 	@media screen and (max-width: $br) {
 		padding: 20px;
 	}
@@ -113,7 +124,7 @@ ul {
 	}
 	h1 {
 		font-size: 2.5em;
-		margin-bottom: 10px;
+		margin-bottom: 13px;
 		margin-top: auto;
 		margin-right: 0.5em;
 	}
@@ -135,6 +146,7 @@ ul {
 	}
 	ul {
 		margin-bottom: 1em;
+		padding-left: 2em;
 	}
 }
 
