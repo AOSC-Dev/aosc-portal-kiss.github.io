@@ -1,4 +1,4 @@
-permalink: /blog/:title
+permalink: /news/:year/:month/:day/:title:output_ext
 
 # My variables
 name: Portal
@@ -24,6 +24,7 @@ highlighter: rouge
 exclude:
   - README.md
   - LICENSE
+  - tools
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="blog">
+    <h1 id="security-bulletin no-top-margin">Security Bulletin</h1>
+    <ul>
+        {% assign posts = site.posts | where:"type","bug" %}
+        {% for post in posts limit:5 %}
+        <li>
+            <span class="date">{{ post.date | date: '%Y%m%d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="https://wiki.aosc.io/#aosc-os-security-advisories" target="_blank">Bulletin Archives [AOSC Wiki]</a>
+    <h1 id="community-news">Community News</h1>
+    <ul>
+        {% assign posts = site.posts | where:"type","news" %}
+        {% for post in posts limit:5 %}
+        <li>
+            <span class="date">{{ post.date | date: '%Y%m%d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="/news/news.html" target="_blank">News Archives</a>
+    <h1 id="events">Events</h1>
+    <ul>
+        {% assign posts = site.posts | where:"type","events" %}
+        {% for post in posts limit:5 %}
+        <li>
+            <span class="date">{{ post.date | date: '%Y%m%d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    <a href="/news/events.html">Event Archives</a>
+</div>

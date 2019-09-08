@@ -15,7 +15,7 @@
     <meta name="description" content="{{ site.description }}" />
 
     <link rel="icon" href="{{ '/assets/img/aosc.svg' | relative_url }}" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:400,600|Source+Serif+Pro:400,600&display=swap" />
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | relative_url }}" />
 </head>
 
@@ -23,25 +23,25 @@
     <div class="wrapper">
         <!-- navbar -->
         <nav class="header">
-                <img class="logo" onclick="window.location = '/';" style="margin-top: auto;" height="40" src="{{ '/assets/img/aosc.svg' | relative_url }}">
+                <img class="logo" onclick="window.location = '/';" height="40" src="{{ '/assets/img/aosc.svg' | relative_url }}">
                 <h1>/{{ site.name }}</h1>
             <ul>
                 {% for item in site.data.navigation %}
                 <li>
                     <a href="{{ item.url }}">{{ item.title }}</a>
                     {% unless item.title == "Pastebin" %}
-                    <span>&nbsp;|</span>
+                    <!-- <span>|</span> -->
                     {% endunless %}
                 </li>
                 {% endfor %}
             </ul>
         </nav>
-        <hr>
+        <hr class="hr-nav">
         <!-- !navbar -->
         {{ content }}
         <!-- footer -->
         <hr>
-        <div class="center">
+        <div class="center footer">
             Copyleft 2011 — 2019, Members of the Community
         </div>
         <!-- !footer -->

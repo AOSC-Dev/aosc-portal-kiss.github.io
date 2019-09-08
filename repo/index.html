@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<div class="blog">
+    <h1 id="repo" class="title no-top-margin">Community Repository</h1>
+    <p>
+        The Community Repository is our centralised storage for
+        AOSC OS packages and releases, along with storage for our
+        development work. Over the years, schools, private entities,
+        and companies has offered to mirror our repository.
+    </p>
+    <p>
+        Here below is a comprehensive list of mirrors.
+    </p>
+    <table>
+        <tbody id="mirrors">
+            {% for mirror in site.data.mirrors.mirrors %}
+            <tr>
+                <td>{{ mirror.region }}</td>
+                <td>{{ mirror.name }}</td>
+                <td>
+                    <a href="{{ mirror.url }}" target="_blank">{{ mirror.url }}</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <br>
+    <p id="banner" class="center"></p>
+    <script>
+        const spinner = ['-', '\\', '|', '/'];
+        var state = 0;
+        var banner = document.getElementById('banner');
+        function spin() {
+            banner.innerHTML = spinner[state];
+            state = (state + 1) % spinner.length;
+        }
+        setInterval(spin, 100);
+    </script>
+</div>

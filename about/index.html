@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<div>
-    <h1 id="our-history" style="font-size: 2em;">Our History</h1>
+<div class="blog">
+    <h1 id="our-history" class="title no-top-margin">Our History</h1>
     <p>
         AOSC was originally founded as Anthon.Dev (Anthon Dev. Team)
         by Mingcong Bai and his two classmates in late 2011. Following
@@ -29,7 +29,7 @@ layout: default
         continues to diversify its software selection and device
         support, owing to our developer's dedication.
     </p>
-    <h1 id="our-history" style="font-size: 2em;">Our Sponsors</h1>
+    <h1 id="our-history" class="title">Our Sponsors</h1>
     <p>
         Without the support from our generous sponsors, AOSC, our
         volunteer-driven community will not have survived. Here below
@@ -37,7 +37,10 @@ layout: default
     </p>
     <ul>
         {% for sponsor in site.data.sponsors %}
-        <a href="{{ sponsor.homepage }}">{{ sponsor.sponsor }}</a>
+        <li>
+            <a href="{{ sponsor.homepage }}">{{ sponsor.sponsor }}</a>
+            <span>:&nbsp;{{ sponsor.gratitude }}</span>
+        </li>
         {% endfor %}
     </ul>
 </div>

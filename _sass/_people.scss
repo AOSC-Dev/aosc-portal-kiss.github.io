@@ -1,0 +1,32 @@
+.media {
+    vertical-align: top;
+    margin-bottom: 1.8em;
+    display: inline-block;
+    zoom: 1;
+    overflow: hidden;
+    padding-right: 1em;
+}
+
+.profile-pic {
+    display: table-cell;
+    padding-right: 10px;
+}
+
+.description {
+    display: table-cell;
+    vertical-align: top;
+    h2 {
+        font-weight: 600;
+        margin-bottom: 1em;
+    }
+    p {
+        line-height: 100%;
+        font-size: 0.9em;
+    }
+}
+
+.blog {
+    table {
+        margin-top: 2em;
+    }
+}

@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="blog">
+    <h1 class="title no-top-margin">We are AOSC</h1>
+    <p>We are AOSC - a community of developers who contributes to
+        AOSC and the open source world with our love for open source
+        software.
+    </p>
+    <p>
+        Since the establishment of Anthon.Dev in late 2011, a great
+        team of developers have joined us as community contributors.
+        This page is dedicated to their recognition and made
+        available to them as their personal pages.
+    </p>
+    <table>
+        <tbody>
+            <tr>
+                {% for person in site.data.people %}
+                {% assign col = forloop.index | modulo:2 %}
+                {% if col == 1 %}
+            </tr>
+            <tr>
+                {% endif %}
+                <td>
+                    <div class="media">
+                        <div class="profile-pic">
+                            <img width="96" height="96" src="https://github.com/{{ person.username }}.png?size=96">
+                        </div>
+                        <div class="description">
+                            <a href="/people/~{{ person.username }}">
+                                <h2>{{ person.fullname }}&nbsp;({{ person.username }})</h2>
+                            </a>
+                            <p>{{ person.description }}</p>
+                        </div>
+                    </div>
+                </td>
+                {% else %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

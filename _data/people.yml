@@ -1,0 +1,240 @@
+-
+  fullname: Mingye Wang
+  username: artoria2e5
+  description: Magical catgirl without a focus.
+  longdesc: >
+    Artoria’s lack of focus has dragged AOSC into upstreaming much more than code.
+    A terrible feline being herself, Artoria usually pokes at something, and then
+    leaves it for everyone else at AOSC. Her curiosity hasn’t killed herself yet.
+    (We are buffled by the fact that Artoria, as a cat, enjoys drinking Coffiest
+    for breakfast: cats are not supposed to consume caffeine.) According to Artoria,
+    drawing SVGs, participating in “electronic activism”, setting up weird rules,
+    and reinventing wheels is much more interesting than doing real work.
+  rurl: https://zh.wikipedia.org/wiki/User:Artoria2e5
+-
+  fullname:
+  username: axionl
+  description:
+  longdesc:
+  rurl:
+-
+  fullname:
+  username: biergaizi
+  description:
+  longdesc:
+  rurl:
+-
+  fullname:
+  username: bobcao3
+  description:
+  longdesc:
+  rurl:
+-
+  fullname: Sijie Bu
+  username: late-in-autumn
+  description: Self-claimed art student. No availability guarantee.
+  longdesc: >
+    Technically computer science major, but passion in photography and media. Railfan. Disagrees with "M$ is evil. "
+    Would rather choose Microsoft over Apple. Uses Linux because can't master and can't afford Windows Server.
+    Zsh rocks. Lennartware rocks. DNG rocks.
+    Operates part of the AOSC IT infrastructure (on I cannot afford Red Hat subscription).
+    A complete list of packages I maintain is on the detail page.
+    Also known as: kawasaki_kagami, kawasaki_sakura, kawasaki_rumi, and kawasaki_iori on Freenode.
+  rurl:
+-
+  fullname: Rongwei Lin
+  username: colin4124
+  description: Fight for freedom of software.Just for fun!
+  longdesc: >
+    Free and Open Source Software enthusiast. "Mastering Emacs is not the goal, it's the path." -- A happy Emacs user.
+    I'm working on Open Source CPU now, although my contribution is quite small. I hope that one day we could build a
+    "open-source" computer both hardware and software.
+  rurl: http://funwo.tk/
+-
+  fullname: Tianhao Chai
+  username: cthbleachbit
+  description: b.k.a. cth451
+  longdesc: A human that got stuck between byte streams and atoms. Addicted to bash overdosage, AOSC, Android x86 and Steam.
+  rurl:
+-
+  fullname:
+  username: thxo
+  description:
+  longdesc:
+  rurl:
+-
+  fullname:
+  username: duminhui
+  description:
+  longdesc:
+  rurl:
+-
+  fullname:
+  username: eatradish
+  description:
+  longdesc:
+  rurl:
+-
+  fullname: Ma Kai
+  username: ekd123
+  description: One of the daily AOSC OS users
+  longdesc: >
+    Major in computer science and use AOSC OS every day.
+    Sometimes do some package work for AOSC.
+  rurl: https://github.com/ekd123/
+-
+  fullname: Jiaxun Yang
+  username: flygoat
+  description: Just a chinese junior 3 student
+  longdesc: Description is cheap, show me your code.
+  rurl: https://flygoat.com
+-
+  fullname:
+  username: gumblex
+  description:
+  longdesc:
+  rurl:
+-
+  fullname:
+  username: icenowy
+  description:
+  longdesc:
+  rurl:
+-
+  fullname: Anonymous Chen
+  username: jiegec
+  description: Yet another Senior 3 student. Love Emacs more than Vim.
+  longdesc: A typical Chinese student busy preparing for College Entrance Examination. Currently the main maintainer of MacGesture. Few contributions are made to the AOSC project.
+  rurl: https://github.com/jiegec
+-
+  fullname: Kexy Biscuit
+  username: kexybiscuit
+  description:
+  longdesc:
+  rurl:
+-
+  fullname: Everette Rong
+  username: LER0ever
+  description: Faithful Listener | Cool-headed Geek | Mind Swimmer | Ever-Loner | THE Software Magician
+  longdesc: Long desc is not necessary for a guy like me who lives in the void.
+  rurl:
+-
+  fullname:
+  username: l2dy
+  description:
+  longdesc:
+  rurl:
+-
+  fullname:
+  username: lionnatsu
+  description:
+  longdesc:
+  rurl:
+-
+  fullname:
+  username: liushuyu
+  description:
+  longdesc:
+  rurl:
+-
+  fullname: Junde Yhi
+  username: lmy441900
+  description: Just for fun.
+  longdesc: >
+    Our goal is: consuming power.
+  rurl:
+-
+  fullname:
+  username: m13253
+  description:
+  longdesc:
+  rurl:
+-
+  fullname: Mingcong Bai
+  username: mingcongbai
+  description: Heck, what have I started?
+  longdesc: >
+    Formerly known as Jeff Bai (before I decided to go with my real name).
+    ThinkPad and vintage computer enthusiast. Photography hobbist. Software
+    localization volunteer. "World beyond x86" advocate. Maintainer of AOSC OS
+    package updates, and various ports.
+  rurl:
+-
+  fullname:
+  username: netarmy
+  description: An experimental animal who aspires to think, to work, and to create value.
+  longdesc: >
+    It is this misaka's shame of laziness that
+    hardly did this misaka work for AOSC or other
+    parts of the whole free software community.
+    This misaka now realizes that a parasite of society
+    still has the right to change and start to do three
+    little things for the community. This misaka will
+    begin to fulfill its repo, let us wait and see.
+  rurl:
+-
+  fullname:
+  username: krhougs
+  description:
+  longdesc:
+  rurl:
+-
+  fullname: KayMW
+  username: redl0tus
+  description: A salted fish.
+  longdesc: Watering all the time. Yet another jelly-eater.
+  rurl:
+-
+  fullname:
+  username: septs
+  description:
+  longdesc:
+  rurl:
+-
+  fullname: ZjeuhPiung Liu
+  username: sophgn
+  description: A finance undergraduate who knows little about programming.
+  longdesc: Corrected a typo for aosc-os-abbs long ago.（
+  rurl: http://sophgn.com
+-
+  fullname: Staph. aureus
+  username: stephdc
+  description: The programming Prokayotes in Anthon Optical Storage Center
+  longdesc: Maintainer of the Anthon Optical Storage Center with profession in renaming AOSC to fit other purposes. Want an Easter Egg? Ask me for some idea.
+  rurl: http://personal.psu.edu/svz5160/
+-
+  fullname: Ziqian SUN
+  username: sztsian
+  description: Can I break your software?
+  longdesc: >
+    Also known as Zamir SUN (if you can not speak my real name).
+    Tester and coder sometimes.
+  rurl:
+-
+  fullname:
+  username: tonghuix
+  description:
+  longdesc:
+  rurl:
+-
+  fullname:
+  username: trickness
+  description:
+  longdesc:
+  rurl:
+-
+  fullname: Leslie Zhai
+  username: xiangzhai
+  description: The father of little Ray.
+  longdesc: >
+    As a fan of Leslie Cheung, I chose "Leslie" as my English name when I was
+    a High school student in Wisco No.3 Middle School; As a KDE developer, I am
+    maintaining K3B, also submitted some patches for KF5 and Plasma; As a LLVM
+    hacker, I taught the analyzer about Glib API to check Memory-leak.
+  rurl:
+-
+  fullname:
+  username: yexiaoxing
+  description:
+  longdesc:
+  rurl:
