@@ -23,7 +23,7 @@ title: News
         </li>
         {% endfor %}
     </ul>
-    <a href="/news/news.html" target="_blank">News Archives</a>
+    <a href="{{ '/news/news.html' | relative_url}}" target="_blank">News Archives</a>
     <h1 id="events">Events</h1>
     <ul>
         {% assign posts = site.posts | where:"type","events" %}
@@ -33,5 +33,5 @@ title: News
         </li>
         {% endfor %}
     </ul>
-    <a href="/news/events.html">Event Archives</a>
+    <a href="{{ '/news/events.html' | relative_url }}">Event Archives</a>
 </div>
