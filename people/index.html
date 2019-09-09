@@ -15,31 +15,33 @@ title: People
         This page is dedicated to their recognition and made
         available to them as their personal pages.
     </p>
-    <table>
-        <tbody>
-            <tr>
-                {% for person in site.data.people %}
-                {% assign col = forloop.index | modulo:2 %}
-                {% if col == 1 %}
-            </tr>
-            <tr>
-                {% endif %}
-                <td>
-                    <div class="media">
-                        <div class="profile-pic">
-                            <img width="96" height="96" src="https://github.com/{{ person.username }}.png?size=96">
+    <div style="overflow-x:auto;">
+        <table>
+            <tbody>
+                <tr>
+                    {% for person in site.data.people %}
+                    {% assign col = forloop.index | modulo:2 %}
+                    {% if col == 1 %}
+                </tr>
+                <tr>
+                    {% endif %}
+                    <td>
+                        <div class="media">
+                            <div class="profile-pic">
+                                <img width="96" height="96" src="https://github.com/{{ person.username }}.png?size=96">
+                            </div>
+                            <div class="description">
+                                <a href="/people/~{{ person.username }}">
+                                    <h3>{{ person.fullname }}&nbsp;({{ person.username }})</h3>
+                                </a>
+                                <p>{{ person.description }}</p>
+                            </div>
                         </div>
-                        <div class="description">
-                            <a href="/people/~{{ person.username }}">
-                                <h3>{{ person.fullname }}&nbsp;({{ person.username }})</h3>
-                            </a>
-                            <p>{{ person.description }}</p>
-                        </div>
-                    </div>
-                </td>
-                {% else %}
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+                    </td>
+                    {% else %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
 </div>

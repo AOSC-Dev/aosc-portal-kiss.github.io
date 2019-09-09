@@ -9,6 +9,11 @@ title: Downl.
         Here you will find downloads for AOSC OS versions, and other
         projects produced by the community.
     </p>
+    <a href="#aosc-os">AOSC OS Downloads</a>
+    |
+    <a href="#aosc-os-retro">AOSC OS/Retro Downloads</a>
+    |
+    <a href="#aosc-os-dp">DeployKit Downloads</a>
     <h1 id="aosc-os" class="title">AOSC OS</h1>
     <p>
         Downloads for our mainline releases, these releases target
@@ -18,12 +23,12 @@ title: Downl.
     <br>
     <div>
         {% for release in site.data.distro.general.list %}
-        <div class="columns">
+        <div id="{{ release.name | slugify: 'ascii' }}" class="columns">
             <div class="column downloads-title-column">
-                <h1>{{ release.name }}</h1>
+                <h2>{{ release.name }}</h2>
                 <a>Screenshots</a>
             </div>
-            <div class="column downloads-description is-two-thirds">
+            <div class="column downloads-description is-three-quarters">
                 <p>{{ release.description }}</p>
                 <p>
                     <a>AMD64</a>
@@ -39,5 +44,27 @@ title: Downl.
         older and "ancient" hardware with limited performance and
         storage support. These releases are not frequently updated
         but will receive security and bug-fix updates.
+    </p>
+    <br>
+    <div>
+        {% for release in site.data.distro.retro.list %}
+        <div id="{{ release.name | slugify: 'ascii' }}" class="columns">
+            <div class="column downloads-title-column">
+                <h2>{{ release.name }}</h2>
+                <a>Screenshots</a>
+            </div>
+            <div class="column downloads-description is-three-quarters">
+                <p>{{ release.description }}</p>
+                <p>
+                    <a>i486</a>
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <h1 id="aosc-os-dp" class="title">AOSC OS DeployKit</h1>
+    <p>
+        Insert DeployKit descriptions here
     </p>
 </div>

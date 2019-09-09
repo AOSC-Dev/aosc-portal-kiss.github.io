@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html>
-
+{% if page.url contains "/news/" %}
+{% assign title = "News" %}
+{% elsif page.title %}
+{% assign title = page.title %}
+{% else %}
+{% assign title = site.name %}
+{% endif %}
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 
-    {% if page.title %}
-    <title>{{ page.title }} | AOSC Portal</title>
-    {% else %}
-    <title>{{ site.name }} | AOSC Portal</title>
-    {% endif %}
+    <title>{{ title }} | AOSC Portal</title>
 
     <meta name="description" content="{{ site.description }}" />
-
-    <link rel="icon" href="{{ '/assets/img/aosc.svg' | relative_url }}" />
+    <link rel="icon" href="{{ '/assets/img/aosc.png' | relative_url }}">
+    <link rel="icon" sizes="any" type="image/svg+xml" href="{{ '/assets/img/aosc.svg' | relative_url }}" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600|Noto+Serif+SC:400,600&display=swap" />
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | relative_url }}" />
@@ -28,11 +30,7 @@
                 <div class="columns">
                     <img class="logo" onclick="window.location = '/';" width="40" height="40"
                         src="{{ '/assets/img/aosc.svg' | relative_url }}">
-                    {% if page.title %}
-                    <h1 onclick="window.location = '/';" class="page-title">/{{ page.title }}</h1>
-                    {% else %}
-                    <h1 onclick="window.location = '/';" class="page-title">/{{ site.name }}</h1>
-                    {% endif %}
+                    <h1 onclick="window.location = '/';" class="page-title">/{{ title }}</h1>
                 </div>
                 <ul class="column is-two-thirds">
                     {% for item in site.data.navigation %}

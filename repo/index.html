@@ -14,19 +14,21 @@ title: Repo.
     <p>
         Here below is a comprehensive list of mirrors.
     </p>
-    <table>
-        <tbody id="mirrors">
-            {% for mirror in site.data.mirrors.mirrors %}
-            <tr>
-                <td>{{ mirror.region }}</td>
-                <td>{{ mirror.name }}</td>
-                <td>
-                    <a href="{{ mirror.url }}" target="_blank">{{ mirror.url }}</a>
-                </td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+    <div style="overflow-x: auto;">
+        <table>
+            <tbody id="mirrors">
+                {% for mirror in site.data.mirrors.mirrors %}
+                <tr>
+                    <td>{{ mirror.region }}</td>
+                    <td>{{ mirror.name }}</td>
+                    <td>
+                        <a href="{{ mirror.url }}" target="_blank">{{ mirror.url }}</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
     <br>
     <p id="banner" class="center"></p>
     <script>
