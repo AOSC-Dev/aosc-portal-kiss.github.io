@@ -2,15 +2,16 @@
 ---
 
 @import "reset";
+// Bulma CSS Framework
+@import "bulma/utilities/_all";
+@import "bulma/base/_all";
+@import "bulma/grid/_all";
 @import "config";
 @import "center";
 @import "people";
 @import "repo";
 @import "common";
-// Bulma CSS Framework
-@import "bulma/utilities/_all";
-@import "bulma/base/_all";
-@import "bulma/grid/_all";
+@import "downloads";
 
 #quote, .center {
 	display:flex;
@@ -105,7 +106,7 @@ ul {
 
 
 .wrapper {
-	max-width: 600px;
+	max-width: 680px;
 	margin: auto;
 	padding: 30px 30px 60px 30px;
 	@media screen and (max-width: $br) {
@@ -129,7 +130,7 @@ ul {
 		margin-right: 0.5em;
 	}
 	ul {
-		margin-top: 10px;
+		margin-top: 1.2em;
 		li {
 			display: inline;
 			padding: 0;

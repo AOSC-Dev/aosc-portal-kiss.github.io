@@ -1,6 +1,6 @@
 ---
 layout: default
-title: DNLD
+title: Downl.
 ---
 
 <div class="blog">
@@ -15,34 +15,24 @@ title: DNLD
         desktop devices with adequate performance, storage, and
         Internet accessibility.
     </p>
+    <br>
     <div>
-        <table>
-            <tbody>
-                <tr>
-                    <td style="border-right: 2px solid black;">
-                        <h1 style="margin-bottom: 0; margin-top: -0.2em;padding-right: 0.5em;">GNOME</h1>
-                        <a>Screenshots</a>
-                    </td>
-                    <td style="padding-left: 0.5em;">
-                        <p>
-                            GNOME is a desktop environment with a strong emphasis on human
-                            interactivity, multilingual support, and accessibility. Designed as
-                            a desktop for humanity, GNOME provides users with a minimal yet elegant
-                            interface for those who may understand its innovative logic in desktop
-                            computing.
-                        </p>
-                        <p>
-                            <a>AMD64</a>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
+        {% for release in site.data.distro.general.list %}
+        <div class="columns">
+            <div class="column downloads-title-column">
+                <h1>{{ release.name }}</h1>
+                <a>Screenshots</a>
+            </div>
+            <div class="column downloads-description is-two-thirds">
+                <p>{{ release.description }}</p>
+                <p>
+                    <a>AMD64</a>
+                </p>
+            </div>
+        </div>
+        {% endfor %}
     </div>
+
     <h1 id="aosc-os-retro" class="title">AOSC OS/Retro</h1>
     <p>
         Downloads for our Retro releases, these releases target

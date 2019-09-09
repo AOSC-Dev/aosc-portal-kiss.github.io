@@ -16,7 +16,7 @@
 
     <link rel="icon" href="{{ '/assets/img/aosc.svg' | relative_url }}" />
     <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:400,600|Source+Serif+Pro:400,600&display=swap" />
+        href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600|Noto+Serif+SC:400,600&display=swap" />
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/main.css' | relative_url }}" />
 </head>
 
@@ -29,9 +29,9 @@
                     <img class="logo" onclick="window.location = '/';" width="40" height="40"
                         src="{{ '/assets/img/aosc.svg' | relative_url }}">
                     {% if page.title %}
-                    <h1 class="page-title">/{{ page.title }}</h1>
+                    <h1 onclick="window.location = '/';" class="page-title">/{{ page.title }}</h1>
                     {% else %}
-                    <h1 class="page-title">/{{ site.name }}</h1>
+                    <h1 onclick="window.location = '/';" class="page-title">/{{ site.name }}</h1>
                     {% endif %}
                 </div>
                 <ul class="column is-two-thirds">
