@@ -26,9 +26,16 @@ def escape_title(title):
 
 
 def write_file(filename, value):
+    news_type = value.get('type')
+    important = 'false'
+    if news_type == 'bug':
+        important = 'true'
+        news_type = 'news'
+    if news_type not in ['news', 'community']:
+        print('Unknown news type: %s' % news_type)
     with open(filename, 'wt') as f:
-        f.write('---\nlayout: post\ntitle: %s\ntype: %s\n---\n\n' %
-                (escape_title(value.get('title')), value.get('type')))
+        f.write('---\nlayout: post\ntitle: %s\ntype: %s\nimportant: %s\n---\n\n' %
+                (escape_title(value.get('title')), news_type, important))
         f.write(value.get('content'))
 
 
