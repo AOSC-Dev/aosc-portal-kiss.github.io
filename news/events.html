@@ -5,7 +5,7 @@ layout: default
 <div class="blog">
     <h1 id="security-bulletin no-top-margin">Community Events</h1>
     <ul>
-        {% assign posts = site.posts | where:"type","events" %}
+        {% assign posts = site.posts | where:"type","community" %}
         {% for post in posts %}
         <li>
             <span class="date">{{ post.date | date: '%Y%m%d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
