@@ -31,7 +31,12 @@ title: Downl.
             <div class="column downloads-description is-three-quarters">
                 <p>{{ release.description }}</p>
                 <p>
-                    <a>AMD64</a>
+                    {% for download in release.downloads %}
+                    <a href="{{ download.url }}">{{ download.name }}</a>
+                    {% if forloop.last == false %}
+                    |
+                    {% endif %}
+                    {% endfor %}
                 </p>
             </div>
         </div>
@@ -56,15 +61,20 @@ title: Downl.
             <div class="column downloads-description is-three-quarters">
                 <p>{{ release.description }}</p>
                 <p>
-                    <a>i486</a>
+                    {% for download in release.downloads %}
+                    <a href="{{ download.url }}">{{ download.name }}</a>
+                    {% if forloop.last == false %}
+                    |
+                    {% endif %}
+                    {% endfor %}
                 </p>
             </div>
         </div>
         {% endfor %}
     </div>
 
-    <h1 id="aosc-os-dp" class="title">AOSC OS DeployKit</h1>
+    <h1 id="aosc-os-dp" class="title">DeployKit</h1>
     <p>
-        Insert DeployKit descriptions here
+        Coming soon<sup style="font-size: xx-small;vertical-align:super;">TM</sup>
     </p>
 </div>

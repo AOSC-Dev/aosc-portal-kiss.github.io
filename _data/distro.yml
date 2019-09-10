@@ -7,6 +7,17 @@ general:
         with an elegant interface. With a strong set of utilities, games,
         and tools, KDE is quite suitable for day-to-day desktop computing
         with a refreshing sense of aesthetic.
+      downloads:
+        - name: AMD64
+          url: https://releases.aosc.io/os-amd64/kde/
+        - name: ARMv7
+          url: https://releases.aosc.io/os-armel/kde/
+        - name: ARMv8
+          url: https://releases.aosc.io/os-arm64/kde/
+        - name: PPC32BE
+          url: https://releases.aosc.io/os-powerpc/kde/
+        - name: PPC64BE
+          url: https://releases.aosc.io/os-ppc64/kde/
     - name: GNOME
       description: |
         GNOME is a desktop environment with a strong emphasis on human
@@ -14,6 +25,9 @@ general:
         a desktop for humanity, GNOME provides users with a minimal yet elegant
         interface for those who may understand its innovative logic in desktop
         computing.
+      downloads:
+        - name: AMD64
+          url: https://releases.aosc.io/os-amd64/gnome/
     - name: XFCE
       description: |
         XFCE, like its logo, is a quick and smart little rat on your desktop.
@@ -21,6 +35,9 @@ general:
         a small footprint. XFCE can run very quick even on older machines while
         providing a complete desktop experience, making it a near perfect choice
         for performance constrained devices.
+      downloads:
+        - name: AMD64
+          url: https://releases.aosc.io/os-amd64/xfce/
     - name: MATE
       description: |
         MATE is a desktop environment that sticks to the traditions - in which
@@ -29,12 +46,18 @@ general:
         development history. MATE continuously updates itself to the newest
         technologies while tries its best to provide users with a familiar
         desktop experience.
+      downloads:
+        - name: AMD64
+          url: https://releases.aosc.io/os-amd64/mate/
     - name: Cinnamon
       description: |
         Cinnamon was initially a fork of GNOME Shell in an effor to provide a
         traditional interface suitable for keyboard and mouse. Cinnamon builds
         upon GNOME's technical frameworks and applications, preserving the
         same ease of use in mind, while providing more customizability.
+      downloads:
+        - name: AMD64
+          url: https://releases.aosc.io/os-amd64/cinnamon/
     - name: LXDE
       description: |
         LXDE, or Lightweight X11 Desktop Environment in full is a lightweight
@@ -43,6 +66,9 @@ general:
         device. LXDE is extremely customizable, a perfect choice for those
         looking for a full desktop environment while wanting to keep in control
         of every aspect of their desktop.
+      downloads:
+        - name: AMD64
+          url: https://releases.aosc.io/os-amd64/lxde/
     - name: Base
       description: |
         While AOSC OS focuses itself in providing complete and refined desktop
@@ -53,6 +79,9 @@ general:
         be - this is also suitable for performance constrained devices like say,
         a Raspberry Pi board; or simply drop it on your server and go from there.
         Base is also available as a Docker image.
+      downloads:
+        - name: AMD64
+          url: https://releases.aosc.io/os-amd64/base/
     - name: BuildKit
       description: |
         BuildKit is essentially a non-bootable AOSC OS Base with full
@@ -61,13 +90,25 @@ general:
         whether it be a contribution to our official ABBS tree, or something
         you have decided to build on your own. BuildKit is also available as
         a Docker image.
+      downloads:
+        - name: AMD64
+          url: https://releases.aosc.io/os-amd64/buildkit/
 
 retro:
   list:
-    - name: WindowMaker
+    - name: Base
       description: |
-        blah blah blah blah blah blah blah blah blah blah
+        Coming soon (TM)
+      downloads:
+        - name: i486
+          url: '#aosc-os-retro'
+    - name: Base/X11
+      description: |
+        Coming soon (TM)
+      downloads:
+        - name: i486
+          url: '#aosc-os-retro'
 
 docker:
 
-buildkits:
+deploykits:

@@ -2,6 +2,8 @@
 <html>
 {% if page.url contains "/news/" %}
 {% assign title = "News" %}
+{% elsif page.url contains "/people/" %}
+{% assign title = "People" %}
 {% elsif page.title %}
 {% assign title = page.title %}
 {% else %}
