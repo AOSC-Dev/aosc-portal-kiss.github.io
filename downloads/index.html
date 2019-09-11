@@ -23,10 +23,11 @@ title: Downl.
     <br>
     <div>
         {% for release in site.data.distro.general.list %}
-        <div id="{{ release.name | slugify: 'ascii' }}" class="columns">
+        {% assign slug = release.name | slugify: 'ascii' %}
+        <div id="{{ slug }}" class="columns">
             <div class="column downloads-title-column">
                 <h2>{{ release.name }}</h2>
-                <a>Screenshots</a>
+                <a href="screenshots/#{{ slug }}">Screenshots</a>
             </div>
             <div class="column downloads-description is-three-quarters">
                 <p>{{ release.description }}</p>
@@ -50,13 +51,17 @@ title: Downl.
         storage support. These releases are not frequently updated
         but will receive security and bug-fix updates.
     </p>
+    <p>
+        Coming soon<sup style="font-size: xx-small;vertical-align:super;">TM</sup>
+    </p>
     <br>
     <div>
         {% for release in site.data.distro.retro.list %}
-        <div id="{{ release.name | slugify: 'ascii' }}" class="columns">
+        {% assign slug = release.name | slugify: 'ascii' %}
+        <div id="{{ slug }}" class="columns">
             <div class="column downloads-title-column">
                 <h2>{{ release.name }}</h2>
-                <a>Screenshots</a>
+                <a href="screenshots/#{{ slug }}">Screenshots</a>
             </div>
             <div class="column downloads-description is-three-quarters">
                 <p>{{ release.description }}</p>
@@ -67,6 +72,9 @@ title: Downl.
                     |
                     {% endif %}
                     {% endfor %}
+                </p>
+                <p style="font-size:0.7em;">
+                    * Any PowerPC Macintosh with NewWorld ROM.
                 </p>
             </div>
         </div>

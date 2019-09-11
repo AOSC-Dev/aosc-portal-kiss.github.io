@@ -96,17 +96,24 @@ general:
 
 retro:
   list:
-    - name: Base
+    - name: Base/X11
       description: |
-        Coming soon (TM)
+        A basic system release bundled with X graphical
+        user interface support. This release contains
+        a basic desktop environment and graphical tools
+        for devices with graphical hardware acceleration.
       downloads:
         - name: i486
           url: '#aosc-os-retro'
-    - name: Base/X11
+        - name: 'PowerPC Macintosh (G3/G4) *'
+          url: '#aosc-os-retro'
+    - name: Base
       description: |
-        Coming soon (TM)
+        A base system release with a minimal set of applications and tools to get you started. This release is recommended for older, headless (non-graphical), or storage constrained (< 500MiB free space) systems.
       downloads:
         - name: i486
+          url: '#aosc-os-retro'
+        - name: 'PowerPC Macintosh (G3/G4) *'
           url: '#aosc-os-retro'
 
 docker:

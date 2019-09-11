@@ -1,0 +1,19 @@
+---
+layout: gallery
+title: News
+---
+<h1 class="title no-top-margin">Photo Albums</h1>
+{% for album in site.data.gallery.gallery reversed %}
+{% assign idx = forloop.index %}
+<h2 id="{{ album.title | slugify: 'ascii' }}" class="downloads-title">{{ album.title }}</h2>
+<div class="columns is-multiline screenshot-box">
+    {% for item in album.album %}
+    <a href="https://aosc.io/assets/i/gallery/{{ item.file }}" class="column is-one-quarter screenshot" data-sub-html="#caption-{{ idx }}-{{ forloop.index }}">
+        <img alt="{{ item.desc }}" src="https://aosc.io//assets/i/gallery/thumbs/{{ item.file }}.jpg">
+        <div id="caption-{{ idx }}-{{ forloop.index }}" style="display: none;">
+            <p>{{ item.desc }}</p>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+{% endfor %}
