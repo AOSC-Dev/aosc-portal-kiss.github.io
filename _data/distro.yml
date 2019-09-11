@@ -7,6 +7,16 @@ general:
         with an elegant interface. With a strong set of utilities, games,
         and tools, KDE is quite suitable for day-to-day desktop computing
         with a refreshing sense of aesthetic.
+      # assets/i/de-preview/$DE_NAME_SLUG/$SCREENSHOT_FILE
+      screenshots:
+        - 1.png
+        - 2.png
+        - 3.png
+        - 4.png
+        - 5.png
+        - 6.png
+        - 7.png
+        - 8.png
       downloads:
         - name: AMD64
           url: https://releases.aosc.io/os-amd64/kde/
@@ -25,9 +35,26 @@ general:
         a desktop for humanity, GNOME provides users with a minimal yet elegant
         interface for those who may understand its innovative logic in desktop
         computing.
+      screenshots:
+        - 1.png
+        - 2.png
+        - 3.png
+        - 4.png
+        - 5.png
+        - 6.png
+        - 7.png
+        - 8.png
       downloads:
         - name: AMD64
           url: https://releases.aosc.io/os-amd64/gnome/
+        - name: ARMv7
+          url: https://releases.aosc.io/os-armel/gnome/
+        - name: ARMv8
+          url: https://releases.aosc.io/os-arm64/gnome/
+        - name: PPC32BE
+          url: https://releases.aosc.io/os-powerpc/gnome/
+        - name: PPC64BE
+          url: https://releases.aosc.io/os-ppc64/gnome/
     - name: XFCE
       description: |
         XFCE, like its logo, is a quick and smart little rat on your desktop.
@@ -35,9 +62,26 @@ general:
         a small footprint. XFCE can run very quick even on older machines while
         providing a complete desktop experience, making it a near perfect choice
         for performance constrained devices.
+      screenshots:
+        - 1.png
+        - 2.png
+        - 3.png
+        - 4.png
+        - 5.png
+        - 6.png
+        - 7.png
+        - 8.png
       downloads:
         - name: AMD64
           url: https://releases.aosc.io/os-amd64/xfce/
+        - name: ARMv7
+          url: https://releases.aosc.io/os-armel/xfce/
+        - name: ARMv8
+          url: https://releases.aosc.io/os-arm64/xfce/
+        - name: PPC32BE
+          url: https://releases.aosc.io/os-powerpc/xfce/
+        - name: PPC64BE
+          url: https://releases.aosc.io/os-ppc64/xfce/
     - name: MATE
       description: |
         MATE is a desktop environment that sticks to the traditions - in which
@@ -46,18 +90,52 @@ general:
         development history. MATE continuously updates itself to the newest
         technologies while tries its best to provide users with a familiar
         desktop experience.
+      screenshots:
+        - 1.png
+        - 2.png
+        - 3.png
+        - 4.png
+        - 5.png
+        - 6.png
+        - 7.png
+        - 8.png
       downloads:
         - name: AMD64
           url: https://releases.aosc.io/os-amd64/mate/
+        - name: ARMv7
+          url: https://releases.aosc.io/os-armel/mate/
+        - name: ARMv8
+          url: https://releases.aosc.io/os-arm64/mate/
+        - name: PPC32BE
+          url: https://releases.aosc.io/os-powerpc/mate/
+        - name: PPC64BE
+          url: https://releases.aosc.io/os-ppc64/mate/
     - name: Cinnamon
       description: |
         Cinnamon was initially a fork of GNOME Shell in an effor to provide a
         traditional interface suitable for keyboard and mouse. Cinnamon builds
         upon GNOME's technical frameworks and applications, preserving the
         same ease of use in mind, while providing more customizability.
+      screenshots:
+        - 1.png
+        - 2.png
+        - 3.png
+        - 4.png
+        - 5.png
+        - 6.png
+        - 7.png
+        - 8.png
       downloads:
         - name: AMD64
           url: https://releases.aosc.io/os-amd64/cinnamon/
+        - name: ARMv7
+          url: https://releases.aosc.io/os-armel/cinnamon/
+        - name: ARMv8
+          url: https://releases.aosc.io/os-arm64/cinnamon/
+        - name: PPC32BE
+          url: https://releases.aosc.io/os-powerpc/cinnamon/
+        - name: PPC64BE
+          url: https://releases.aosc.io/os-ppc64/cinnamon/
     - name: LXDE
       description: |
         LXDE, or Lightweight X11 Desktop Environment in full is a lightweight
@@ -66,9 +144,26 @@ general:
         device. LXDE is extremely customizable, a perfect choice for those
         looking for a full desktop environment while wanting to keep in control
         of every aspect of their desktop.
+      screenshots:
+        - 1.png
+        - 2.png
+        - 3.png
+        - 4.png
+        - 5.png
+        - 6.png
+        - 7.png
+        - 8.png
       downloads:
         - name: AMD64
           url: https://releases.aosc.io/os-amd64/lxde/
+        - name: ARMv7
+          url: https://releases.aosc.io/os-armel/lxde/
+        - name: ARMv8
+          url: https://releases.aosc.io/os-arm64/lxde/
+        - name: PPC32BE
+          url: https://releases.aosc.io/os-powerpc/lxde/
+        - name: PPC64BE
+          url: https://releases.aosc.io/os-ppc64/lxde/
     - name: Base
       description: |
         While AOSC OS focuses itself in providing complete and refined desktop
@@ -79,9 +174,21 @@ general:
         be - this is also suitable for performance constrained devices like say,
         a Raspberry Pi board; or simply drop it on your server and go from there.
         Base is also available as a Docker image.
+      screenshots:
+        - 1.png
       downloads:
         - name: AMD64
           url: https://releases.aosc.io/os-amd64/base/
+        - name: AMD64 (Docker)
+          url: https://hub.docker.com/r/aosc/aosc-os
+        - name: ARMv7
+          url: https://releases.aosc.io/os-armel/base/
+        - name: ARMv8
+          url: https://releases.aosc.io/os-arm64/base/
+        - name: PPC32BE
+          url: https://releases.aosc.io/os-powerpc/base/
+        - name: PPC64BE
+          url: https://releases.aosc.io/os-ppc64/base/
     - name: BuildKit
       description: |
         BuildKit is essentially a non-bootable AOSC OS Base with full
@@ -90,9 +197,21 @@ general:
         whether it be a contribution to our official ABBS tree, or something
         you have decided to build on your own. BuildKit is also available as
         a Docker image.
+      screenshots:
+        - 1.png
       downloads:
         - name: AMD64
           url: https://releases.aosc.io/os-amd64/buildkit/
+        - name: AMD64 (Docker)
+          url: https://hub.docker.com/r/aosc/aosc-os-buildkit
+        - name: ARMv7
+          url: https://releases.aosc.io/os-armel/buildkit/
+        - name: ARMv8
+          url: https://releases.aosc.io/os-arm64/buildkit/
+        - name: PPC32BE
+          url: https://releases.aosc.io/os-powerpc/buildkit/
+        - name: PPC64BE
+          url: https://releases.aosc.io/os-ppc64/buildkit/
 
 retro:
   list:

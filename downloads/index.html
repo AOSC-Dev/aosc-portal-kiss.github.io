@@ -57,7 +57,7 @@ title: Downl.
     <br>
     <div>
         {% for release in site.data.distro.retro.list %}
-        {% assign slug = release.name | slugify: 'ascii' %}
+        {% assign slug = 'retro-' | append: release.name | slugify: 'ascii' %}
         <div id="{{ slug }}" class="columns">
             <div class="column downloads-title-column">
                 <h2>{{ release.name }}</h2>

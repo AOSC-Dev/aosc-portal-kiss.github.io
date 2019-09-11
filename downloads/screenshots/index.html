@@ -3,30 +3,28 @@ layout: gallery
 title: Downl.
 ---
 <h1 class="title no-top-margin">Screenshots</h1>
-<h2 id="kde" class="downloads-title">KDE</h2>
+{% for release in site.data.distro.general.list %}
+{% assign slug = release.name | slugify: 'ascii' %}
+<h2 id="{{ slug }}" class="downloads-title">{{ release.name }}</h2>
 <div class="columns is-multiline screenshot-box">
-    <div href="https://aosc.io/assets/i/de-preview/kde/thumbs/1.png.jpg" class="column is-one-quarter screenshot">
-        <img src="https://aosc.io/assets/i/de-preview/kde/thumbs/1.png.jpg">
-    </div>
-    <div class="column is-one-quarter screenshot">
-        <img src="https://aosc.io/assets/i/de-preview/kde/thumbs/2.png.jpg">
-    </div>
-    <div class="column is-one-quarter screenshot">
-        <img src="https://aosc.io/assets/i/de-preview/kde/thumbs/3.png.jpg">
-    </div>
-    <div class="column is-one-quarter screenshot">
-        <img src="https://aosc.io/assets/i/de-preview/kde/thumbs/4.png.jpg">
-    </div>
-    <div class="column is-one-quarter screenshot">
-        <img src="https://aosc.io/assets/i/de-preview/kde/thumbs/5.png.jpg">
-    </div>
-    <div class="column is-one-quarter screenshot">
-        <img src="https://aosc.io/assets/i/de-preview/kde/thumbs/6.png.jpg">
-    </div>
-    <div class="column is-one-quarter screenshot">
-        <img src="https://aosc.io/assets/i/de-preview/kde/thumbs/7.png.jpg">
-    </div>
-    <div class="column is-one-quarter screenshot">
-        <img src="https://aosc.io/assets/i/de-preview/kde/thumbs/8.png.jpg">
-    </div>
+    {% for item in release.screenshots %}
+    <a href="https://aosc.io/assets/i/de-preview/{{ slug }}/{{ item }}" class="column is-one-quarter screenshot">
+        <img src="https://aosc.io/assets/i/de-preview/{{ slug }}/thumbs/{{ item }}.jpg">
+    </a>
+    {% endfor %}
 </div>
+<br>
+{% endfor %}
+<!-- Retro -->
+{% for release in site.data.distro.retro.list %}
+{% assign slug = 'retro-' | append: release.name | slugify: 'ascii' %}
+<h2 id="{{ slug }}" class="downloads-title">{{ release.name }}</h2>
+<div class="columns is-multiline screenshot-box">
+    {% for item in release.screenshots %}
+    <a href="https://aosc.io/assets/i/de-preview/{{ slug }}/{{ item }}" class="column is-one-quarter screenshot">
+        <img src="https://aosc.io/assets/i/de-preview/{{ slug }}/thumbs/{{ item }}.jpg">
+    </a>
+    {% endfor %}
+</div>
+<br>
+{% endfor %}
