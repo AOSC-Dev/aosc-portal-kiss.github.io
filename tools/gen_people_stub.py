@@ -6,11 +6,11 @@ import sys
 def generate_stubs(name, type='404', link=None):
     if link is None:
         link = 'https://github.com/{}/'.format(name)
-    template = """---\nlayout: people_{type}\nlink: {link}\npermalink: /people/~{name}/\n---\n"""
+    template = """---\nlayout: people_{type}\nlink: {link}\npermalink: /people/~{name}/\n---\n<!-- Automatically generated -->\n"""
     return template.format(name=name, type=type, link=link)
 
 
-def what_to_generate(yml, listing=os.listdir(sys.argv[2])):
+def what_to_generate(yml, listing):
     needed = set([(i["username"], i["rurl"]) for i in yml])
     difference = set()
     existing = set()
@@ -32,7 +32,10 @@ def main():
     if len(sys.argv) < 3:
         print("Usage: python {} [path/to/people.yml] [path/to/people/]".format(sys.argv[0]))
         return
-    missing_people = what_to_generate(parse_yml(sys.argv[1]))
+    missing_people = what_to_generate(parse_yml(sys.argv[1]), os.listdir(sys.argv[2]))
+    if len(missing_people) == 0:
+        print("Nothing to do.")
+        return
     print("Need to generate templates for {} people".format(len(missing_people)))
     for person in missing_people:
         name, url = person
