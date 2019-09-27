@@ -3,3 +3,23 @@
         line-height: 150%;
     }
 }
+
+.is-latest {
+    color: white;
+    background-color: $color-terminal-green;
+}
+
+.is-behind {
+    color: white;
+    background-color: $color-terminal-brown;
+}
+
+.is-very-behind {
+    color: white;
+    background-color: $color-terminal-red;
+}
+
+.is-unknown {
+    color: white;
+    background-color: $color-terminal-blue;
+}

@@ -15,7 +15,7 @@ mirrors:
     - name: Tsinghua University (TUNA)
       url: https://mirrors.tuna.tsinghua.edu.cn/anthon/
       region: China
-    - name: University of Science and Technology of China
+    - name: LUG@USTC
       url: https://mirrors.ustc.edu.cn/anthon/
       region: China
     - name: xTom

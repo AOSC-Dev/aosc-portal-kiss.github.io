@@ -9,6 +9,7 @@ function generateDEThumbnails() {
 echo 'Generating thumbnails...'
 
 for i in "${TOPDIR}/assets/img/de-preview"/**/*.png; do
+    mkdir -p "$(dirname $i)/thumbs/"
     generateDEThumbnails "${i}" "$(dirname $i)/thumbs/$(basename $i).jpg"
 done
 
