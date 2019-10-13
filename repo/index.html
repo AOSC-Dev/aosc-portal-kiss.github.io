@@ -4,12 +4,16 @@ title: Repo.
 ---
 
 <div class="blog">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"
+        integrity="sha256-S1J4GVHHDMiirir9qsXWc8ZWw74PHHafpsHp5PXtjTs=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+        integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
     <h1 id="repo" class="title no-top-margin">Community Repository</h1>
     <p>
-        The Community Repository is our centralised storage for
-        AOSC OS packages and releases, along with storage for our
-        development work. Over the years, schools, private entities,
-        and companies has offered to mirror our repository.
+        The Community Repository is our centralised storage for AOSC OS packages and
+        releases, along with storage for our development work. Over the years,
+        schools, private entities, and companies has offered to mirror our
+        repository.
     </p>
     <p>
         Here below is a comprehensive list of mirrors.
@@ -20,32 +24,58 @@ title: Repo.
                 <tr>
                     <td>Region</td>
                     <td>Name</td>
-                    <td>Status</td>
+                    <td id="status" style="display: none;">Status</td>
                 </tr>
             </thead>
             <tbody id="mirrors">
                 {% for mirror in site.data.mirrors.mirrors %}
                 <tr>
                     <td style="width: 30%;">{{ mirror.region }}</td>
-                    <td style="width: 50%;"><a href="{{ mirror.url }}">{{ mirror.name }}</a></td>
+                    <td style="width: 50%;">
+                        <a href="{{ mirror.url }}">{{ mirror.name }}</a>
+                    </td>
                     <td style="width: 15%;">
-                        <div>Up-to-date</div>
+                        <div></div>
                     </td>
                 </tr>
                 {% endfor %}
             </tbody>
         </table>
     </div>
-    <br>
+    <br />
     <p id="banner" class="center"></p>
     <script>
-        const spinner = ['-', '\\', '|', '/'];
-        var state = 0;
-        var banner = document.getElementById('banner');
-        function spin() {
-            banner.innerHTML = spinner[state];
-            state = (state + 1) % spinner.length;
+        function populate_data(response) {
+            if (!response.data) {
+                return;
+            }
+            var table = document.getElementById("mirrors");
+            var mirror_data = response.data.mirrors;
+            var reference = response.data.ref;
+            table.innerHTML = '';
+            for (let index = 0; index < mirror_data.length; index++) {
+                const this_row = mirror_data[index];
+                var this_node = document.createElement('tr');
+                var difference = reference - this_row.updated;
+                var severity = 'is-latest';
+                if (difference > 0) {
+                    if (difference < 21600) {
+                        severity = 'is-behind'
+                    } else {
+                        severity = 'is-very-behind'
+                    }
+                }
+                var difference_human = difference > 0 ? moment.duration(difference * 1000).humanize() + ' behind' : 'Up-to-date';
+                this_node.innerHTML = `<td style="width: 30%;">${this_row.region}</td><td style="width: 45%;"><a href="${this_row.url}">${this_row.name}</a></td><td style="width: 20%;"><div class="${severity}">&nbsp;${difference_human}</div></td>`;
+                table.appendChild(this_node);
+            }
+            document.getElementById('status').style = 'display: block;'
         }
-        setInterval(spin, 100);
+        axios
+            .get("/api/mirrors")
+            .then(populate_data)
+            .catch(function (error) {
+                console.log(error);
+            });
     </script>
 </div>
