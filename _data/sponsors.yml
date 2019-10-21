@@ -16,8 +16,8 @@
   gratitude: Host of our build server.
 -
   sponsor: Shanghai University Open Source Community
-  homepage: https://osc.shu.edu.cn
-  gratitude: Fast and stable mirror for our repository.
+  homepage: https://www.shuosc.org/
+  gratitude: '[defunct] Fast and stable mirror for our repository.'
 -
   sponsor: TUNA Association
   homepage: https://tuna.moe/
@@ -28,19 +28,19 @@
   gratitude: Fast and stable mirror for our repository.
 -
   sponsor: Geekpie Association
-  homepage: https://geekpie.org/zh/
+  homepage: https://geekpie.club
   gratitude: Mirror for our repository.
 -
   sponsor: CQUPT LUG
-  homepage: https://mirrors.cqupt.edu.cn/anthon/
-  gratitude: Mirror for our repository.
+  homepage: https://github.com/CQUPTMirror/
+  gratitude: '[defunct] Mirror for our repository.'
 -
   sponsor: NLUUG
   homepage: https://www.nluug.nl/
   gratitude: European mirror for our repository (and ftp.vim.org).
 -
   sponsor: Capital Online Data Services
-  homepage: https://yun-idc.com/en/
+  homepage: http://capitalonline.net/
   gratitude: CDN-based mirror for our repository.
 -
   sponsor: LZUOSS
@@ -60,7 +60,7 @@
   gratitude: SSL certificates for our community sites.
 -
   sponsor: FuslVZ
-  homepage: http://fuslvz.ws/fuslvz.html
+  homepage: http://fuslvz.ws/
   gratitude: Virtual machine for our e-mail server.
 -
   sponsor: Banana Pi Community

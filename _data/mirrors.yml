@@ -18,6 +18,9 @@ mirrors:
     - name: LUG@USTC
       url: https://mirrors.ustc.edu.cn/anthon/
       region: China
+    - name: Geekpie Association
+      url: https://mirrors.geekpie.club/anthon/
+      region: China
     - name: xTom
       url: https://mirror.xtom.com.hk/anthon/
       region: Hong Kong
