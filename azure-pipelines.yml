@@ -8,8 +8,9 @@ steps:
 - task: UseRubyVersion@0
   inputs:
     versionSpec: '>= 2.4'
+    addToPath: true
 
-- bash: bundle install --path vendor/bundle
+- bash: gem install bundler && bundle install --path vendor/bundle
   displayName: 'Install Jekyll'
 
 - bash: ./build.sh
