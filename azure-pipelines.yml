@@ -5,6 +5,10 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+- task: UseRubyVersion@0
+  inputs:
+    versionSpec: '>= 2.4'
+
 - bash: bundle install --path vendor/bundle
   displayName: 'Install Jekyll'
 
