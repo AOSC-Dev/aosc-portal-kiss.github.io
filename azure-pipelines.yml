@@ -1,0 +1,12 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- bash: bundle install --path vendor/bundle
+  displayName: 'Install Jekyll'
+
+- bash: ./build.sh
+  displayName: 'Build the pages'
