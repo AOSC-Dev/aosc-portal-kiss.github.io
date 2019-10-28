@@ -169,6 +169,10 @@ title: Repo.
                     }
                 }
                 var difference_human = difference > 0 ? moment.duration(difference * 1000).humanize() + ' behind' : 'Up-to-date';
+                if (this_row.updated < 0) {
+                    difference_human = 'Unknown';
+                    severity = 'is-unknown';
+                }
                 this_node.innerHTML = `<td style="width: 30%;">${this_row.region}</td><td style="width: 45%;"><a href="${this_row.url}">${this_row.name}</a></td><td style="width: 20%;"><div class="${severity}">&nbsp;${difference_human}</div></td>`;
                 table.appendChild(this_node);
             }
