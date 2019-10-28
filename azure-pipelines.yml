@@ -5,7 +5,15 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+- task: InstallSSHKey@0
+  inputs:
+    knownHostsEntry: '$(UPLOAD_HOST) ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOqZ29t8GJA17GIM8g7MQEDMibZaFleaXRz32fWQ3iJU/XKEa/bSfjQSbdlMmo7qcwIFc2frYOM4sllcq8MNxys='
+    sshPublicKey: 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGtHejxpO/1lrN/aRRp5wFnJTuowWY/eTf4hiFJk84HQ aosc@aosc'
+    sshPassphrase: '$(KEY_PASSWD)'
+    sshKeySecureFile: 'upload_key'
+
 - task: UseRubyVersion@0
+  displayName: 'Select Ruby version'
   inputs:
     versionSpec: '>= 2.4'
     addToPath: true
@@ -15,3 +23,6 @@ steps:
 
 - bash: ./build.sh
   displayName: 'Build the pages'
+
+- bash: scp -r _site/* 'upload@$(UPLOAD_HOST):/var/www/aosc-portal/'
+  displayName: 'Upload the files'
