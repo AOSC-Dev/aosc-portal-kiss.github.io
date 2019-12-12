@@ -21,6 +21,9 @@ mirrors:
     - name: Geekpie Association
       url: https://mirrors.geekpie.club/anthon/
       region: China
+    - name: UESTC LUG (IPv6 only)
+      url: https://mirrors.uestc.cn/anthon/
+      region: China
     - name: xTom
       url: https://mirror.xtom.com.hk/anthon/
       region: Hong Kong
