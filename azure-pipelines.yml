@@ -11,6 +11,7 @@ steps:
     sshPublicKey: 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGtHejxpO/1lrN/aRRp5wFnJTuowWY/eTf4hiFJk84HQ aosc@aosc'
     sshPassphrase: '$(KEY_PASSWD)'
     sshKeySecureFile: 'upload_key'
+  condition: ne(variables['Build.Reason'], 'PullRequest')
 
 - task: UseRubyVersion@0
   displayName: 'Select Ruby version'
@@ -26,3 +27,4 @@ steps:
 
 - bash: rsync -rlOvhze ssh --progress _site/* 'upload@$(UPLOAD_HOST):/var/www/aosc-portal/'
   displayName: 'Upload the files'
+  condition: ne(variables['Build.Reason'], 'PullRequest')
