@@ -19,7 +19,16 @@ steps:
     versionSpec: '>= 2.4'
     addToPath: true
 
-- bash: gem install bundler && bundle install --path vendor/bundle
+- task: Cache@2
+  inputs:
+    key: bundler | $(Agent.OS) | Gemfile.lock
+    path: $(Build.SourcesDirectory)/vendor/bundle
+    restoreKeys: |
+      bundler | $(Agent.OS)
+      bundler
+  displayName: Cache Ruby Gems
+
+- bash: gem install bundler && bundle config set path vendor/bundle && bundle install
   displayName: 'Install Jekyll'
 
 - bash: ./build.sh
