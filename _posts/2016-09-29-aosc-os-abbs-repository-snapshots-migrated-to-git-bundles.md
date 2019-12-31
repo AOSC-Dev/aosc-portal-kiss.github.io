@@ -7,7 +7,7 @@ important: false
 
 Sometime ago, to ease the new packagers to get a copy of our complete ABBS tree (in certain network conditions), we have created a snapshot of our repository once a week in tarball format. Now, to reduce the file size and increase the usability, we decided to use the `git bundle` format.
 
-Now, you can find the snapshots at ~[here](https://repo.aosc.io/misc/aosc-os-abbs-snapshots/)~[here](https://repo.aosc.io/aosc-os-abbs-snapshots/).
+Now, you can find the snapshots at [here](https://repo.aosc.io/aosc-os-abbs-snapshots/).
 
 And here is how to use them:
 
