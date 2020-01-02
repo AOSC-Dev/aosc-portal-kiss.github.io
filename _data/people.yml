@@ -30,18 +30,6 @@
   longdesc:
   rurl:
 -
-  fullname: Sijie Bu
-  username: late-in-autumn
-  description: Self-claimed art student. No availability guarantee.
-  longdesc: >
-    Technically computer science major, but passion in photography and media. Railfan. Disagrees with "M$ is evil. "
-    Would rather choose Microsoft over Apple. Uses Linux because can't master and can't afford Windows Server.
-    Zsh rocks. Lennartware rocks. DNG rocks.
-    Operates part of the AOSC IT infrastructure (on I cannot afford Red Hat subscription).
-    A complete list of packages I maintain is on the detail page.
-    Also known as: kawasaki_kagami, kawasaki_sakura, kawasaki_rumi, and kawasaki_iori on Freenode.
-  rurl:
--
   fullname: Rongwei Lin
   username: colin4124
   description: Fight for freedom of software.Just for fun!
@@ -89,6 +77,12 @@
   longdesc: Description is cheap, show me your code.
   rurl: https://flygoat.com
 -
+  fullname: Garfield Lee
+  username: garfield550
+  description:
+  longdesc:
+  rurl:
+-
   fullname:
   username: gumblex
   description:
@@ -123,6 +117,18 @@
   username: l2dy
   description:
   longdesc:
+  rurl:
+-
+  fullname: Sijie Bu
+  username: late-in-autumn
+  description: Self-claimed art student. No availability guarantee.
+  longdesc: >
+    Technically computer science major, but passion in photography and media. Railfan. Disagrees with "M$ is evil. "
+    Would rather choose Microsoft over Apple. Uses Linux because can't master and can't afford Windows Server.
+    Zsh rocks. Lennartware rocks. DNG rocks.
+    Operates part of the AOSC IT infrastructure (on I cannot afford Red Hat subscription).
+    A complete list of packages I maintain is on the detail page.
+    Also known as: kawasaki_kagami, kawasaki_sakura, kawasaki_rumi, and kawasaki_iori on Freenode.
   rurl:
 -
   fullname:
