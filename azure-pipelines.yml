@@ -34,6 +34,6 @@ steps:
 - bash: ./build.sh
   displayName: 'Build the pages'
 
-- bash: rsync -rlOvhze ssh --progress _site/* 'upload@$(UPLOAD_HOST):/var/www/aosc-portal/'
+- bash: rsync -rlOvhze ssh --progress _site/* 'upload@$(UPLOAD_HOST):/srv/aosc-portal/'
   displayName: 'Upload the files'
   condition: ne(variables['Build.Reason'], 'PullRequest')
