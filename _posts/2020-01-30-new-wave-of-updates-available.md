@@ -1,9 +1,9 @@
-----
+---
 layout: post
 title: 'New Wave of Updates Available (Fall 2019)!'
 type: news
 important: false
-----
+---
 
 It's been a while since the last news post, but we've been busy working on
 various community projects. So let's treat this post like a "Weekly Community
