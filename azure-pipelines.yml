@@ -25,7 +25,6 @@ steps:
     path: $(Build.SourcesDirectory)/vendor/bundle
     restoreKeys: |
       bundler | $(Agent.OS) | Gemfile.lock
-      bundler
   displayName: Cache Ruby Gems
 
 - bash: gem install bundler && bundle config set path vendor/bundle && bundle install
