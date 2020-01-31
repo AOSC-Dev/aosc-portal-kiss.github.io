@@ -1,7 +1,6 @@
 ---
 ---
 
-@import "reset";
 // Bulma CSS Framework
 @import "bulma/utilities/_all";
 @import "bulma/base/_all";
@@ -143,13 +142,7 @@ ul {
 
 .blog {
 	padding-bottom: 10px;
-	h1 {
-		font-size: 2em;
-		margin-bottom: 0.5em;
-		margin-top: 1.0em;
-	}
 	ul {
-		margin-bottom: 1em;
 		padding-left: 2em;
 	}
 }
