@@ -24,7 +24,7 @@ steps:
     key: bundler | $(Agent.OS) | Gemfile.lock
     path: $(Build.SourcesDirectory)/vendor/bundle
     restoreKeys: |
-      bundler | $(Agent.OS)
+      bundler | $(Agent.OS) | Gemfile.lock
       bundler
   displayName: Cache Ruby Gems
 
