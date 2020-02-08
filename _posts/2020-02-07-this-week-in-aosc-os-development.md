@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'This Week in AOSC Development'
+title: 'This Week in AOSC OS Development'
 type: news
 important: false
 ---
