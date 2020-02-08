@@ -26,7 +26,7 @@ Multiple security updates have now been made available for Stable branch users
 - OpenJDK and OpenJFX...
     - OpenJDK 8 (`openjdk-8`) v3:8u232+ga-1 => v3:8u242+ga-1.
     - OpenJFX 8 (`openjfx-8`) v8u202+ga-1.
-    - OpenJDK 11 (`openjdk`) v3:11.0.5+ga => 3:11.0.5+ga-1.
+    - OpenJDK 11 (`openjdk`) v3:11.0.5+ga => 3:11.0.6+ga.
     - OpenJFX 11 (`openjfx`) v11.0.3+1.
 - Sudo (`sudo`) v1.8.29 => v1.8.31.
 
