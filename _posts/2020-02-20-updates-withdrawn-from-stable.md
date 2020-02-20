@@ -35,7 +35,6 @@ issues after updating your system, please don't hesistate to
 
 Attachment: List of Packages Affected by the Withdrawal
 
-```
 stable: babl 0.1.74-0 (amd64)                   => stable-proposed
 stable: brial 1.2.7-0 (amd64)                   => stable-proposed
 stable: chromium 80.0.3987.116-0 (amd64)        => stable-proposed
@@ -109,7 +108,6 @@ stable: tpm2-tss 2.3.3-0 (amd64)                => stable-proposed
 stable: vte-gtk3 0.58.3-0 (amd64)               => stable-proposed
 stable: zfs 0.8.3-0 (amd64)                     => stable-proposed
 stable: zfs 0.8.3-1 (amd64)                     => stable-proposed
-```
 
 ----
 
