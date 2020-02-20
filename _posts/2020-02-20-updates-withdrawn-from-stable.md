@@ -36,7 +36,7 @@ issues after updating your system, please don't hesistate to
 Attachment: List of Packages Affected by the Withdrawal
 -------------------------------------------------------
 
-| Package, version, and architecture      | Deferred To     |
+| Package, Version, and Architecture      | Deferred To     |
 |-----------------------------------------|-----------------|
 | babl 0.1.74-0 (amd64)                   | stable-proposed |
 | brial 1.2.7-0 (amd64)                   | stable-proposed |
