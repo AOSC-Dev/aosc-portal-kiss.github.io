@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Updates Withdrawn from Stable'
+title: 'Updates Withdrawn from the Stable Repository'
 type: news
 important: true
 ---
