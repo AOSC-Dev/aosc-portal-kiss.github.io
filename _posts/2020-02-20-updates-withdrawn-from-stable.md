@@ -34,6 +34,7 @@ issues after updating your system, please don't hesistate to
 ----
 
 Attachment: List of Packages Affected by the Withdrawal
+-------------------------------------------------------
 
 | Package, version, and architecture      | Deferred To     |
 |-----------------------------------------|-----------------|
