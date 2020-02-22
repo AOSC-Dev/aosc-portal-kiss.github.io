@@ -124,7 +124,7 @@ Looking Ahead
 
 On the Testing-Proposed front, this week has been mostly quiet, as most of
 our efforts have been dedicated to bringing in more Stable updates. That said,
-with GNOME 3.36 on the horizon (due to release on March 11th), and Python 3.8
+with GNOME 3.36 on the horizon (due to release on March 11th) and Python 3.8
 high on our [priority](https://github.com/AOSC-Dev/aosc-os-abbs/issues/2073),
 you can expect the next few months to be quite Testing-Proposed-heavy.
 
