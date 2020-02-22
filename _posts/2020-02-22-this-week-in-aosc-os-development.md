@@ -130,8 +130,8 @@ you can expect the next few months to be quite Testing-Proposed-heavy.
 
 We also expect to push for Core 7.1 in the weeks leading up to our freezing
 deadline on March 31st. We are expecting updates to GMP
-([v6.1.2 => v6.2](https://gmplib.org/gmp6.2.html), GNU Make ([v4.2.1 => 4.3](https://lists.gnu.org/archive/html/info-gnu/2020-01/msg00004.html),
-and Binutils ([v2.33.1 => v2.34](https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git;a=blob_plain;f=binutils/NEWS;hb=refs/tags/binutils-2_34)
+([v6.1.2 => v6.2](https://gmplib.org/gmp6.2.html)), GNU Make ([v4.2.1 => 4.3](https://lists.gnu.org/archive/html/info-gnu/2020-01/msg00004.html)),
+and Binutils ([v2.33.1 => v2.34](https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git;a=blob_plain;f=binutils/NEWS;hb=refs/tags/binutils-2_34))
 to make it into the 7.1.0 release.
 
 This will conclude our development update for the week of February 10th.
