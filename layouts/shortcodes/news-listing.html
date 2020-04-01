@@ -9,7 +9,7 @@
 {{- range $post := $posts -}}
 <li>
     <span class="date">{{ $post.Date.Format "20060102" }}</span> - 
-    {{ if and $post.Params.important (not $short_list) }}
+    {{ if $post.Params.important }}
     <span style="color:red;">[!] </span>
     {{- end -}}
     <a href="{{ $post.Permalink }}">{{ $post.Title }}</a>
