@@ -1,0 +1,11 @@
+{{- range $mirror := .Site.Data.mirrors.mirrors -}}
+    <tr>
+        <td style="width: 30%;">{{ $mirror.region }}</td>
+        <td style="width: 50%;">
+            <a href="{{ $mirror.url }}">{{ $mirror.name }}</a>
+        </td>
+        <td style="width: 15%;">
+            <div></div>
+        </td>
+    </tr>
+{{- end -}}

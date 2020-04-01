@@ -1,0 +1,39 @@
+---
+title: Repo.
+---
+
+<div class="blog">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"
+        integrity="sha256-S1J4GVHHDMiirir9qsXWc8ZWw74PHHafpsHp5PXtjTs=" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+        integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+    <h1 id="repo" class="title no-top-margin">Community Repository</h1>
+    <p>
+        The Community Repository is our centralised storage for AOSC OS packages and
+        releases, along with storage for our development work. Over the years,
+        schools, private entities, and companies has offered to mirror our
+        repository.
+    </p>
+    <p>
+        Here below is a comprehensive list of mirrors.
+    </p>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <td>Region</td>
+                    <td>Name</td>
+                    <td id="status" style="display: none;">Status</td>
+                </tr>
+            </thead>
+            <tbody id="mirrors">
+                {{< mirrors >}}
+            </tbody>
+        </table>
+    </div>
+    <div id="generate-list" style="margin-top: 1em;"></div>
+    <div id="scratch"></div>
+    <br />
+    <p id="banner" class="center"></p>
+    {{< repo-script >}}
+</div>

@@ -1,0 +1,6 @@
+{{- range $sponsor := .Site.Data.sponsors -}}
+    <li>
+        <a href="{{ $sponsor.homepage }}">{{ $sponsor.sponsor }}</a>
+        <span>:&nbsp;{{ $sponsor.gratitude }}</span>
+    </li>
+{{- end -}}

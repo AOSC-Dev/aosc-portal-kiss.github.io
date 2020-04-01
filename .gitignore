@@ -1,7 +1,3 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-# thumbnails
-assets/img/de-preview/**/thumbs/
+/public
+/resources/_gen
+*.png.jpg

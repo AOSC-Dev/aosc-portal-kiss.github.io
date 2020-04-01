@@ -1,0 +1,8 @@
+baseURL = "https://aosc.io/"
+languageCode = "en-us"
+title = "AOSC Portal"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+        typographer = false # disable smart quotes

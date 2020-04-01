@@ -1,0 +1,17 @@
+{{/* $alert_svg := resources.Get "img/alert-outline.svg" */}}
+{{/* Hugo can only do intersection with slices */}}
+{{ $category := slice (.Get "category") }}
+{{ $posts := where (where .Site.RegularPages ".Section" "news") ".Params.categories" "intersect" $category }}
+{{ $short_list := eq (.Get "short") "true" }}
+{{ if $short_list }}
+    {{ $posts = first 5 $posts }}
+{{ end }}
+{{- range $post := $posts -}}
+<li>
+    <span class="date">{{ $post.Date.Format "20060102" }}</span> - 
+    {{ if and $post.Params.important (not $short_list) }}
+    <span style="color:red;">[!] </span>
+    {{- end -}}
+    <a href="{{ $post.Permalink }}">{{ $post.Title }}</a>
+</li>
+{{- end -}}

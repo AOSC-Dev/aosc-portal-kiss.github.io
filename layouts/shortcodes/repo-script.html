@@ -1,0 +1,2 @@
+{{ $script := resources.Get "js/mirrors.js" | minify }}
+<script defer src="{{ $script.Permalink }}"></script>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Params.languageCode | default "en-us" }}">
+{{ $title := .Title }}
+{{ if in .Permalink "/news/" }}
+{{ $title = "News" }}
+{{ else if in .Permalink "/people/"}}
+{{ $title = "People" }}
+{{ else if eq $title nil }}
+{{ $title = .Site.Title }}
+{{ end }}
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=7" />
+    {{ $style := resources.Get "css/main.scss" | toCSS | minify }}
+    {{ $logo_svg := resources.Get "img/aosc.svg" | minify }}
+    <link href="{{ $style.Permalink }}" rel="stylesheet">
+    <title>{{ $title }} | AOSC Portal</title>
+
+    <link rel="icon" href="/assets/img/aosc.png">
+    <link rel="icon" sizes="any" type="image/svg+xml" href="{{ $logo_svg.Permalink }}" />
+</head>
+
+<body>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:400,600&display=swap" />
+    <div class="wrapper">
+        <!-- navbar -->
+        <nav class="header">
+            <div class="columns" style="align-items: start;">
+                <div class="columns" style="display: flex;">
+                    <img alt="AOSC Logo" class="logo" tabindex="0" onclick="window.location = '/';" width="40" height="40"
+                        src="{{ $logo_svg.Permalink }}" style="height: 40px; width: 40px;">
+                    <h1 onclick="window.location = '/';" tabindex="0" class="page-title">/{{ $title }}</h1>
+                </div>
+                <ul class="column is-two-thirds">
+                    {{- range $item := $.Site.Data.navigation -}}
+                    <li>
+                        <a href="{{ $item.url }}">{{ $item.title }}</a>
+                    </li>
+                    {{- end -}}
+                </ul>
+            </div>
+        </nav>
+        <hr class="hr-nav">
+        <!-- !navbar -->
+        {{ block "main" . }}{{ end }}
+        <!-- footer -->
+        <hr>
+        <div class="center footer">
+            Copyleft 2011 — 2020, Members of the Community
+        </div>
+        <!-- !footer -->
+    </div>
+</body>
+
+</html>

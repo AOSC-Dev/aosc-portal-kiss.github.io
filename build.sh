@@ -8,7 +8,7 @@ function generateDEThumbnails() {
 
 echo 'Generating thumbnails...'
 
-for i in "${TOPDIR}/assets/img/de-preview"/**/*.png; do
+for i in "${TOPDIR}/static/img/de-preview"/**/*.png; do
     mkdir -p "$(dirname $i)/thumbs/"
     generateDEThumbnails "${i}" "$(dirname $i)/thumbs/$(basename $i).jpg"
 done
@@ -17,15 +17,6 @@ echo -e '\n... Done'
 
 echo 'Generating HTML files...'
 
-if command -v jekyll >/dev/null; then
-    JEKYLL_BIN='jekyll'
-elif bundle exec jekyll -v >/dev/null; then
-    JEKYLL_BIN='bundle exec jekyll'
-else
-    bundle install --path vendor/bundle
-    JEKYLL_BIN='bundle exec jekyll'
-fi
-
-$JEKYLL_BIN build
+hugo --minify --cleanDestinationDir
 
 echo '... Done'

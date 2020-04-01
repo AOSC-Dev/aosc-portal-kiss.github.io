@@ -13,26 +13,12 @@ steps:
     sshKeySecureFile: 'upload_key'
   condition: ne(variables['Build.Reason'], 'PullRequest')
 
-- task: UseRubyVersion@0
-  displayName: 'Select Ruby version'
-  inputs:
-    versionSpec: '>= 2.4'
-    addToPath: true
-
-- task: Cache@2
-  inputs:
-    key: bundler | $(Agent.OS) | Gemfile.lock
-    path: $(Build.SourcesDirectory)/vendor/bundle
-    restoreKeys: |
-      bundler | $(Agent.OS) | Gemfile.lock
-  displayName: Cache Ruby Gems
-
-- bash: gem install bundler && bundle config set path vendor/bundle && bundle install
-  displayName: 'Install Jekyll'
+- bash: ./ci.sh
+  displayName: 'Install Hugo'
 
 - bash: ./build.sh
   displayName: 'Build the pages'
 
-- bash: rsync -rlOvhze ssh --progress _site/* 'upload@$(UPLOAD_HOST):/srv/aosc-portal/'
+- bash: rsync -rlOvhze ssh --progress public/* 'upload@$(UPLOAD_HOST):/srv/aosc-portal/'
   displayName: 'Upload the files'
   condition: ne(variables['Build.Reason'], 'PullRequest')

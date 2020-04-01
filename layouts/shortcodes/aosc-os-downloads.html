@@ -1,0 +1,20 @@
+{{- range $release := .Site.Data.distro.general.list -}}
+{{ $slug := $release.name | anchorize }}
+<div id="{{ $slug }}" class="columns">
+    <div class="column downloads-title-column">
+        <h2>{{ $release.name }}</h2>
+        <a href="screenshots/#{{ $slug }}">Screenshots</a>
+    </div>
+    <div class="column downloads-description is-three-quarters">
+        <p class="no-top-margin">{{ $release.description }}</p>
+        <p>
+            {{- range $i, $download := $release.downloads -}}
+            {{ if $i }}
+            |
+            {{ end }}
+            <a href="{{ $download.url }}">{{ $download.name }}</a>
+            {{- end -}}
+        </p>
+    </div>
+</div>
+{{- end -}}

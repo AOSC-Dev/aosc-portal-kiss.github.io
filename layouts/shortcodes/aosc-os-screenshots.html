@@ -1,0 +1,18 @@
+{{ $releases := .Site.Data.distro.general.list }}
+{{ $prefix := "" }}
+{{ if .Get "retro" }}
+{{ $releases = .Site.Data.distro.retro.list }}
+{{ $prefix = "retro-" }}
+{{ end }}
+{{- range $release := $releases -}}
+{{ $slug := printf "%s%s" $prefix ($release.name | anchorize) }}
+<h2 id="{{ $slug }}" class="downloads-title">{{ if eq $prefix "retro-" }}Retro {{ end }}{{ $release.name }}</h2>
+<div class="columns is-multiline screenshot-box">
+    {{- range $item := $release.screenshots -}}
+    <a href="/img/de-preview/{{ $slug }}/{{ $item }}" class="column is-one-quarter screenshot">
+        <img src="/img/de-preview/{{ $slug }}/thumbs/{{ $item }}.jpg">
+    </a>
+    {{- end -}}
+</div>
+<br>
+{{- end -}}
