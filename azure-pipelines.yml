@@ -21,4 +21,4 @@ steps:
 
 - bash: rsync -rlOvhze ssh --progress public/* 'upload@$(UPLOAD_HOST):/srv/aosc-portal/'
   displayName: 'Upload the files'
-  condition: ne(variables['Build.Reason'], 'PullRequest')
+  condition: and(ne(variables['Build.Reason'], 'PullRequest'), succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
