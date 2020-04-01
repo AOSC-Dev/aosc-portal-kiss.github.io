@@ -35,8 +35,7 @@
                 </div>
                 <ul class="column is-two-thirds">
                     {{- range $item := $.Site.Data.navigation -}}
-                    <li>
-                        <a href="{{ $item.url }}">{{ $item.title }}</a>
+                    <li><a href="{{ $item.url }}">{{ $item.title }}</a>
                     </li>
                     {{- end -}}
                 </ul>

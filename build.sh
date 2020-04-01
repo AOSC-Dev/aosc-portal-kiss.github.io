@@ -17,6 +17,6 @@ echo -e '\n... Done'
 
 echo 'Generating HTML files...'
 
-hugo --minify --cleanDestinationDir
+hugo --cleanDestinationDir
 
 echo '... Done'
