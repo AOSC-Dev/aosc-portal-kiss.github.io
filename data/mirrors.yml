@@ -39,6 +39,9 @@ mirrors:
     - name: KoDDoS HK
       url: https://mirror-hk.koddos.net/anthon/
       region: Hong Kong
+    - name: OSSPlanet Mirror Server
+      url: https://ftp.ubuntu-tw.net/mirror/anthonos/
+      region: Taiwan
     - name: Fastly CDN
       url: https://aosc-repo.freetls.fastly.net/
       region: Worldwide
