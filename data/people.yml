@@ -166,11 +166,16 @@
     package updates, and various ports.
   rurl:
 -
-  fullname: Neo Chen
+  fullname: Kelei Chen
   username: NeoChen1024
-  description:
-  longdesc:
-  rurl:
+  description: Self-proclaimed computer historian and amateur radio enthusiast, creator (founder) of NeoNetwork.
+  longdesc: >
+    Interested in computers from the 1940s to the 1980s, including supercomputers, mainframes, and
+    microcontrollers. Intolerant to modern software development tools and OOP languages.
+    Sort of an amateur radio enthusiast.
+    Plays Girl's Frontline (TW Server).
+    Also known as: Neo_Chen, NeoChen1048576
+  rurl: http://ucbvax.nerdpol.ovh:65420/
 -
   fullname:
   username: netarmy
