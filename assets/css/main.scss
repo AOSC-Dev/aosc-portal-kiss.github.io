@@ -35,7 +35,8 @@ nav {
 		margin-right: 1em;
 	}
 	h1 {
-		display: inline-flex;
+		display: inline-block;
+		margin-top: 1em !important;
 		min-width: 4em;
 	}
 	img {
