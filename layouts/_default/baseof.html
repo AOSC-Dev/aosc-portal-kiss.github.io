@@ -30,21 +30,23 @@
         <nav class="header">
             <div class="columns" style="align-items: start;">
                 <div class="columns" style="display: flex;">
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <img alt="AOSC Logo" class="logo" tabindex="0" onclick="window.location = '/';"
-                                        width="40" height="40" src="{{ $logo_png.Permalink }}"
-                                        style="height: 40px; width: 40px;">
-                                </td>
-                                <td style="vertical-align: bottom;">
-                                    <h1 onclick="window.location = '/';" tabindex="0" class="page-title">/{{ $title }}
-                                    </h1>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <a class="clear-link" href="/">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <img alt="AOSC Logo" class="logo" tabindex="0"
+                                            width="40" height="40" src="{{ $logo_png.Permalink }}"
+                                            style="height: 40px; width: 40px;">
+                                    </td>
+                                    <td style="vertical-align: bottom;">
+                                        <h1 tabindex="0" class="page-title">/{{ $title }}
+                                        </h1>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </a>
                 </div>
                 <ul class="column is-two-thirds">
                     {{- range $item := $.Site.Data.navigation -}}

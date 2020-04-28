@@ -301,3 +301,21 @@ ul {
                 }
 	}
 }
+
+.clear-link {
+  color: black !important;
+  text-decoration: none;
+  &:visited {
+	color: unset;
+  }
+  &:hover {
+	color: unset;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: unset;
+  }
+  &:active {
+	color: unset;
+	text-decoration: none;
+  }
+}
