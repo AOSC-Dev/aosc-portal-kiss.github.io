@@ -1,4 +1,4 @@
-{{- range $sponsor := .Site.Data.sponsors -}}
+{{- range $sponsor := sort .Site.Data.sponsors "sponsor" -}}
     <li>
         <a href="{{ $sponsor.homepage }}">{{ $sponsor.sponsor }}</a>
         <span>:&nbsp;{{ $sponsor.gratitude }}</span>

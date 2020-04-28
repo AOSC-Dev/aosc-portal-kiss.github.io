@@ -3,7 +3,7 @@
   homepage: https://sb.sb/
   gratitude: Host of our community portal.
 -
-  sponsor: xTom - Professional Hosting Solution
+  sponsor: xTom
   homepage: https://xtom.com/
   gratitude: Host of our repository server.
 -
@@ -17,7 +17,7 @@
 -
   sponsor: Shanghai University Open Source Community
   homepage: https://www.shuosc.org/
-  gratitude: '[defunct] Fast and stable mirror for our repository.'
+  gratitude: 'Fast and stable mirror for our repository.'
 -
   sponsor: TUNA Association
   homepage: https://tuna.moe/
@@ -33,7 +33,7 @@
 -
   sponsor: CQUPT LUG
   homepage: https://github.com/CQUPTMirror/
-  gratitude: '[defunct] Mirror for our repository.'
+  gratitude: 'Mirror for our repository.'
 -
   sponsor: NLUUG
   homepage: https://www.nluug.nl/
@@ -87,4 +87,4 @@
 -
   sponsor: University of Electronic Science and Technology of China
   homepage: https://en.uestc.edu.cn/
-  gratitude: '[defunct] Mirror for our repository.'
+  gratitude: 'Mirror for our repository.'
