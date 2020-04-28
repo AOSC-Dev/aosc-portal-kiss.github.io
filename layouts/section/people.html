@@ -16,10 +16,6 @@
             <tbody>
                 <tr>
                     {{- range $index, $person := .Site.Data.people -}}
-                    {{- if eq (mod $index 2) 0 -}}
-                </tr>
-                <tr>
-                    {{- end -}}
                     <td>
                         <div class="media">
                             <div class="profile-pic">
@@ -33,7 +29,6 @@
                             </div>
                         </div>
                     </td>
-                    {{- else -}}
                 </tr>
                 {{- end -}}
             </tbody>
