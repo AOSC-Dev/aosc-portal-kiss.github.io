@@ -74,3 +74,17 @@
   sponsor: CQU-Lanunion
   homepage: http://mirrors.cqu.edu.cn/
   gratitude: Mirror for our repository.
+-
+  sponsor: Tencent
+  homepage: https://www.tencent.com
+  gratitude: Fast and stable mirror for our repository.
+
+-
+  sponsor: Beijing Foreign Studies University
+  homepage: https://www.bfsu.edu.cn
+  gratitude: Fast and stable mirror for our repository.
+
+-
+  sponsor: University of Electronic Science and Technology of China
+  homepage: https://en.uestc.edu.cn/
+  gratitude: '[defunct] Mirror for our repository.'
