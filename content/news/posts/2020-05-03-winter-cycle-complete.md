@@ -19,6 +19,7 @@ Various desktop environments received major updates. GNOME 3.36, Plasma 5.18, MA
 
 ![plasma-5.18](https://i.imgur.com/OT5q5tB.png)
 KDE Plasma 5.18, the greatest release yet!
+
 ----
 
 We expect to release new distribution tarballs in the following week, shipping with the aforementioned desktop environment updates.
