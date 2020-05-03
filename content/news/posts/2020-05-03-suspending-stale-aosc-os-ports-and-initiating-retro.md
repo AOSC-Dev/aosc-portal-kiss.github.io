@@ -23,8 +23,8 @@ In terms of the RISC-V port, we will suspend the port until our developers could
 
 Now, let's dive into what differences you should expect as we transition these ports as AOSC OS/Retro distributions.
 
-AOSC OS/Retro: Overview
------------------------
+AOSC OS/Retro: An Overview
+--------------------------
 
 As the name may suggest, AOSC OS/Retro, unlike AOSC OS, targets legacy and vintage devices. Also unlike AOSC OS, the Retro distributions are strips down many features from its packages and slims down the dependency tree in order to lower system requirements. Besides these changes, AOSC OS/Retro is still for the most part functionally and, in terms of user experience, compatible with its mainline counterpart. Yes, you will see 1995 devices running modern, 2020 software (yes, also systemd, though very well stripped down) - and running well at that.
 
