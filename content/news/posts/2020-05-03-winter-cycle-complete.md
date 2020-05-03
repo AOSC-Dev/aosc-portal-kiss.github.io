@@ -18,7 +18,7 @@ Desktop Environments
 Various desktop environments received major updates. GNOME 3.36, Plasma 5.18, MATE Desktop 1.24, Cinnamon Desktop 4.4, XFCE 4.14 are now avilable from the repository. Some came quite late due to delays from the previous cycles, but we expect updates to arrive sooner for the cycles to come.
 
 ![plasma-5.18](https://i.imgur.com/OT5q5tB.png)
-KDE Plasma 5.18, the greatest release yet!
+KDE Plasma 5.18, their greatest release yet!
 
 ----
 
