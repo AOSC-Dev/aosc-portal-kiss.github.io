@@ -12,7 +12,7 @@ Happy Valentines Day! Hey, kudos to you if you do have a date tonight - we won't
 take this day off, however. As usual, we push weekly updates to the Stable branch,
 including security, bug-fix, patch-level version updates (e.g. 2.3.1 => 2.3.2),
 and major updates included as
-[Exceptions](https://wiki.aosc.io/developers/aosc-os/cycle-exceptions).
+[Exceptions](https://wiki.aosc.io/en/dev-sys-cycle-exceptions).
 
 Here below is a breakdown of what we've done this week.
 

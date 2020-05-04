@@ -11,7 +11,7 @@ url: /news/2020/02/22/this-week-in-aosc-os-development.html
 Second to last weekend of February and onto the 29th. As usual, we push weekly
 updates to the Stable branch, including security, bug-fix, patch-level version
 updates (e.g. 2.3.1 => 2.3.2), and major updates included as
-[Exceptions](https://wiki.aosc.io/developers/aosc-os/cycle-exceptions).
+[Exceptions](https://wiki.aosc.io/en/dev-sys-cycle-exceptions).
 
 Here below is a breakdown of what we've done this week.
 

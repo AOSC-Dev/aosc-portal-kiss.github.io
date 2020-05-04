@@ -31,7 +31,7 @@ But as a user, while you may be angry at the delay - and rightfully so - we have
 	- ...
 - Package updates as usual, you know the drill. But admittedly we are a little behind on desktop environments for reasons stated above.
 
-You should be able to obtain the (large set of) updates now. However, we are aware of **an issue that might prevent a smooth update.** We have documented the cause and workaround in this [Errata entry](https://wiki.aosc.io/err/systemd/00009-error-updating-to-systemd-242).
+You should be able to obtain the (large set of) updates now. However, we are aware of **an issue that might prevent a smooth update.** We have documented the cause and workaround in this [Errata entry](https://wiki.aosc.io/en/sys-err-00009-error-updating-to-systemd-242).
 
 Again, we are sorry about the delay and will work on cycle management improvements in the coming AOSCC sessions.
 

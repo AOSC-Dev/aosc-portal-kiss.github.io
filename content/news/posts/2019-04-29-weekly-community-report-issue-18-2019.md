@@ -20,7 +20,7 @@ Freezing Period
 
 On April 23rd, we have officially entered a month of freezing period for AOSC OS's Testing branch. For the meanwhile, we are working to sync all package updates on the Testing branch, across all currently active ports.
 
-If you are using the Stable branch, you will continue to receive security and [exceptional](https://wiki.aosc.io/developers/aosc-os/cycle-exceptions) updates.
+If you are using the Stable branch, you will continue to receive security and [exceptional](https://wiki.aosc.io/en/dev-sys-cycle-exceptions) updates.
 
 AGX Xavier!
 -----------
