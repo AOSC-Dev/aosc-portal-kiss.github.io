@@ -43,7 +43,7 @@ We have put in a considerable amount of work in this cycle, and will continue to
 Looking Forward to the Spring 2020 Cycle
 ----------------------------------------
 
-In the coming cycle, we anticipate a temporary diversion from general component updates, and instead shift our focus to fulfilling existing [package requests (pakreq)](https://pakreq.aosc.io). Security, bugfixes, and [exceptional](https://wiki.aosc.io/en/developers/aosc-os/cycle-exceptions) updates will be made available as usual.
+In the coming cycle, we anticipate a temporary diversion from general component updates, and instead shift our focus to fulfilling existing [package requests (pakreq)](https://pakreq.aosc.io). Security, bugfixes, and [exceptional](https://wiki.aosc.io/en/dev-sys-cycle-exceptions) updates will be made available as usual.
 
 The next cycle will also be unusually short, with cycle completion anticipated on June 30. This decision is made so that our Summer Cycle will also start in the summer and (hopefully) end before Fall this year.
 
