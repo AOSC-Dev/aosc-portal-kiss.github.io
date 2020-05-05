@@ -7,6 +7,8 @@
 {{ $title = "People" }}
 {{ else if eq $title nil }}
 {{ $title = .Site.Title }}
+{{ else if eq .URL "/404.html" }}
+{{ $title = "404"}}
 {{ end }}
 
 <head>
