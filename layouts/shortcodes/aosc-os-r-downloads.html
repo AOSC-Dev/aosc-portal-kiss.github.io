@@ -3,7 +3,7 @@
 <div id="{{ $slug }}" class="columns">
     <div class="column downloads-title-column">
         <h2>{{ $release.name }}</h2>
-        <a href="screenshots/#{{ $slug }}">Screenshots</a>
+        <a href="screenshots/#{{ $slug }}">{{ T "screenshots" }}</a>
     </div>
     <div class="column downloads-description is-three-quarters">
         <p class="no-top-margin">{{ $release.description }}</p>
@@ -16,7 +16,7 @@
             {{- end -}}
         </p>
         <p style="font-size:0.7em;">
-            * Any PowerPC Macintosh with NewWorld ROM.
+            {{ T "retro-newworld-rom" }}
         </p>
     </div>
 </div>

@@ -3,10 +3,11 @@
 <div id="{{ $slug }}" class="columns">
     <div class="column downloads-title-column">
         <h2>{{ $release.name }}</h2>
-        <a href="screenshots/#{{ $slug }}">Screenshots</a>
+        <a href="screenshots/#{{ $slug }}">{{ T "screenshots" }}</a>
     </div>
     <div class="column downloads-description is-three-quarters">
-        <p class="no-top-margin">{{ $release.description }}</p>
+        {{ $localeDescription := T (printf "%s-desc" $slug) }}
+        <p class="no-top-margin">{{ cond (eq $localeDescription "") $release.description $localeDescription }}</p>
         <p>
             {{- range $i, $download := $release.downloads -}}
             {{ if $i }}

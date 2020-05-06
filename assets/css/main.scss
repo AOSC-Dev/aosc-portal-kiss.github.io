@@ -62,14 +62,16 @@ nav {
 body {
 	color: $color-black;
 	background: $color-white;
-	font-family: 'Noto Serif SC', sans-serif;
+    font-family: 'Noto Serif SC', serif;
 	font-size: 100%;
 	font-weight: 400;
 }
+
 h1 {
 	margin-bottom: 5px;
 	font-weight: 600;
 }
+
 p {
 	font-size: 1em;
 	line-height: 150%;
@@ -125,7 +127,7 @@ ul {
 		display: block;
 	}
 	h1 {
-		font-size: 2.5em;
+		font-size: 2.3em;
 		margin-bottom: 13px;
 		margin-top: auto;
 		margin-right: 0.5em;

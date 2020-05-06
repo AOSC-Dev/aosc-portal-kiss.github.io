@@ -1,0 +1,26 @@
+- title: Новости
+  url: /ru/news
+
+- title:  Участники
+  url: /ru/people
+
+- title: Пакеты
+  url: https://packages.aosc.io
+
+- title: Вики
+  url: https://wiki.aosc.io
+
+- title: О нас
+  url: /ru/about
+
+- title: Скачать
+  url: /ru/downloads
+
+- title: Репо
+  url: /ru/repo
+
+- title: Git
+  url: https://github.com/AOSC-Dev/
+
+- title: Почта
+  url: /mail

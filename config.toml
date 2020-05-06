@@ -1,6 +1,21 @@
+DefaultContentLanguage = "en"
 baseURL = "https://aosc.io/"
 languageCode = "en-us"
-title = "AOSC Portal"
+hasCJKLanguage = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "AOSC Portal"
+    weight = 1
+  [languages.zh-cn]
+    languageName = "简体中文"
+    title = "AOSC 社区门户"
+    weight = 2
+  [languages.ru]
+    languageName = "Русский"
+    title = "AOSC Портал"
+    weight = 3
 
 [markup]
   [markup.goldmark]
