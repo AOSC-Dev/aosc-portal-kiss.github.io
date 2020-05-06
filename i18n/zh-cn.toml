@@ -1,0 +1,33 @@
+[retro-newworld-rom]
+other = "* 任何 PowerPC Macintosh with NewWorld ROM."
+
+[back]
+other = "返回"
+
+[screenshots]
+other = "Screenshots"
+
+[copyright]
+other = "版权属左 2011 — {{ $.copyrightYear }}，社区成员共有"
+
+[news]
+other = "资讯"
+
+[people]
+other = "贡献者"
+
+[retro]
+other = "Retro"
+
+# distro translations
+[kde-desc]
+other = """KDE 中文翻译
+"""
+
+[gnome-desc]
+other = """GNOME 中文翻译
+"""
+
+# gallery translations
+[2019-junde-yhi-libreboot]
+other = "小以以 on deploying multi-payload LibreBoot on the Lenovo ThinkPad X200."

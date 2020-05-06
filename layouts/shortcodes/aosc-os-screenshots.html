@@ -6,7 +6,7 @@
 {{ end }}
 {{- range $release := $releases -}}
 {{ $slug := printf "%s%s" $prefix ($release.name | anchorize) }}
-<h2 id="{{ $slug }}" class="downloads-title">{{ if eq $prefix "retro-" }}Retro {{ end }}{{ $release.name }}</h2>
+<h2 id="{{ $slug }}" class="downloads-title">{{ if eq $prefix "retro-" }}{{ T "retro" }} {{ end }}{{ $release.name }}</h2>
 <div class="columns is-multiline screenshot-box">
     {{- range $item := $release.screenshots -}}
     <a href="/img/de-preview/{{ $slug }}/{{ $item }}" class="column is-one-quarter screenshot">

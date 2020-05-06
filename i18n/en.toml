@@ -1,0 +1,22 @@
+[retro-newworld-rom]
+other = "* Any PowerPC Macintosh with NewWorld ROM."
+
+[back]
+other = "back"
+
+[screenshots]
+other = "Screenshots"
+
+[copyright]
+other = "Copyleft 2011 — {{ $.copyrightYear }}, Members of the Community"
+
+[news]
+other = "News"
+
+[people]
+other = "People"
+
+[retro]
+other = "Retro"
+
+# distro translations

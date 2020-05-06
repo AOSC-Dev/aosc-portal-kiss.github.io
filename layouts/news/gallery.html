@@ -12,7 +12,9 @@
                 data-sub-html="#caption-{{ $album_idx }}-{{ $item_idx }}">
                 <img alt="{{ $item.desc }}" src="https://aosc.io/assets/i/gallery/thumbs/{{ $item.file }}.jpg">
                 <div id="caption-{{ $album_idx }}-{{ $item_idx }}" style="display: none;">
-                    <p>{{ $item.desc }}</p>
+                    {{ $key := index (split $item.file ".") 0 }}
+                    {{ $localeDescription := T $key }}
+                    <p>{{ cond (eq $localeDescription "") $item.desc $localeDescription }}</p>
                 </div>
             </a>
         {{- end -}}
