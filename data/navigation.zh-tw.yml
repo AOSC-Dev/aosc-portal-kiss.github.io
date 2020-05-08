@@ -1,29 +1,29 @@
-- title: 资讯
+- title: 資訊
   url: /zh-tw/news
 
-- title: 贡献者
+- title: 貢獻者
   url: /zh-tw/people
 
-- title: 软件包
+- title: 套件
   url: https://packages.aosc.io
 
-- title: 文档
+- title: 文檔
   url: https://wiki.aosc.io
 
-- title: 关于
+- title: 關於
   url: /zh-tw/about
 
-- title: 下载
+- title: 下載
   url: /zh-tw/downloads
 
-- title: 软件源
+- title: 套件庫
   url: /zh-tw/repo
 
 - title: Git
   url: https://github.com/AOSC-Dev/
 
-- title: 邮箱
+- title: 電子郵件
   url: /zh-tw/mail
 
-- title: 公共剪贴板
+- title: 共用剪貼簿
   url: https://pastebin.aosc.io/
