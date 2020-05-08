@@ -22,8 +22,6 @@ other = "Retro"
 [sitelang]
 other = "Site Language"
 
-# distro translations
-
 # gallery captions
 [2016-aoscc-day1-a-warm-note-from-geekpie]
 other = "A warm note from the Geekpie Association."
@@ -119,3 +117,94 @@ other = "AOSC OS/Retro demo devices - an Apple iBook G3 \"Clamshell\" and a Sony
 other = "Staph deploying AOSC OS on the Apple PowerBook G4's, preparing for Day 's lucky draw."
 [2019-junde-yhi-libreboot]
 other = "Junde Yhi on deploying multi-payload LibreBoot on the Lenovo ThinkPad X200."
+
+# distro translations
+[kde-desc]
+other = """
+KDE (Plasma Desktop) provides an extensive set of functionality with
+virtually unlimited amount of customizable settings, and comes complete
+with an elegant interface. With a strong set of utilities, games,
+and tools, KDE is quite suitable for day-to-day desktop computing
+with a refreshing sense of aesthetic.
+"""
+
+[gnome-desc]
+other = """
+GNOME is a desktop environment with a strong emphasis on human
+interactivity, multilingual support, and accessibility. Designed as
+a desktop for humanity, GNOME provides users with a minimal yet elegant
+interface for those who may understand its innovative logic in desktop
+computing.
+"""
+
+[xfce-desc]
+other = """
+XFCE, like its logo, is a quick and smart little rat on your desktop.
+This is a desktop with rich customizability, responsive interface, and
+a small footprint. XFCE can run very quick even on older machines while
+providing a complete desktop experience, making it a near perfect choice
+for performance constrained devices.
+"""
+
+[mate-desc]
+other = """
+MATE is a desktop environment that sticks to the traditions - in which
+the developers of this particular desktop environment believe. Being a
+fork of GNOME 2, MATE never has been a desktop of the past during its
+development history. MATE continuously updates itself to the newest
+technologies while tries its best to provide users with a familiar
+desktop experience.
+"""
+
+[cinnamon-desc]
+other = """
+Cinnamon was initially a fork of GNOME Shell in an effor to provide a
+traditional interface suitable for keyboard and mouse. Cinnamon builds
+upon GNOME's technical frameworks and applications, preserving the
+same ease of use in mind, while providing more customizability.
+"""
+
+[lxde-desc]
+other = """
+LXDE, or Lightweight X11 Desktop Environment in full is a lightweight
+desktop environment with a seemingly microscopic memory footprint. This
+is one of the better choices to go for on a older PC or low performance
+device. LXDE is extremely customizable, a perfect choice for those
+looking for a full desktop environment while wanting to keep in control
+of every aspect of their desktop.
+"""
+
+[base-desc]
+other = """
+While AOSC OS focuses itself in providing complete and refined desktop
+experience in all other variants, we understand that there are
+those who prefers all choices remained on their hands. The Base
+variant provides a minimal set of features, just enough for you to get
+started. Base is still a pre-configured variant - like AOSC OS should
+be - this is also suitable for performance constrained devices like say,
+a Raspberry Pi board; or simply drop it on your server and go from there.
+Base is also available as a Docker image.
+"""
+
+[buildkit-desc]
+other = """
+BuildKit is essentially a non-bootable AOSC OS Base with full
+development support. This particular variant of AOSC OS comes with
+Autobuild3 and ABBS so you can jump right into AOSC OS packaging,
+whether it be a contribution to our official ABBS tree, or something
+you have decided to build on your own. BuildKit is also available as
+a Docker image.
+"""
+
+[retro-basex11-desc]
+other = """
+A basic system release bundled with X graphical
+user interface support. This release contains
+a basic desktop environment and graphical tools
+for devices with graphical hardware acceleration.
+"""
+
+[retro-base-desc]
+other = """
+A base system release with a minimal set of applications and tools to get you started. This release is recommended for older, headless (non-graphical), or storage constrained (< 500MiB free space) systems.
+"""
