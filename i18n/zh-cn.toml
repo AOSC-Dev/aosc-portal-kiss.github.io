@@ -14,7 +14,7 @@ other = "版权属左 2011 — {{ $.copyrightYear }}，由全体社区成员维�
 other = "资讯"
 
 [people]
-other = "贡献者列表"
+other = "贡献者"
 
 [retro]
 other = "Retro"

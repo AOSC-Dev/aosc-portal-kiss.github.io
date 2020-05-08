@@ -1,0 +1,23 @@
+---
+title: News
+---
+
+<div class="blog">
+    <h1 id="security-bulletin no-top-margin">安全公告</h1>
+    <ul>
+        {{< news-listing category="bug" short="true" >}}
+    </ul>
+    <a href="https://wiki.aosc.io/t/aosa" target="_blank">安全公告归档【跳转 AOSC Wiki】</a>
+    <h1 id="community-news">社区资讯</h1>
+    <ul>
+        {{< news-listing category="news" short="true" >}}
+    </ul>
+    <a href="/news/news" target="_blank">资讯归档</a>
+    <h1 id="events">活动信息</h1>
+    <ul>
+        {{< news-listing category="community" short="true" >}}
+    </ul>
+    <a href="/news/events">活动信息归档</a>
+    |
+    <a href="/news/gallery">社区相册</a>
+</div>

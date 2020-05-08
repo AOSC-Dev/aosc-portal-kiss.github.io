@@ -1,0 +1,37 @@
+---
+title: Repo.
+---
+
+<div class="blog">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"
+        integrity="sha256-S1J4GVHHDMiirir9qsXWc8ZWw74PHHafpsHp5PXtjTs=" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+        integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+    <h1 id="repo" class="title no-top-margin">社区软件源</h1>
+    <p>
+        社区软件源是 AOSC OS 软件包、发行及我社开发资料的集中储存点。
+        多年以来，诸多院校、个人及企业为我社提供网络镜像，加速下载及安装。
+    </p>
+    <p>
+        如下为我社软件源镜像站的完整列表。
+    </p>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <td>地区</td>
+                    <td>名称</td>
+                    <td id="status" style="display: none;">状态</td>
+                </tr>
+            </thead>
+            <tbody id="mirrors">
+                {{< mirrors >}}
+            </tbody>
+        </table>
+    </div>
+    <div id="generate-list" style="margin-top: 1em;"></div>
+    <div id="scratch"></div>
+    <br />
+    <p id="banner" class="center"></p>
+    {{< repo-script >}}
+</div>
