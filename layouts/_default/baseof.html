@@ -31,12 +31,16 @@
     
     {{- if eq .Site.Language.Lang "jp" -}}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,600&display=swap" />
+    <style>body{font-family:'Noto Serif JP',serif;}</style>
     {{- else if eq .Site.Language.Lang "ko" -}}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:400,600&display=swap" />
+    <style>body{font-family:'Noto Serif KR',serif;}</style>
     {{- else if eq .Site.Language.Lang "zh-tw" -}}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,600&display=swap" />
+    <style>body{font-family:'Noto Serif TC',serif;}</style>
     {{- else -}}
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet"> 
+    <style>body{font-family:'Noto Serif SC',serif;}</style>
     {{- end -}}
     <div class="wrapper">
         <!-- navbar -->
