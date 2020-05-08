@@ -19,4 +19,7 @@ other = "People"
 [retro]
 other = "Retro"
 
+[sitelang]
+other = "Site Language"
+
 # distro translations
