@@ -68,7 +68,7 @@
                     {{- if $item.break -}}
                     <br>
                     {{- end -}}
-                    {{- end -}}<li><a href="/lingua">文/A</a></li>
+                    {{- end -}}
                 </ul>
             </div>
         </nav>
@@ -79,7 +79,7 @@
         <hr>
         <div class="center footer">
             {{ $copyrightYear := now.Format "2006" }}
-            {{ T "copyright" (dict "copyrightYear" $copyrightYear) }}
+            {{ T "copyright" (dict "copyrightYear" $copyrightYear) }} | &nbsp; <a href="/lingua">{{ T "sitelang" }}</a>
         </div>
         <!-- !footer -->
     </div>
