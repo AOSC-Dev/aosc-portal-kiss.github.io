@@ -20,14 +20,12 @@ general:
       downloads:
         - name: AMD64
           url: https://releases.aosc.io/os-amd64/kde/
-        - name: ARMv7
-          url: https://releases.aosc.io/os-armel/kde/
-        - name: ARMv8
+        - name: AArch64
           url: https://releases.aosc.io/os-arm64/kde/
-        - name: PPC32BE
-          url: https://releases.aosc.io/os-powerpc/kde/
-        - name: PPC64BE
-          url: https://releases.aosc.io/os-ppc64/kde/
+        - name: AArch64 (Sunxi)
+          url: https://releases.aosc.io/os-arm64/sunxi/rawimages/kde/
+        - name: AArch64 (Rockchip)
+          url: https://releases.aosc.io/os-arm64/rockchip/rawimages/kde/
     - name: GNOME
       description: |
         GNOME is a desktop environment with a strong emphasis on human
@@ -47,14 +45,12 @@ general:
       downloads:
         - name: AMD64
           url: https://releases.aosc.io/os-amd64/gnome/
-        - name: ARMv7
-          url: https://releases.aosc.io/os-armel/gnome/
-        - name: ARMv8
+        - name: AArch64
           url: https://releases.aosc.io/os-arm64/gnome/
-        - name: PPC32BE
-          url: https://releases.aosc.io/os-powerpc/gnome/
-        - name: PPC64BE
-          url: https://releases.aosc.io/os-ppc64/gnome/
+        - name: AArch64 (Sunxi)
+          url: https://releases.aosc.io/os-arm64/sunxi/rawimages/gnome/
+        - name: AArch64 (Rockchip) 
+          url: https://releases.aosc.io/os-arm64/rockchip/rawimages/gnome/
     - name: XFCE
       description: |
         XFCE, like its logo, is a quick and smart little rat on your desktop.
@@ -74,14 +70,12 @@ general:
       downloads:
         - name: AMD64
           url: https://releases.aosc.io/os-amd64/xfce/
-        - name: ARMv7
-          url: https://releases.aosc.io/os-armel/xfce/
-        - name: ARMv8
+        - name: AArch64
           url: https://releases.aosc.io/os-arm64/xfce/
-        - name: PPC32BE
-          url: https://releases.aosc.io/os-powerpc/xfce/
-        - name: PPC64BE
-          url: https://releases.aosc.io/os-ppc64/xfce/
+        - name: AArch64 (Sunxi)
+          url: https://releases.aosc.io/os-arm64/sunxi/rawimages/xfce/
+        - name: AArch64 (Rockchip) 
+          url: https://releases.aosc.io/os-arm64/rockchip/rawimages/xfce/
     - name: MATE
       description: |
         MATE is a desktop environment that sticks to the traditions - in which
@@ -102,14 +96,12 @@ general:
       downloads:
         - name: AMD64
           url: https://releases.aosc.io/os-amd64/mate/
-        - name: ARMv7
-          url: https://releases.aosc.io/os-armel/mate/
-        - name: ARMv8
+        - name: AArch64
           url: https://releases.aosc.io/os-arm64/mate/
-        - name: PPC32BE
-          url: https://releases.aosc.io/os-powerpc/mate/
-        - name: PPC64BE
-          url: https://releases.aosc.io/os-ppc64/mate/
+        - name: AArch64 (Sunxi)
+          url: https://releases.aosc.io/os-arm64/sunxi/rawimages/mate/
+        - name: AArch64 (Rockchip) 
+          url: https://releases.aosc.io/os-arm64/rockchip/rawimages/mate/
     - name: Cinnamon
       description: |
         Cinnamon was initially a fork of GNOME Shell in an effor to provide a
@@ -128,14 +120,12 @@ general:
       downloads:
         - name: AMD64
           url: https://releases.aosc.io/os-amd64/cinnamon/
-        - name: ARMv7
-          url: https://releases.aosc.io/os-armel/cinnamon/
-        - name: ARMv8
+        - name: AArch64
           url: https://releases.aosc.io/os-arm64/cinnamon/
-        - name: PPC32BE
-          url: https://releases.aosc.io/os-powerpc/cinnamon/
-        - name: PPC64BE
-          url: https://releases.aosc.io/os-ppc64/cinnamon/
+        - name: AArch64 (Sunxi)
+          url: https://releases.aosc.io/os-arm64/sunxi/rawimages/cinnamon/
+        - name: AArch64 (Rockchip) 
+          url: https://releases.aosc.io/os-arm64/rockchip/rawimages/cinnamon/
     - name: LXDE
       description: |
         LXDE, or Lightweight X11 Desktop Environment in full is a lightweight
@@ -156,14 +146,12 @@ general:
       downloads:
         - name: AMD64
           url: https://releases.aosc.io/os-amd64/lxde/
-        - name: ARMv7
-          url: https://releases.aosc.io/os-armel/lxde/
-        - name: ARMv8
+        - name: AArch64
           url: https://releases.aosc.io/os-arm64/lxde/
-        - name: PPC32BE
-          url: https://releases.aosc.io/os-powerpc/lxde/
-        - name: PPC64BE
-          url: https://releases.aosc.io/os-ppc64/lxde/
+        - name: AArch64 (Sunxi)
+          url: https://releases.aosc.io/os-arm64/sunxi/rawimages/lxde/
+        - name: AArch64 (Rockchip) 
+          url: https://releases.aosc.io/os-arm64/rockchip/rawimages/lxde/
     - name: Base
       description: |
         While AOSC OS focuses itself in providing complete and refined desktop
@@ -180,15 +168,13 @@ general:
         - name: AMD64
           url: https://releases.aosc.io/os-amd64/base/
         - name: AMD64 (Docker)
-          url: https://hub.docker.com/r/aosc/aosc-os
-        - name: ARMv7
-          url: https://releases.aosc.io/os-armel/base/
-        - name: ARMv8
+          url: https://hub.docker.com/r/aosc/aosc-os/
+        - name: AArch64
           url: https://releases.aosc.io/os-arm64/base/
-        - name: PPC32BE
-          url: https://releases.aosc.io/os-powerpc/base/
-        - name: PPC64BE
-          url: https://releases.aosc.io/os-ppc64/base/
+        - name: AArch64 (Sunxi)
+          url: https://releases.aosc.io/os-arm64/sunxi/rawimages/lxde/
+        - name: AArch64 (Rockchip) 
+          url: https://releases.aosc.io/os-arm64/rockchip/rawimages/lxde/
     - name: BuildKit
       description: |
         BuildKit is essentially a non-bootable AOSC OS Base with full
@@ -203,15 +189,9 @@ general:
         - name: AMD64
           url: https://releases.aosc.io/os-amd64/buildkit/
         - name: AMD64 (Docker)
-          url: https://hub.docker.com/r/aosc/aosc-os-buildkit
-        - name: ARMv7
-          url: https://releases.aosc.io/os-armel/buildkit/
-        - name: ARMv8
+          url: https://hub.docker.com/r/aosc/aosc-os-buildkit/
+        - name: AArch64
           url: https://releases.aosc.io/os-arm64/buildkit/
-        - name: PPC32BE
-          url: https://releases.aosc.io/os-powerpc/buildkit/
-        - name: PPC64BE
-          url: https://releases.aosc.io/os-ppc64/buildkit/
 
 retro:
   list:
