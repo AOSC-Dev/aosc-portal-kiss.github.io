@@ -16,10 +16,6 @@ hasCJKLanguage = true
     languageName = "繁體中文（台灣）"
     title = "AOSC 社群入口"
     weight = 3
-  [languages.ru]
-    languageName = "Русский"
-    title = "AOSC Портал"
-    weight = 3
 
 [markup]
   [markup.goldmark]
