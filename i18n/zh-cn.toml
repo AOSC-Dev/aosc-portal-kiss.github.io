@@ -23,3 +23,188 @@ other = "Retro"
 other = "站点语言 / Site Language"
 
 # distro translations
+[2016-aoscc-day1-a-warm-note-from-geekpie]
+other = "来自 GeekPie 协会的温馨指引。"
+[2016-aoscc-day1-goofing-around]
+other = "会前折腾。"
+[2016-aoscc-day2-ast-startup-toolkit-lmy441900]
+other = "以俊德 (Junde Yhi) 介绍 AST's Startup Tookit 开发重启。"
+[2016-aoscc-day2-goofing-around-buggy-skia]
+other = "狮子 (Lion Yang) 展示 Android 系统中 Skia 库中 JPEG 压缩导致图片变色的问题。"
+[2016-aoscc-day2-hd-remake-with-inkscape-gumblex]
+other = "和 Dingyuan Wang (gumblex) 一同学习使用 Inkscape 高清重制。"
+[2016-aoscc-day2-hd-remake-with-inkscape-audience]
+other = "与会者聆听 gumblex 的高清重制教程。"
+[2016-aoscc-day3-introduction-to-packaging-jeffbai]
+other = "白铭骢 (Mingcong Bai) 介绍 AOSC OS 打包流程。"
+[2016-aoscc-day3-introduction-to-packaging-vbam-jeffbai]
+other = "以 VBA-M 为例介绍 AOSC OS 打包流程。"
+[2016-aoscc-day3-shanghai-surface-user-group]
+other = "上海 Surface 用户组！"
+[2016-aoscc-stickers-1]
+other = "AOSCC 2016 贴纸集创意用例（一）。"
+[2016-aoscc-stickers-2]
+other = "AOSCC 2016 贴纸集创意用例（二）。"
+[2016-aoscc-stickers-3]
+other = "AOSCC 2016 贴纸集创意用例（三）。"
+[2016-5th-anniversary-banner]
+other = "社区五周年纪念海报！"
+[2016-5th-anniversary-selfie]
+other = "Tianhao Chai 在五周年纪念海报前“自拍”。"
+[2017-day3-tegra-has-a-home]
+other = "我社 ARMv7 及 AArch64 编译服务器有机箱啦！"
+[2017-day2-vintage-duo]
+other = "两台运行 Windows 98 的古董 ThinkPad 笔记本电脑。古董计算机是我社成员的兴趣之一。"
+[2017-day2-unusual-surface]
+other = "Tianhao Chai 的 Surface Pro 3，搭载 Linux 和 Android。"
+[2017-day2-thinkpad-family]
+other = "ThinkPad 已然成为我社最受欢迎的电脑品牌！（笑）"
+[2017-day2-orange-pi-demo]
+other = "Icenowy Zheng 的 Orange Pi，搭载 AOSC OS 及 LXDE 桌面环境。"
+[2017-day2-ciel]
+other = "狮子 (Lion Yang) 介绍使用 BuildKit 打包存在的诸多问题，而答案会是 Ciel 吗？"
+[2017-day2-casting-my-doubt]
+other = "狮子 (Lion Yang) 提问质疑 AOSC OS 进行诸多架构移植的价值。"
+[2017-day2-bananapi]
+other = "Junde Yhi 为中奖者们颁发 Banana Pi 开发板。"
+[2017-day1-zamir-sun-connection]
+other = "Zamir Sun 从北京远程连线，分享其成为红帽公司员工的精力。"
+[2017-day1-wuhan]
+other = "AOSCC 2018 将于武汉举行（后因场地原因不幸取消）！"
+[2017-day1-vintage-desktop]
+other = "活用老旧笔记本之 —— 迷你台式机！"
+[2017-day1-upstream-involvement]
+other = "白铭骢 (Mingcong Bai) 介绍过去一年中 AOSC 开发者们的上游参与经历。"
+[2017-day1-networking]
+other = "狮子 (Lion Yang) 及几位与会者抢修会场网络。"
+[2017-day1-forgive-loongson]
+other = "原谅龙芯吧，它（也许）还是有点潜力的。"
+[2017-day1-aosc-os-overlay]
+other = "以俊德 (Junde Yhi) 介绍 AOSC OS 的指令集 overlay 设计。"
+[2017-day1-aosc-os-codename]
+other = "投票表决 Core 5 代号：最终 \"eMMC\" 中标。"
+[2017-day1-aosc-optical-storage]
+other = "AOSCC 2017 第一天抽奖内容：金黃色葡萄球菌 (Staph Zhang) 制作的 AOSC OS 老旧软件包及发行版光盘备份。"
+[2017-day1-allwinner-nintendo]
+other = "在全志平板上使用 RetroArch 游玩《塞尔达传说》。"
+[2019-jiawei-fu-on-the-ustc-mirror]
+other = "来自中国科技大学的 Jiawei Fu 介绍 USTC 开源软件镜像站的历史。"
+[2019-junde-yhi-deploykit-demo]
+other = "以俊德 (Junde Yhi) 展示 DeployKit（AOSC OS 部署工具）的 UI 设计。"
+[2019-trinitron-on-site-coreboot-flashing]
+other = "Trinitron 为 Lenovo ThinkPad X220 刷写 Coreboot。"
+[2019-xiaoxing-lucky-draw]
+other = "我社老资格网管 Xiaoxing 于第二天的抽奖赢得一台搭载 AOSC OS 的 Apple PowerBook G4。"
+[2019-kexy-on-iteration-planning]
+other = "Kexy Biscuit 介绍对 AOSC OS 迭代模型的改善。"
+[2019-livestream-console]
+other = "咸鱼 (TheSaltedFish) 的直播工作台。"
+[2019-colorhug2]
+other = "现场提供 ColorHug 校色服务。"
+[2019-gumblex-on-quality-assurance]
+other = "Gumblex 介绍 AOSC OS 未来将要部署的品控流程。"
+[2019-haiou-camera]
+other = "本次 AOSCC 的合影使用古董海鸥相机拍摄。"
+[2019-codename-voting]
+other = "投票选择下一个开发代号（恭喜 Gumblex）！"
+[2019-stickers-and-souvenir]
+other = "每年 AOSCC 必备的贴纸和各种纪念品。"
+[2019-lucky-draw-preparation-g4]
+other = "第二天抽奖奖品：搭载 AOSC OS 的 12 寸 Apple PowerBook G4。"
+[2019-retro-demos]
+other = "AOSC OS/Retro 展示机：Apple iBook G3 贝壳机及索尼 Vaio C1VN。"
+[2019-staph-lucky-draw-preparation]
+other = "金黃色葡萄球菌 (Staph Zhang) 会前准备抽奖奖品。"
+[2019-junde-yhi-libreboot]
+other = "以俊德 (Junde Yhi) 介绍在 Lenovo ThinkPad X200 上部署多 Payload LibreBoot 固件的探索过程。"
+
+# distro translations
+[kde-desc]
+other = """
+KDE (Plasma Desktop) provides an extensive set of functionality with
+virtually unlimited amount of customizable settings, and comes complete
+with an elegant interface. With a strong set of utilities, games,
+and tools, KDE is quite suitable for day-to-day desktop computing
+with a refreshing sense of aesthetic.
+"""
+
+[gnome-desc]
+other = """
+GNOME is a desktop environment with a strong emphasis on human
+interactivity, multilingual support, and accessibility. Designed as
+a desktop for humanity, GNOME provides users with a minimal yet elegant
+interface for those who may understand its innovative logic in desktop
+computing.
+"""
+
+[xfce-desc]
+other = """
+XFCE, like its logo, is a quick and smart little rat on your desktop.
+This is a desktop with rich customizability, responsive interface, and
+a small footprint. XFCE can run very quick even on older machines while
+providing a complete desktop experience, making it a near perfect choice
+for performance constrained devices.
+"""
+
+[mate-desc]
+other = """
+MATE is a desktop environment that sticks to the traditions - in which
+the developers of this particular desktop environment believe. Being a
+fork of GNOME 2, MATE never has been a desktop of the past during its
+development history. MATE continuously updates itself to the newest
+technologies while tries its best to provide users with a familiar
+desktop experience.
+"""
+
+[cinnamon-desc]
+other = """
+Cinnamon was initially a fork of GNOME Shell in an effor to provide a
+traditional interface suitable for keyboard and mouse. Cinnamon builds
+upon GNOME's technical frameworks and applications, preserving the
+same ease of use in mind, while providing more customizability.
+"""
+
+[lxde-desc]
+other = """
+LXDE, or Lightweight X11 Desktop Environment in full is a lightweight
+desktop environment with a seemingly microscopic memory footprint. This
+is one of the better choices to go for on a older PC or low performance
+device. LXDE is extremely customizable, a perfect choice for those
+looking for a full desktop environment while wanting to keep in control
+of every aspect of their desktop.
+"""
+
+[base-desc]
+other = """
+While AOSC OS focuses itself in providing complete and refined desktop
+experience in all other variants, we understand that there are
+those who prefers all choices remained on their hands. The Base
+variant provides a minimal set of features, just enough for you to get
+started. Base is still a pre-configured variant - like AOSC OS should
+be - this is also suitable for performance constrained devices like say,
+a Raspberry Pi board; or simply drop it on your server and go from there.
+Base is also available as a Docker image.
+"""
+
+[buildkit-desc]
+other = """
+BuildKit is essentially a non-bootable AOSC OS Base with full
+development support. This particular variant of AOSC OS comes with
+Autobuild3 and ABBS so you can jump right into AOSC OS packaging,
+whether it be a contribution to our official ABBS tree, or something
+you have decided to build on your own. BuildKit is also available as
+a Docker image.
+"""
+
+[retro-basex11-desc]
+other = """
+A basic system release bundled with X graphical
+user interface support. This release contains
+a basic desktop environment and graphical tools
+for devices with graphical hardware acceleration.
+"""
+
+[retro-base-desc]
+other = """
+A base system release with a minimal set of applications and tools to get you started. This release is recommended for older, headless (non-graphical), or storage constrained (< 500MiB free space) systems.
+"""
