@@ -79,11 +79,10 @@ general:
     - name: MATE
       description: |
         MATE is a desktop environment that sticks to the traditions - in which
-        the developers of this particular desktop environment believe. Being a
-        fork of GNOME 2, MATE never has been a desktop of the past during its
-        development history. MATE continuously updates itself to the newest
-        technologies while tries its best to provide users with a familiar
-        desktop experience.
+        the developers of this particular desktop environment believe. Despite
+        being a GNOME 2 fork, MATE is never contempt with using older technologies.
+        Instead, MATE continuously adapts itself to the newest technologies, while
+        trying its best to provide users with a familiar desktop experience.
       screenshots:
         - 1.png
         - 2.png
@@ -158,9 +157,8 @@ general:
         experience in all other variants, we understand that there are
         those who prefers all choices remained on their hands. The Base
         variant provides a minimal set of features, just enough for you to get
-        started. Base is still a pre-configured variant - like AOSC OS should
-        be - this is also suitable for performance constrained devices like say,
-        a Raspberry Pi board; or simply drop it on your server and go from there.
+        started. Base is still a pre-configured variant like other AOSC OS variants.
+        Therefore, Base is suitable for performance constrained devices and servers.
         Base is also available as a Docker image.
       screenshots:
         - 1.png
@@ -179,10 +177,9 @@ general:
       description: |
         BuildKit is essentially a non-bootable AOSC OS Base with full
         development support. This particular variant of AOSC OS comes with
-        Autobuild3 and ABBS so you can jump right into AOSC OS packaging,
-        whether it be a contribution to our official ABBS tree, or something
-        you have decided to build on your own. BuildKit is also available as
-        a Docker image.
+        Autobuild3 and other AOSC OS packaging and maintenance tools, so that
+        you could quickly get started with AOSC OS development or building
+        packages for personal use. BuildKit is also available as a Docker image.
       screenshots:
         - 1.png
       downloads:
@@ -195,7 +192,7 @@ general:
 
 retro:
   list:
-    - name: Base/X11
+    - name: X11
       description: |
         A basic system release bundled with X graphical
         user interface support. This release contains
@@ -208,7 +205,20 @@ retro:
           url: '#aosc-os-retro'
     - name: Base
       description: |
-        A base system release with a minimal set of applications and tools to get you started. This release is recommended for older, headless (non-graphical), or storage constrained (< 500MiB free space) systems.
+        A base system release with a minimal set of applications
+        and tools to get you started. This release is recommended
+        for older, headless (non-graphical), or storage
+        constrained (< 500MiB free space) systems.
+      downloads:
+        - name: i486
+          url: '#aosc-os-retro'
+        - name: 'PowerPC Macintosh (G3/G4) *'
+          url: '#aosc-os-retro'
+    - name: Server
+      description: |
+        A base system release bundled with server applications,
+        for performance and storage contraint servers and older
+        development boards.
       downloads:
         - name: i486
           url: '#aosc-os-retro'

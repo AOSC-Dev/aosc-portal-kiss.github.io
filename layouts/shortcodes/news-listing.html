@@ -1,7 +1,9 @@
 {{/* $alert_svg := resources.Get "img/alert-outline.svg" */}}
 {{/* Hugo can only do intersection with slices */}}
 {{ $category := slice (.Get "category") }}
-{{ $posts := where (where .Site.RegularPages ".Section" "news") ".Params.categories" "intersect" $category }}
+{{ $posts := .Site.RegularPages }}
+{{ $merged_posts := lang.Merge .Site.AllPages $posts }}
+{{ $posts := where (where $merged_posts ".Section" "news") ".Params.categories" "intersect" $category }}
 {{ $short_list := eq (.Get "short") "true" }}
 {{ if $short_list }}
     {{ $posts = first 5 $posts }}

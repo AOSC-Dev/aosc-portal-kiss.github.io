@@ -2,9 +2,9 @@
 <html lang="{{ .Site.Params.languageCode | default "en-us" }}">
 {{ $title := .Title }}
 {{ if in .Permalink "/news/" }}
-{{ $title = "News" }}
+{{ $title = T "news" }}
 {{ else if in .Permalink "/people/"}}
-{{ $title = "People" }}
+{{ $title = T "people" }}
 {{ else if eq $title nil }}
 {{ $title = .Site.Title }}
 {{ else if eq .URL "/404.html" }}
@@ -18,21 +18,36 @@
     {{ $style := resources.Get "css/main.scss" | toCSS | minify }}
     {{ $logo_svg := resources.Get "img/aosc.min.svg" }}
     {{ $logo_png := resources.Get "img/aosc.png" }}
+    {{ $lingua_svg := resources.Get "img/language-line.svg"}}
     <link href="{{ $style.Permalink }}" rel="stylesheet">
-    <title>{{ $title }} | AOSC Portal</title>
+    <title>{{ $title }} | {{ .Site.Title }}</title>
 
     <link rel="icon" href="/assets/img/aosc.png">
     <link rel="icon" sizes="any" type="image/svg+xml" href="{{ $logo_svg.Permalink }}" />
 </head>
 
 <body>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+SC:400,600&display=swap" />
+    {{/*  {{- if eq .Site.Language.Lang "ru" -}}  */}}
+    
+    {{- if eq .Site.Language.Lang "jp" -}}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,600&display=swap" />
+    <style>body{font-family:'Noto Serif JP',serif;}</style>
+    {{- else if eq .Site.Language.Lang "ko" -}}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:400,600&display=swap" />
+    <style>body{font-family:'Noto Serif KR',serif;}</style>
+    {{- else if eq .Site.Language.Lang "zh-tw" -}}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,600&display=swap" />
+    <style>body{font-family:'Noto Serif TC',serif;}</style>
+    {{- else -}}
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet"> 
+    <style>body{font-family:'Noto Serif SC',serif;}</style>
+    {{- end -}}
     <div class="wrapper">
         <!-- navbar -->
         <nav class="header">
             <div class="columns" style="align-items: start;">
                 <div class="columns" style="display: flex;">
-                    <a class="clear-link" href="/">
+                    <a class="clear-link" href="{{ .Site.Home.Permalink }}">
                         <table>
                             <tbody>
                                 <tr>
@@ -50,10 +65,15 @@
                         </table>
                     </a>
                 </div>
-                <ul class="column is-two-thirds">
-                    {{- range $item := $.Site.Data.navigation -}}
+                <ul class="column is-two-thirds" style="word-break: keep-all;">
+                    {{ $index_name := printf "navigation.%s" $.Site.Language.Lang }}
+                    {{ $navigation := index $.Site.Data $index_name }}
+                    {{- range $item := $navigation -}}
                     <li><a href="{{ $item.url }}">{{ $item.title }}</a>
                     </li>
+                    {{- if $item.break -}}
+                    <br>
+                    {{- end -}}
                     {{- end -}}
                 </ul>
             </div>
@@ -64,7 +84,8 @@
         <!-- footer -->
         <hr>
         <div class="center footer">
-            Copyleft 2011 — 2020, Members of the Community
+            {{ $copyrightYear := now.Format "2006" }}
+            {{ T "copyright" (dict "copyrightYear" $copyrightYear) }} | &nbsp; <span><a href="/lingua">{{ T "sitelang" }}</a></span>
         </div>
         <!-- !footer -->
     </div>
