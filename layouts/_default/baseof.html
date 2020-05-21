@@ -16,6 +16,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=7" />
     {{ $style := resources.Get "css/main.scss" | toCSS | minify }}
+    {{ if eq .Site.Language.Lang "vertical-zh" }}
+    {{ $style = resources.Get "css/main_vertical.scss" | toCSS | minify }}
+    {{ end }}
     {{ $logo_svg := resources.Get "img/aosc.min.svg" }}
     {{ $logo_png := resources.Get "img/aosc.png" }}
     {{ $lingua_svg := resources.Get "img/language-line.svg"}}
