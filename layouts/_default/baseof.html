@@ -63,7 +63,11 @@
                                             style="height: 40px; width: 40px;">
                                     </td>
                                     <td style="vertical-align: bottom;">
+                                        {{- if eq .Site.Language.Lang "vertical-zh" -}}
                                         <h1 class="page-title">· {{ $title }}
+                                        {{- else -}}
+                                        <h1 class="page-title">/{{ $title }}
+                                        {{- end -}}
                                         </h1>
                                     </td>
                                 </tr>
