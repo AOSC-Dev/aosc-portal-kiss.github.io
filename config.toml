@@ -16,6 +16,10 @@ hasCJKLanguage = true
     languageName = "繁體中文（台灣）"
     title = "AOSC 社群入口"
     weight = 3
+  [languages.vertical-zh]
+    languageName = "繁体中文（竖排）"
+    title = "AOSC 社群入口"
+    weight = 4
 
 [markup]
   [markup.goldmark]
