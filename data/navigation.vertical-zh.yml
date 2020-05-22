@@ -1,8 +1,8 @@
 - title: 資訊
-  url: /zh-tw/news
+  url: /vertical-zh/news
 
 - title: 貢獻者
-  url: /zh-tw/people
+  url: /vertical-zh/people
 
 - title: 套件
   url: https://packages.aosc.io
@@ -11,19 +11,19 @@
   url: https://wiki.aosc.io
 
 - title: 關於
-  url: /zh-tw/about
+  url: /vertical-zh/about
 
 - title: 下載
-  url: /zh-tw/downloads
+  url: /vertical-zh/downloads
 
 - title: 套件庫
-  url: /zh-tw/repo
+  url: /vertical-zh/repo
 
 - title: Git
   url: https://github.com/AOSC-Dev/
 
 - title: 電子郵件
-  url: /zh-tw/mail
+  url: /vertical-zh/mail
 
 - title: 共用剪貼簿
   url: https://pastebin.aosc.io/
