@@ -28,6 +28,9 @@
     {{- if in .Permalink "/people/" -}}
     {{ $people_style := resources.Get "css/_people_vertical.scss" | toCSS | minify }}
     <link href="{{ $people_style.Permalink }}" rel="stylesheet">
+    {{- else if in .Permalink "/repo/" -}}
+    {{ $repo_style := resources.Get "css/_repo_vertical.scss" | toCSS | minify }}
+    <link href="{{ $repo_style.Permalink }}" rel="stylesheet">
     {{- end -}}
     {{ end }}
 
