@@ -11,8 +11,6 @@
 @import "downloads";
 
 #quote, .center {
-	display: flex;
-	align-items: flex-end;
 	em {
 		font-style: unset;
 		margin-left: 1em;
@@ -47,13 +45,13 @@ nav {
 }
 
 .footer {
-	font-size: 0.8em;
-	margin-left: 1em;
+	font-size: 1em;
+	margin: 0 1em;
 }
 
 .logo {
 	margin: 1em;
-	margin-left:0.5em;
+	margin-left: 0.5em;
 	cursor: pointer;
 }
 

@@ -95,7 +95,12 @@
         <hr>
         <div class="center footer">
             {{ $copyrightYear := now.Format "2006" }}
+            {{- if eq .Site.Language.Lang "vertical-zh" -}}
+            {{ T "copyright" (dict "copyrightYear" $copyrightYear) }}
+            <div class="site-language"><a href="/lingua">{{ T "sitelang" }}</a></div>
+            {{- else -}}
             <span>{{ T "copyright" (dict "copyrightYear" $copyrightYear) }} | &nbsp; <a href="/lingua">{{ T "sitelang" }}</a></span>
+            {{- end -}}
         </div>
         <!-- !footer -->
     </div>
