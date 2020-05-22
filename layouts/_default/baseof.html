@@ -23,6 +23,14 @@
     {{ $logo_png := resources.Get "img/aosc.png" }}
     {{ $lingua_svg := resources.Get "img/language-line.svg"}}
     <link href="{{ $style.Permalink }}" rel="stylesheet">
+
+    {{ if eq .Site.Language.Lang "vertical-zh" }}
+    {{- if in .Permalink "/people/" -}}
+    {{ $people_style := resources.Get "css/_people_vertical.scss" | toCSS | minify }}
+    <link href="{{ $people_style.Permalink }}" rel="stylesheet">
+    {{- end -}}
+    {{ end }}
+
     <title>{{ $title }} | {{ .Site.Title }}</title>
 
     <link rel="icon" href="/assets/img/aosc.png">
