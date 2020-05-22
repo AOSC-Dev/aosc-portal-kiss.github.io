@@ -8,7 +8,7 @@ other = "返回"
 other = "截圖"
 
 [copyright]
-other = "著左權所有 2011 — {{ $.copyrightYear }}，由全體社群成員維護"
+other = "著左權所有 2011 — {{ $.copyrightYear }}，由全體社群成員維護。"
 
 [news]
 other = "資訊"
