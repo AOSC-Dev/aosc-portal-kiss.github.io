@@ -13,6 +13,8 @@
 
     img {
         max-width: unset;
+        margin: 1em;
+        margin-top: 0;
     }
 }
 
@@ -29,12 +31,10 @@
     }
 }
 
-.blog {
-    table {
-        margin-top: 2em;
-    }
+.people {
+    overflow-x: unset;
 }
 
-.people {
-    overflow-x: auto;
+.no-top-margin {
+    display: inline-block;
 }
