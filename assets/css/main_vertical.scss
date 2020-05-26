@@ -71,6 +71,7 @@ body {
 }
 
 h1 {
+	margin: unset;
 	margin-bottom: 5px;
 	font-weight: 600;
 }
@@ -127,10 +128,8 @@ td, th {
 	justify-content: space-between;
 	align-items: baseline;
 	// padding-bottom: 50px;
-	@media screen and (max-width: $br) {
-		display: inline-block;
-	}
 	h1 {
+		margin: unset;
 		font-size: 2em;
 		margin-left: .5em;
 	}
