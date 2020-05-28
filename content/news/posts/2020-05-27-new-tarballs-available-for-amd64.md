@@ -24,7 +24,7 @@ Therefore, with this batch of AMD64 (x86_64) tarballs (in partcular, those bundl
 
 For a full list of devices supported by the aforementioned NVIDIA Unix Driver series, please refer to their [Unix Drivers](https://www.nvidia.com/en-us/drivers/unix/) page.
 
-*Note: By downloading AOSC OS preloaded with proprietary NVIDIA Unix Drivers (variants suffixed with +nvidia, +nvidia340, or +nvidia+390), you agree to the [LICENSE FOR CUSTOMER USE OF NVIDIA GEFORCE SOFTWARE](https://www.nvidia.com/en-us/drivers/geforce-license/), also enclosed within the relevant AOSC OS distributions. *
+_Note: By downloading AOSC OS preloaded with proprietary NVIDIA Unix Drivers (variants suffixed with +nvidia, +nvidia340, or +nvidia+390), you agree to the [LICENSE FOR CUSTOMER USE OF NVIDIA GEFORCE SOFTWARE](https://www.nvidia.com/en-us/drivers/geforce-license/), also enclosed within the relevant AOSC OS distributions._
 
 Automated Tarball Generation
 ----------------------------
