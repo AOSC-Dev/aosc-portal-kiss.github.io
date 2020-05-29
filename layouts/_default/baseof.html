@@ -16,20 +16,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=7" />
     {{ $style := resources.Get "css/main.scss" | toCSS | minify }}
-    {{ if eq .Site.Language.Lang "vertical-zh" }}
-    {{ $style = resources.Get "css/main_vertical.scss" | toCSS | minify }}
+    {{ if eq .Site.Language.Lang "lzh" }}
+    {{ $style = resources.Get "css/main_lzh.scss" | toCSS | minify }}
     {{ end }}
     {{ $logo_svg := resources.Get "img/aosc.min.svg" }}
     {{ $logo_png := resources.Get "img/aosc.png" }}
     {{ $lingua_svg := resources.Get "img/language-line.svg"}}
     <link href="{{ $style.Permalink }}" rel="stylesheet">
 
-    {{ if eq .Site.Language.Lang "vertical-zh" }}
+    {{ if eq .Site.Language.Lang "lzh" }}
     {{- if in .Permalink "/people/" -}}
-    {{ $people_style := resources.Get "css/_people_vertical.scss" | toCSS | minify }}
+    {{ $people_style := resources.Get "css/_people_lzh.scss" | toCSS | minify }}
     <link href="{{ $people_style.Permalink }}" rel="stylesheet">
     {{- else if in .Permalink "/repo/" -}}
-    {{ $repo_style := resources.Get "css/_repo_vertical.scss" | toCSS | minify }}
+    {{ $repo_style := resources.Get "css/_repo_lzh.scss" | toCSS | minify }}
     <link href="{{ $repo_style.Permalink }}" rel="stylesheet">
     {{- end -}}
     {{ end }}
@@ -52,7 +52,7 @@
     {{- else if eq .Site.Language.Lang "zh-tw" -}}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,600&display=swap" />
     <style>body{font-family:'Noto Serif TC',serif;}</style>
-    {{- else if eq .Site.Language.Lang "vertical-zh" -}}
+    {{- else if eq .Site.Language.Lang "lzh" -}}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+TC:400,600&display=swap" />
     <style>body{font-family:'Noto Serif TC',serif;}</style>
     {{- else -}}
@@ -74,7 +74,7 @@
                                             style="height: 40px; width: 40px;">
                                     </td>
                                     <td style="vertical-align: bottom;">
-                                        {{- if eq .Site.Language.Lang "vertical-zh" -}}
+                                        {{- if eq .Site.Language.Lang "lzh" -}}
                                         <h1 class="page-title">· {{ $title }}
                                         {{- else -}}
                                         <h1 class="page-title">/{{ $title }}
@@ -106,7 +106,7 @@
         <hr>
         <div class="center footer">
             {{ $copyrightYear := now.Format "2006" }}
-            {{- if eq .Site.Language.Lang "vertical-zh" -}}
+            {{- if eq .Site.Language.Lang "lzh" -}}
             {{ T "copyright" (dict "copyrightYear" $copyrightYear) }}
             <div class="site-language"><a href="/lingua">{{ T "sitelang" }}</a></div>
             {{- else -}}
