@@ -31,6 +31,9 @@
     {{- else if in .Permalink "/repo/" -}}
     {{ $repo_style := resources.Get "css/_repo_lzh.scss" | toCSS | minify }}
     <link href="{{ $repo_style.Permalink }}" rel="stylesheet">
+    {{- else if in .Permalink "/downloads/" -}}
+    {{ $down_style := resources.Get "css/_downloads_lzh.scss" | toCSS | minify }}
+    <link href="{{ $down_style.Permalink }}" rel="stylesheet">
     {{- end -}}
     {{ end }}
 
