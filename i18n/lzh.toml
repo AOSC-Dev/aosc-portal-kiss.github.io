@@ -121,97 +121,74 @@ other = "Junde Yhi on deploying multi-payload LibreBoot on the Lenovo ThinkPad X
 # distro translations
 [kde-desc]
 other = """
-KDE (Plasma Desktop) provides an extensive set of functionality with
-virtually unlimited amount of customizable settings, and comes complete
-with an elegant interface. With a strong set of utilities, games,
-and tools, KDE is quite suitable for day-to-day desktop computing
-with a refreshing sense of aesthetic.
+KDE (Plasma Desktop) 以其豐富特性、高度可定製及華麗優雅的界面著稱。
+此外，與 KDE 一同發行的質量精良的附件、工具及遊戲使其十分適合日常使用。
 """
 
 [gnome-desc]
 other = """
-GNOME is a desktop environment with a strong emphasis on human
-interactivity, multilingual support, and accessibility. Designed as
-a desktop for humanity, GNOME provides users with a minimal yet elegant
-interface for those who may understand its innovative logic in desktop
-computing.
+GNOME 是一款注重人機交互體驗、多語言支持及可及性設計的桌面環境，其界面
+設計相當新穎，簡約而不失優雅。
 """
 
 [xfce-desc]
 other = """
-XFCE, like its logo, is a quick and smart little rat on your desktop.
-This is a desktop with rich customizability, responsive interface, and
-a small footprint. XFCE can run very quick even on older machines while
-providing a complete desktop experience, making it a near perfect choice
-for performance constrained devices.
+XFCE 是一款輕便而靈活的桌面環境。一直以來，XFCE 因其高度可定製性、
+靈敏流暢的界面及低資源佔用相當受用戶青睞。此外，該桌面在相對老的設備上
+依然能流暢運行，且功能相當完整，因此是性能受限設備上桌面環境的最優選
+之一。
 """
 
 [mate-desc]
 other = """
-MATE is a desktop environment that sticks to the traditions - in which
-the developers of this particular desktop environment believe. Despite
-being a GNOME 2 fork, MATE is never contempt with using older technologies.
-Instead, MATE continuously adapts itself to the newest technologies, while
-trying its best to provide users with a familiar desktop experience.
+MATE 基於 GNOME 2 開發，是一款注重傳統體驗的桌面環境。但儘管
+如此，MATE 並沒有拘泥於使用老技術，而是在積極地引入各種最新桌面技術，
+保全了許多老 GNOME 及類 Unix 系統用戶所熟悉的桌面體驗。
 """
 
 [cinnamon-desc]
 other = """
-Cinnamon was initially a fork of GNOME Shell in an effor to provide a
-traditional interface suitable for keyboard and mouse. Cinnamon builds
-upon GNOME's technical frameworks and applications, preserving the
-same ease of use in mind, while providing more customizability.
+Cinnamon 是基於 GNOME 技術開發的一款爲鍵鼠操作體驗優化的桌面環境，
+致力於降低用戶的學習成本並增強可定製性。
 """
 
 [lxde-desc]
 other = """
-LXDE, or Lightweight X11 Desktop Environment in full is a lightweight
-desktop environment with a seemingly microscopic memory footprint. This
-is one of the better choices to go for on a older PC or low performance
-device. LXDE is extremely customizable, a perfect choice for those
-looking for a full desktop environment while wanting to keep in control
-of every aspect of their desktop.
+LXDE，全稱“輕量 X11 桌面環境”，是一款注重於輕量化設計的桌面環境，因而
+也是老設備的理想之選。此外，LXDE 可定製性相當強，是偏好完整桌面環境
+而又希望保全可定製性的用戶的理想選擇之一。
 """
 
 [base-desc]
 other = """
-While AOSC OS focuses itself in providing complete and refined desktop
-experience in all other variants, we understand that there are
-those who prefers all choices remained on their hands. The Base
-variant provides a minimal set of features, just enough for you to get
-started. Base is still a pre-configured variant like other AOSC OS variants.
-Therefore, Base is suitable for performance constrained devices and servers.
-Base is also available as a Docker image.
+儘管 AOSC OS 致力於提供完整而精製的桌面體驗，但我們仍尊重用戶的選擇權。
+因此，Base 版本只提供了最基本的管理和系統功能，而其餘的一切都交由您取捨。
+雖然如此，Base 依然提供優良的開箱即用體驗，因此也適用於性能有限的設備及
+服務器。您也可以部署基於 Base 版本製作的 Docker 鏡像。
 """
 
 [buildkit-desc]
 other = """
-BuildKit is essentially a non-bootable AOSC OS Base with full
-development support. This particular variant of AOSC OS comes with
-Autobuild3 and other AOSC OS packaging and maintenance tools, so that
-you could quickly get started with AOSC OS development or building
-packages for personal use. BuildKit is also available as a Docker image.
+BuildKit 是基於 Base 製作的開發環境，一般用於容器（因此移除了啓動支持）。
+該版本還預裝了 Autobuild3 及其他 AOSC OS 維護及打包所需的各類工具，適用於
+參與 AOSC OS 開發及構建個人用軟件包。您也可以部署基於 BuildKit 製作
+的 Docker 鏡像。
 """
 
 [retro-x11-desc]
 other = """
-A basic system release bundled with X graphical
-user interface support. This release contains
-a basic desktop environment and graphical tools
-for devices with graphical hardware acceleration.
+該版本帶有 X11 圖形界面，預裝圖形化系統工具及其他應用，適用於支持圖形
+加速的設備。
 """
 
 [retro-base-desc]
 other = """
-A base system release with a minimal set of applications
-and tools to get you started. This release is recommended
-for older, headless (non-graphical), or storage
-constrained (< 500MiB free space) systems.
+該版本發行只預裝了最基本的應用程序和管理工具，適用於性能及存儲嚴重受限或
+不連接屏幕（無頭）的設備。
 """
 
 [retro-server-desc]
 other = """
-A base system release bundled with server applications,
-for performance and storage contraint servers and older
-development boards.
+該版本基於 Base 版本加入了一部分服務器應用，適用於性能及存儲受限的服務器
+及開發板使用。
 """
