@@ -6,9 +6,6 @@ html {
 
 .wrapper {
 	padding: 0;
-	@media screen and (max-width: $br) {
-		padding: 0;
-	}
 }
 
 #quote {
