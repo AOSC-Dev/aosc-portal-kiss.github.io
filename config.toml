@@ -17,7 +17,7 @@ hasCJKLanguage = true
     title = "AOSC 社群入口"
     weight = 3
   [languages.lzh]
-    languageName = "繁体中文（竖排）"
+    languageName = "繁體中文（台灣，竖排）"
     title = "AOSC 社群入口"
     weight = 4
 
