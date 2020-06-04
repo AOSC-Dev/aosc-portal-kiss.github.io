@@ -70,6 +70,9 @@ body {
 	writing-mode: vertical-rl;
 	overflow-y: hidden;
 	margin: 5em;
+	@media screen and (orientation: landscape) and (max-height: 485px) {
+		margin: 2em;
+	}
 }
 
 h1 {
