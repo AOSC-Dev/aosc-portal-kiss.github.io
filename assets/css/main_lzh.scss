@@ -4,6 +4,13 @@ html {
 	overflow: unset;
 }
 
+.wrapper {
+	padding: 0;
+	@media screen and (max-width: $br) {
+		padding: 0;
+	}
+}
+
 #quote {
 	font-size: unset;
 	margin-top: unset;
@@ -62,7 +69,7 @@ body {
 	font-weight: 400;
 	writing-mode: vertical-rl;
 	overflow-y: hidden;
-	margin: 4em;
+	margin: 5em;
 }
 
 h1 {
@@ -83,6 +90,8 @@ ul {
 		@media screen and (max-width: $br) {
 			padding: 10px 0 10px 0;
 		}
+		padding: unset;
+		padding-left: 10px;
 	}
 }
 
@@ -115,6 +124,9 @@ td, th {
 
 .blog {
 	padding-bottom: unset;
+	ul {
+		padding-left: unset;
+	}
 	table {
         margin-top: unset;
     }
