@@ -23,20 +23,6 @@
     {{ $logo_png := resources.Get "img/aosc.png" }}
     {{ $lingua_svg := resources.Get "img/language-line.svg"}}
     <link href="{{ $style.Permalink }}" rel="stylesheet">
-
-    {{ if eq .Site.Language.Lang "lzh" }}
-    {{- if in .Permalink "/people/" -}}
-    {{ $people_style := resources.Get "css/_people_lzh.scss" | toCSS | minify }}
-    <link href="{{ $people_style.Permalink }}" rel="stylesheet">
-    {{- else if in .Permalink "/repo/" -}}
-    {{ $repo_style := resources.Get "css/_repo_lzh.scss" | toCSS | minify }}
-    <link href="{{ $repo_style.Permalink }}" rel="stylesheet">
-    {{- else if in .Permalink "/downloads/" -}}
-    {{ $down_style := resources.Get "css/_downloads_lzh.scss" | toCSS | minify }}
-    <link href="{{ $down_style.Permalink }}" rel="stylesheet">
-    {{- end -}}
-    {{ end }}
-
     <title>{{ $title }} | {{ .Site.Title }}</title>
 
     <link rel="icon" href="/assets/img/aosc.png">
