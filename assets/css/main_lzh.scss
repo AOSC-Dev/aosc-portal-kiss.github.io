@@ -82,11 +82,13 @@ p {
 
 ul {
 	list-style: disc;
-	padding-top: 0.7em;
+	padding-top: 1.3em;	
+	@-moz-document url-prefix() {
+    	@supports (animation: calc(0s)) {
+			padding-top: 0.7em;
+    	}
+	}
 	li {
-		@media screen and (max-width: $br) {
-			padding: 10px 0 10px 0;
-		}
 		padding: unset;
 		padding-left: 10px;
 	}
