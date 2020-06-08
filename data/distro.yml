@@ -23,9 +23,9 @@ general:
         - name: AArch64
           url: https://releases.aosc.io/os-arm64/kde/
         - name: AArch64 (Sunxi)
-          url: https://releases.aosc.io/os-arm64/sunxi/rawimages/kde/
+          url: https://releases.aosc.io/os-arm64/sunxi64/kde/
         - name: AArch64 (Rockchip)
-          url: https://releases.aosc.io/os-arm64/rockchip/rawimages/kde/
+          url: https://releases.aosc.io/os-arm64/rockchip64/kde/
     - name: GNOME
       description: |
         GNOME is a desktop environment with a strong emphasis on human
@@ -48,9 +48,9 @@ general:
         - name: AArch64
           url: https://releases.aosc.io/os-arm64/gnome/
         - name: AArch64 (Sunxi)
-          url: https://releases.aosc.io/os-arm64/sunxi/rawimages/gnome/
+          url: https://releases.aosc.io/os-arm64/sunxi64/gnome/
         - name: AArch64 (Rockchip) 
-          url: https://releases.aosc.io/os-arm64/rockchip/rawimages/gnome/
+          url: https://releases.aosc.io/os-arm64/rockchip64/gnome/
     - name: XFCE
       description: |
         XFCE, like its logo, is a quick and smart little rat on your desktop.
@@ -73,9 +73,9 @@ general:
         - name: AArch64
           url: https://releases.aosc.io/os-arm64/xfce/
         - name: AArch64 (Sunxi)
-          url: https://releases.aosc.io/os-arm64/sunxi/rawimages/xfce/
+          url: https://releases.aosc.io/os-arm64/sunxi64/xfce/
         - name: AArch64 (Rockchip) 
-          url: https://releases.aosc.io/os-arm64/rockchip/rawimages/xfce/
+          url: https://releases.aosc.io/os-arm64/rockchip64/xfce/
     - name: MATE
       description: |
         MATE is a desktop environment that sticks to the traditions - in which
@@ -98,9 +98,9 @@ general:
         - name: AArch64
           url: https://releases.aosc.io/os-arm64/mate/
         - name: AArch64 (Sunxi)
-          url: https://releases.aosc.io/os-arm64/sunxi/rawimages/mate/
+          url: https://releases.aosc.io/os-arm64/sunxi64/mate/
         - name: AArch64 (Rockchip) 
-          url: https://releases.aosc.io/os-arm64/rockchip/rawimages/mate/
+          url: https://releases.aosc.io/os-arm64/rockchip64/mate/
     - name: Cinnamon
       description: |
         Cinnamon was initially a fork of GNOME Shell in an effor to provide a
@@ -122,9 +122,9 @@ general:
         - name: AArch64
           url: https://releases.aosc.io/os-arm64/cinnamon/
         - name: AArch64 (Sunxi)
-          url: https://releases.aosc.io/os-arm64/sunxi/rawimages/cinnamon/
+          url: https://releases.aosc.io/os-arm64/sunxi64/cinnamon/
         - name: AArch64 (Rockchip) 
-          url: https://releases.aosc.io/os-arm64/rockchip/rawimages/cinnamon/
+          url: https://releases.aosc.io/os-arm64/rockchip64/cinnamon/
     - name: LXDE
       description: |
         LXDE, or Lightweight X11 Desktop Environment in full is a lightweight
@@ -148,9 +148,9 @@ general:
         - name: AArch64
           url: https://releases.aosc.io/os-arm64/lxde/
         - name: AArch64 (Sunxi)
-          url: https://releases.aosc.io/os-arm64/sunxi/rawimages/lxde/
+          url: https://releases.aosc.io/os-arm64/sunxi64/lxde/
         - name: AArch64 (Rockchip) 
-          url: https://releases.aosc.io/os-arm64/rockchip/rawimages/lxde/
+          url: https://releases.aosc.io/os-arm64/rockchip64/lxde/
     - name: Base
       description: |
         While AOSC OS focuses itself in providing complete and refined desktop
@@ -170,9 +170,9 @@ general:
         - name: AArch64
           url: https://releases.aosc.io/os-arm64/base/
         - name: AArch64 (Sunxi)
-          url: https://releases.aosc.io/os-arm64/sunxi/rawimages/lxde/
+          url: https://releases.aosc.io/os-arm64/sunxi64/lxde/
         - name: AArch64 (Rockchip) 
-          url: https://releases.aosc.io/os-arm64/rockchip/rawimages/lxde/
+          url: https://releases.aosc.io/os-arm64/rockchip64/lxde/
     - name: BuildKit
       description: |
         BuildKit is essentially a non-bootable AOSC OS Base with full
