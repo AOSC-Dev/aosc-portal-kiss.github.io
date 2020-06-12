@@ -62,12 +62,11 @@ body {
 	font-weight: 400;
 	writing-mode: vertical-rl;
 	overflow-y: hidden;
-	padding: 116px;
-	margin: 0;
+	margin: 6em;
 	@media screen and (orientation: landscape) and (max-height: 485px) {
 		margin: 2em;
 	}
-	max-height: 770px;
+	max-height: 540px;
 }
 
 h1 {
