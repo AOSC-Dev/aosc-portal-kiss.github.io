@@ -97,8 +97,6 @@
             {{- if eq .Site.Language.Lang "lzh" -}}
             {{ T "copyright" (dict "copyrightYear" $copyrightYear) }}
             <div class="site-language"><a href="/lingua">{{ T "sitelang" }}</a></div>
-            <br>
-            <br>
             {{- else -}}
             <span>{{ T "copyright" (dict "copyrightYear" $copyrightYear) }} | &nbsp; <a href="/lingua">{{ T "sitelang" }}</a></span>
             {{- end -}}
