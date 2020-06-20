@@ -233,7 +233,7 @@ retro:
         development support. This particular variant of AOSC OS comes with
         Autobuild3 and other AOSC OS packaging and maintenance tools, so that
         you could quickly get started with AOSC OS development or building
-        packages for personal use. BuildKit is also available as a Docker image.
+        packages for personal use.
       screenshots:
         - 1.png
       downloads:
