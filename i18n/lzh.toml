@@ -215,3 +215,12 @@ A base system release bundled with server applications,
 for performance and storage contraint servers and older
 development boards.
 """
+
+[retro-buildkit-desc]
+other = """
+BuildKit is essentially a non-bootable AOSC OS Base with full
+development support. This particular variant of AOSC OS comes with
+Autobuild3 and other AOSC OS packaging and maintenance tools, so that
+you could quickly get started with AOSC OS development or building
+packages for personal use. BuildKit is also available as a Docker image.
+"""

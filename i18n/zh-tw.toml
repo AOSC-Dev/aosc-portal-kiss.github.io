@@ -215,3 +215,11 @@ A base system release bundled with server applications,
 for performance and storage contraint servers and older
 development boards.
 """
+
+[retro-buildkit-desc]
+other = """
+BuildKit 是基于 Base 制作的开发环境，一般用于容器（因此移除了启动支持）。
+该版本还预装了 Autobuild3 及其他 AOSC OS 维护及打包所需的各类工具，适用于
+参与 AOSC OS 开发及构建个人用软件包。您也可以部署基于 BuildKit 制作
+的 Docker 镜像。
+"""
