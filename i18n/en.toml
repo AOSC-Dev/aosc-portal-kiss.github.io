@@ -206,7 +206,7 @@ other = """
 A base system release with a minimal set of applications
 and tools to get you started. This release is recommended
 for older, headless (non-graphical), or storage
-constrained (< 500MiB free space) systems.
+constrained systems.
 """
 
 [retro-server-desc]
@@ -214,4 +214,13 @@ other = """
 A base system release bundled with server applications,
 for performance and storage contraint servers and older
 development boards.
+"""
+
+[retro-buildkit-desc]
+other = """
+BuildKit is essentially a non-bootable AOSC OS Base with full
+development support. This particular variant of AOSC OS comes with
+Autobuild3 and other AOSC OS packaging and maintenance tools, so that
+you could quickly get started with AOSC OS development or building
+packages for personal use. BuildKit is also available as a Docker image.
 """

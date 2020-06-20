@@ -196,32 +196,49 @@ retro:
         user interface support. This release contains
         a basic desktop environment and graphical tools
         for devices with graphical hardware acceleration.
+      screenshots:
+        - 1.png
+        - 2.png
+        - 3.png
+        - 4.png
+        - 5.png
+        - 6.png
+        - 7.png
+        - 8.png
       downloads:
         - name: i486
-          url: '#aosc-os-retro'
-        - name: 'PowerPC Macintosh (G3/G4) *'
-          url: '#aosc-os-retro'
+          url: 'https://releases.aosc.io/os-i486/x11/'
     - name: Base
       description: |
         A base system release with a minimal set of applications
         and tools to get you started. This release is recommended
         for older, headless (non-graphical), or storage
-        constrained (< 500MiB free space) systems.
+        constrained systems.
+      screenshots:
+        - 1.png
       downloads:
         - name: i486
-          url: '#aosc-os-retro'
-        - name: 'PowerPC Macintosh (G3/G4) *'
-          url: '#aosc-os-retro'
+          url: 'https://releases.aosc.io/os-i486/base/'
     - name: Server
       description: |
         A base system release bundled with server applications,
         for performance and storage contraint servers and older
         development boards.
       downloads:
+        - name: 'i486 (Coming Soon)'
+          url: '#aosc-os-retro'
+    - name: BuildKit
+      description: |
+        BuildKit is essentially a non-bootable AOSC OS Base with full
+        development support. This particular variant of AOSC OS comes with
+        Autobuild3 and other AOSC OS packaging and maintenance tools, so that
+        you could quickly get started with AOSC OS development or building
+        packages for personal use. BuildKit is also available as a Docker image.
+      screenshots:
+        - 1.png
+      downloads:
         - name: i486
-          url: '#aosc-os-retro'
-        - name: 'PowerPC Macintosh (G3/G4) *'
-          url: '#aosc-os-retro'
+          url: 'https://releases.aosc.io/os-i486/buildkit/'
 
 docker:
 
