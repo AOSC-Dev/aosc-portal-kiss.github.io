@@ -49,6 +49,17 @@ nav {
 	font-size: 0.8em;
 }
 
+#quote-zh {
+	margin-top: 5em;
+	text-align: center;
+	em {
+		font-style: normal;
+		.author {
+			font-style: italic;
+		}
+	}
+}
+
 .footer {
 	font-size: 0.8em;
 }
