@@ -125,12 +125,6 @@
   longdesc: Long desc is not necessary for a guy like me who lives in the void.
   rurl:
 -
-  fullname: Jack Wu
-  username: OriginCode
-  description: A piece of code from unknown origin.
-  longdesc:
-  rurl: https://originco.de/
--
   fullname:
   username: l2dy
   description:
@@ -207,6 +201,12 @@
     little things for the community. This misaka will
     begin to fulfill its repo, let us wait and see.
   rurl:
+-
+  fullname: Jack Wu
+  username: OriginCode
+  description: A piece of code from unknown origin.
+  longdesc:
+  rurl: https://originco.de/
 -
   fullname: Plectranthus_fg
   username: Plectranthus-fg
