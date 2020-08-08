@@ -12,12 +12,12 @@ The new pastebin is a proxy to our old pastebin service, with a completely redes
 UI that more closely resembles our main website, and uses no JavaScript in
 order to improve compatibility, accessibility, and speed.
 
-The new pastebin is now online, accessible at https://paste.aosc.io .
+Our new pastebin is now online, accessible at https://paste.aosc.io .
 
-Any Compatibility Issues?
+Any Compatibility Issue?
 -------------------------
 Currently most basic functions are fully supported by the new
-Pastebin website. This includes basic pasting, setting title, deactivating, and setting
+pastebin website. This includes basic pasting, setting title, deactivating, and setting
 expiration time.
 
 However, a few non-essential functions are left off. This includes:
@@ -30,14 +30,14 @@ Future updates regarding which functions are getting implemented or left off wou
 How About Our Old Pastebin? 
 ---------------------------
 
-For those of you who still miss the good'ol Pastebin (which is now serving as the backend of our
-new Pastebin), either because you need a function that is not offered in the new Pastebin
+For those of you who still miss the good'ol pastebin (which is now serving as the backend of our
+new pastebin), either because you need a function that is not offered in the new pastebin
 as indicated above, or you can't give up the convenience offered by JavaScript,
 such as the eyecandies and the syntax highlighting, or because you just have too much
 computational power to waste (Hey you are blessed!)... Please beware that
-our old Pastebin is still running on https://pastebin.aosc.io . A link is also offered
-at the bottom of each paste on the new Pastebin, allowing you to view them on the old
-Pastebin with JavaScript highlighting and more.
+our old pastebin is still running on https://pastebin.aosc.io . A link is also offered
+at the bottom of each paste on the new pastebin, allowing you to view them on the old
+pastebin with JavaScript highlighting and more.
 
 Hey, I've Got a Question!
 ----------
