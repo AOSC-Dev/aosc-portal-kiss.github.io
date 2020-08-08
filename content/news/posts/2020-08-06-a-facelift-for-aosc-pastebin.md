@@ -16,33 +16,33 @@ The new pastebin is now online, accessible at https://paste.aosc.io .
 
 Any Compatibility Issues?
 -------------------------
-As far as we know, currently most of the basic functions are fully supported by the new
-Pastebin system. This includes basic pasting, setting title, deactivating, and set
+Currently most basic functions are fully supported by the new
+Pastebin website. This includes basic pasting, setting title, deactivating, and setting
 expiration time.
 
-A few functions are however left off. This includes:
-- Multiple attachments: one attachment shall be sufficient. By the way, who uses a Pastebin to store attachments, especially in binary format?
-- Syntax highlighting: This unfortunately was accomplished in JavaScript, so for now forget about it.
-- Password: It is slightly more complex. It might be included in a future update though.
+However, a few non-essential functions are left off. This includes:
+- Multiple attachments: one attachment should be sufficient. If not, you can always tar/zip them.
+- Syntax highlighting: This was accomplished in JavaScript, so it is not implemented now.
+- Password: It is slightly more complex. We need more time to implement it.
 
-This info would be updated on the new pastebin's [about page](https://paste.aosc.io/about.html).
+Future updates regarding which functions are getting implemented or left off would be updated on the new pastebin's [about page](https://paste.aosc.io/about.html).
 
 How About Our Old Pastebin? 
 ---------------------------
 
-For those who still miss the good'ol Pastebin that is now serving as the backend of our
-new Pastebin, either because they need a function that is not offered in the new Pastebin
-as indicated above, or they can't give up the convenience offered by the JavaScript
-such as the eyecandies and the syntax highlighting, or because they just have too much
-computational power to waste (Hey you are blessed!), please beware that
+For those of you who still miss the good'ol Pastebin (which is now serving as the backend of our
+new Pastebin), either because you need a function that is not offered in the new Pastebin
+as indicated above, or you can't give up the convenience offered by JavaScript,
+such as the eyecandies and the syntax highlighting, or because you just have too much
+computational power to waste (Hey you are blessed!)... Please beware that
 our old Pastebin is still running on https://pastebin.aosc.io . A link is also offered
-at the bottom of each paste on the new Pastebin, to allow users to view them on the old
-Pastebin.
+at the bottom of each paste on the new Pastebin, allowing you to view them on the old
+Pastebin with JavaScript highlighting and more.
 
-Hey I've Got a Question!
+Hey, I've Got a Question!
 ----------
 
-If you have any further questions or feature requests, please contact the owner _S. aureus_
+If you have any further questions or feature requests, please [contact us](https://github.com/AOSC-Dev/aosc-portal-kiss.github.io/issues)!
 
 Enjoy Pasting the AOSC way!
 
