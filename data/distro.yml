@@ -204,7 +204,6 @@ retro:
         - 5.png
         - 6.png
         - 7.png
-        - 8.png
       downloads:
         - name: i486
           url: 'https://releases.aosc.io/os-i486/x11/'
