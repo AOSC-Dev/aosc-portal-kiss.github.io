@@ -1,11 +1,19 @@
 @import "main";
 
 html {
-	overflow: unset;
+	overflow: hidden;
 }
 
 .wrapper {
-	padding: 0;
+	max-width: unset;
+	writing-mode: vertical-rl;
+	margin: unset;
+	margin: auto;
+	margin-right: 0;
+	width: 100%;
+	padding: 116px 100px 116px 100px;
+	height: 100%;
+	width: 100%;
 }
 
 #quote {
@@ -56,18 +64,10 @@ nav {
 }
 
 body {
-	color: $color-black;
-	background: $color-white;
-	font-size: 100%;
-	font-weight: 400;
-	writing-mode: vertical-rl;
-	overflow-y: hidden;
-	margin: 6em;
-	@media screen and (orientation: landscape) and (max-height: 485px) {
-		margin: 2em;
-	}
-	max-height: 540px;
+	margin: auto;
+	height: 100%;
 	width: 100%;
+	hyphens: auto;
 }
 
 h1 {

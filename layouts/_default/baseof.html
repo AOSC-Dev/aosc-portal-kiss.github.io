@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+{{ if eq .Site.Language.Lang "lzh" }}
+<html prefix="og: http://ogp.me/ns#" lang="zh-hant">
+{{ else }}
 <html lang="{{ .Site.Params.languageCode | default "en-us" }}">
+{{ end }}
 {{ $title := .Title }}
 {{ if in .Permalink "/news/" }}
 {{ $title = T "news" }}
