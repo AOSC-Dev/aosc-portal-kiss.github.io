@@ -1,7 +1,7 @@
 @import "main";
 
 html {
-	overflow: hidden;
+	overflow: unset;
 }
 
 .wrapper {
@@ -14,6 +14,7 @@ html {
 	padding: 116px 100px 116px 100px;
 	height: 100%;
 	width: 100%;
+	overflow-y: hidden;
 }
 
 #quote {
