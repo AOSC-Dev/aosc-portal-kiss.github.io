@@ -56,8 +56,6 @@ nav {
 }
 
 body {
-	height: 100%;
-	width: 100%;
 	hyphens: auto;
 	max-width: unset;
 	writing-mode: vertical-rl;
@@ -66,7 +64,8 @@ body {
 	padding: 90px 75px;
 	overflow-y: hidden;
 	@media screen and (orientation: landscape) and (max-height: 485px) {
-		padding: 0;
+		padding: unset;
+		margin: 2em;
 	}
 	max-height: 800px;
 	line-height: 2;
@@ -82,6 +81,7 @@ h1 {
 p {
 	font-size: 17px;
 	line-height: 150%;
+	margin-bottom: unset;
 }
 
 ul {
