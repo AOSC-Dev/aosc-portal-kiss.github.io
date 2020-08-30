@@ -69,6 +69,7 @@ body {
 		padding: 0;
 	}
 	max-height: 800px;
+	line-height: 1.6;
 }
 
 h1 {
@@ -78,7 +79,7 @@ h1 {
 }
 
 p {
-	font-size: 1em;
+	font-size: 17px;
 	line-height: 150%;
 }
 
@@ -177,3 +178,8 @@ td, th {
 .downloads-description {
 	padding: 0;
   }
+
+
+td, th {
+	padding-bottom: unset;
+}
