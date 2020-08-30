@@ -5,16 +5,7 @@ html {
 }
 
 .wrapper {
-	max-width: unset;
-	writing-mode: vertical-rl;
-	margin: unset;
-	margin: auto;
-	margin-right: 0;
-	width: 100%;
-	padding: 116px 100px 116px 100px;
-	height: 100%;
-	width: 100%;
-	overflow-y: hidden;
+
 }
 
 #quote {
@@ -65,10 +56,18 @@ nav {
 }
 
 body {
-	margin: auto;
 	height: 100%;
 	width: 100%;
 	hyphens: auto;
+	max-width: unset;
+	writing-mode: vertical-rl;
+	margin: unset;
+	margin: auto;
+	padding: 100px;
+	overflow-y: hidden;
+	@media screen and (orientation: landscape) and (max-height: 485px) {
+		padding: 0;
+	}
 }
 
 h1 {
