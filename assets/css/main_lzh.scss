@@ -97,15 +97,10 @@ ul {
 	}
 }
 
-td, th {
-	padding-bottom: 0.5em;
-}
-
 .header {
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
-	// padding-bottom: 50px;
 	h1 {
 		font-size: 2em;
 		margin-top: 0;
@@ -178,8 +173,3 @@ td, th {
 .downloads-description {
 	padding: 0;
   }
-
-
-td, th {
-	padding-bottom: unset;
-}
