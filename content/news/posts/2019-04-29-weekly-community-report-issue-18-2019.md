@@ -20,7 +20,7 @@ Freezing Period
 
 On April 23rd, we have officially entered a month of freezing period for AOSC OS's Testing branch. For the meanwhile, we are working to sync all package updates on the Testing branch, across all currently active ports.
 
-If you are using the Stable branch, you will continue to receive security and [exceptional](https://wiki.aosc.io/en/dev-sys-cycle-exceptions) updates.
+If you are using the Stable branch, you will continue to receive security and [exceptional](https://wiki.aosc.io/developer/packaging/cycle-exceptions) updates.
 
 AGX Xavier!
 -----------
@@ -29,7 +29,7 @@ To continue the tradition of mis-using NVIDIA's development boards, we have obta
 
 This build host will be dedicated to the building of AArch64 (`arm64`) packages. Formerly, both AArch64 (`arm64`) and ARMv7 (`armel`) packages are built on a shared BuildBot - an NVIDIA Jetson TX1 Developer Kit, with a measly 4GiB of RAM. In the recent cycles, we have been constantly plagued by this insufficient amount of RAM - and this in turn has resulted in the two ARM ports lagging behind the other architectures.
 
-The AGX Xavier, however, comes with 8 very fast NVIDIA "Carmel" cores, and 16GiB of RAM. Registering as the second fastest out of [all Relay BuildBots](https://wiki.aosc.io/developers/buildbots). This hardware addition will undoubtedly help us catch up (and eventually enrich) both ARM ports.
+The AGX Xavier, however, comes with 8 very fast NVIDIA "Carmel" cores, and 16GiB of RAM. Registering as the second fastest out of [all Relay BuildBots](https://wiki.aosc.io/developer/infrastructure/buildbots/). This hardware addition will undoubtedly help us catch up (and eventually enrich) both ARM ports.
 
 As for the Jetson TX1, it will now be dedicated to build ARMv7 packages (which of course, is much more available for this task).
 
