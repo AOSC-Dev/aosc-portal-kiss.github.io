@@ -16,4 +16,4 @@ On December 29th (UTC +8), our Community Repository server will migrate to a new
 - Check if the syncing completes successfully on Dec 31, 2018.
   - If not, please contact Xiaoxing Ye, our Repository maintainer at [xiaoxing@aosc.io](mailto:xiaoxing@aosc.io).
 
-The server is kindly sponsored by [xTom.com](xTom.com). For more information, please refer to our [Migration Guide](https://wiki.aosc.io/en/infra-kb-00003-repository-migration).
+The server is kindly sponsored by [xTom.com](xTom.com). For more information, please refer to our [Migration Guide](https://wiki.aosc.io/developer/infrastructure/knowledge-base/00003-repository-migration).

@@ -31,7 +31,7 @@ But as a user, while you may be angry at the delay - and rightfully so - we have
 	- ...
 - Package updates as usual, you know the drill. But admittedly we are a little behind on desktop environments for reasons stated above.
 
-You should be able to obtain the (large set of) updates now. However, we are aware of **an issue that might prevent a smooth update.** We have documented the cause and workaround in this [Errata entry](https://wiki.aosc.io/en/sys-err-00009-error-updating-to-systemd-242).
+You should be able to obtain the (large set of) updates now. However, we are aware of **an issue that might prevent a smooth update.** We have documented the cause and workaround in this [Errata entry](https://wiki.aosc.io/aosc-os/errata/00009-error-updating-to-systemd-242).
 
 Again, we are sorry about the delay and will work on cycle management improvements in the coming AOSCC sessions.
 
@@ -46,7 +46,7 @@ Since we didn't get to meet last year due to venue troubles, we have greatly exp
 
 Additionally, we have made badges from the community, AOSC OS, and AOSC OS/Retro's logos. These badges and the sticker sets are all free to take at the AOSCC venue - and available at the cost of postage after the conference.
 
-Information about attendance and schedules are availabe from the ["AOSCC 2019" Wiki page](https://wiki.aosc.io/aoscc-2019). We look forward to seeing you there!
+Information about attendance and schedules are availabe from the ["AOSCC 2019" Wiki page](https://wiki.aosc.io/community/aoscc/2019). We look forward to seeing you there!
 
 ----
 

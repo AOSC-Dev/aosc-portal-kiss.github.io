@@ -40,7 +40,7 @@ compatibility with new technical standards.
 
 For developers, all build configurations and scripts in the Core are cleaned up
 and reworked for compliance with the
-[AOSC OS Package Styling Manual](https://wiki.aosc.io/en/dev-sys-package-styling-manual),
+[AOSC OS Package Styling Manual](https://wiki.aosc.io/developer/packaging/package-styling-manual/),
 easing future maintenance and changes.
 
 ### Application and Component Updates
@@ -134,7 +134,7 @@ for new features to be implemented.
 
 Therefore, with the help from [@liushuyu](/people/~liushuyu), a new design was
 made with minimalism in mind, and it is already
-[better documented](https://wiki.aosc.io/en/infra-community-portal) than
+[better documented](https://wiki.aosc.io/developer/infrastructure/community-portal) than
 the last. It might look simple and plain, but it loads extremely fast, and is
 (hopefully, as one of the layout designers) easier to navigate. We have also
 took note to keep the most important information up-front. We are primarily
