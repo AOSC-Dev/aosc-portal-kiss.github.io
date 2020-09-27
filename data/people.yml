@@ -24,6 +24,12 @@
   longdesc:
   rurl:
 -
+  fullname: Bobby Rong
+  username: bobby285271
+  description: Press Ctrl + W before continuing.
+  longdesc:
+  rurl: https://www.bobby285271.top/
+-
   fullname:
   username: bobcao3
   description:
@@ -49,12 +55,6 @@
   username: cthbleachbit
   description: b.k.a. cth451
   longdesc: A human that got stuck between byte streams and atoms. Addicted to bash overdosage, AOSC, Android x86 and Steam.
-  rurl:
--
-  fullname:
-  username: thxo
-  description:
-  longdesc:
   rurl:
 -
   fullname:
@@ -227,12 +227,6 @@
   longdesc: Watering all the time. Yet another jelly-eater.
   rurl:
 -
-  fullname: Bobby Rong
-  username: bobby285271 
-  description: Press Ctrl + W before continuing.
-  longdesc:
-  rurl: https://www.bobby285271.top/
--
   fullname:
   username: septs
   description:
@@ -263,6 +257,12 @@
   longdesc: >
     Also known as Zamir SUN (if you can not speak my real name).
     Tester and coder sometimes.
+  rurl:
+-
+  fullname:
+  username: thxo
+  description:
+  longdesc:
   rurl:
 -
   fullname:
