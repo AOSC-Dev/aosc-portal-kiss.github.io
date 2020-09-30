@@ -215,6 +215,12 @@
     begin to fulfill its repo, let us wait and see.
   rurl:
 -
+  fullname:
+  username: Nexus01
+  description: To be continued
+  longdesc:
+  rurl:
+-
   fullname: Jack Wu
   username: OriginCode
   description: A piece of code from unknown origin.
