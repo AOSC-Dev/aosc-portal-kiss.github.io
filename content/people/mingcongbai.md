@@ -43,7 +43,7 @@ Devices
 
 ### Daily Drivers
 
-- Laptops...
+- Laptops ...
     - Travelling: Panasonic Let's Note CF-SV8.
     - Note taking/concentration: Apple iBook G3 "Clamshell," Blueberry.
 - Desktop: IBM System x3200 - with Raptor Computer System's [Blackbird](https://wiki.raptorcs.com/wiki/Blackbird) motherboard (IBM POWER9 Sforza, 4 Core, 16 Threads).
