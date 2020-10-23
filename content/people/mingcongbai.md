@@ -11,25 +11,26 @@ Who am I?
 ---------
 
 - Mingcong Bai（白铭骢）.
-- Undergraduate History and Russian student at University of Wisconsin - Madison.
-    - George L. Mosse Peer Advisor at the History Department.
+- PhD Student in Modern Chinese History: University of California, San Diego (Since 2020).
+- B.A. in History, Russian Language and Culture: University of Wisconsin - Madison (2020).
+    - George L. Mosse Peer Advisor at the History Department (2018 - 2020).
 
 Get in Touch
 ------------
 
-- Telegram: @JeffBai (Response Time: ~1 hr.).
-- E-Mail: jeffbai@aosc.io (Response Time: ~12 hr.).
+- Telegram: @JeffBai (Response Time: ~6 hr.).
+- E-Mail: jeffbai@aosc.io (Response Time: ~24 hr.).
 
-Main areas of work
+Main Areas of Work
 ------------------
 
-- AOSC OS maintainer.
+- AOSC OS (mainline and Retro) maintainer.
+- Historical research on labour and rural experience in the early Chinese Reform period (1978 - 1993).
 - Long-term localization volunteer for FreeDesktop.org, GNOME, MATE, and WineHQ.
-- Historical research on labour and rural conditions during the early Chinese Reform (1978 - 1993).
 - Translation in-progress: Martín Gamero Prieto *The Legacy of 3dfx*.
 - Linguistic research and translation (on my free time, if any).
 
-Off-time interests
+Off-time Interests
 ------------------
 
 - Cooking.
@@ -37,32 +38,31 @@ Off-time interests
 - Photography.
 - Vintage computer collection and restoration.
 
-My devices
-----------
+Devices
+-------
 
-### Daily usage:
+### Daily Drivers
 
-- Class/travel laptop: Panasonic Let's Note CF-SV8.
-- Main desktop: IBM NetVista A40p - with Raptor Computer System's [Blackbird](https://wiki.raptorcs.com/wiki/Blackbird) motherboard (IBM POWER9 Sforza, 4 Core, 16 Threads).
-- Personal server/asset generator: HP MicroServer Gen8.
+- Laptops...
+    - Travelling: Panasonic Let's Note CF-SV8.
+    - Note taking/concentration: Apple iBook G3 "Clamshell," Blueberry.
+- Desktop: IBM System x3200 - with Raptor Computer System's [Blackbird](https://wiki.raptorcs.com/wiki/Blackbird) motherboard (IBM POWER9 Sforza, 4 Core, 16 Threads).
 
-### Development related:
+### AOSC Public BuildBots
 
-- AMD64 packaging/testing: Custom Ryzen 1800X Workstation.
-- ARM(v7/v8) packaging/testing: NVIDIA AGX Xavier.
-- AArch64 desktop experience testing: PineBook 14", PineBook Pro, PinePhone "BraveHeart" Edition.
-- PowerPC(32/64) packaging/testing: Apple PowerMac G5 Quad (2).
+What is a BuildBot? See [here](https://wiki.aosc.io/developer/infrastructure/buildbots/).
 
-### Hobby projects:
+- AMD64 ...
+    - Relay 22333: Custom built, 16-Core AMD Ryzen 9 3950X, 64GiB RAM.
+- Loongson 3/MIPS64r2el ...
+    - Relay 23869: Custom built, Quad-Core Loongson 3A-4000 (R4), 16GiB RAM.
+- AArch64 ...
+    - Relay 24444: NVIDIA Jetson AGX Xavier Development Kit, 4 × Dual-Core NVIDIA Carmel CPU Clusters, 16GiB RAM.
+- POWER ...
+    - Relay 25202: KVM (Architectured POWER9) @ Custom built (IBM System x3200 Chassis), IBM POWER9 CPU (4-Core) CP9M01 - 12 vCPUs, 64GiB RAM.
+    - Relay 25112: KVM (Architectured POWER7) @ Custom built (IBM System x3200 Chassis), IBM POWER9 CPU (4-Core) CP9M01 - 8 vCPUs, 8GiB RAM.
 
-- Apple MacBook Pro 13.3 Mid-2012 repair for a friend.
-- IBM NetVista A40p "AuthenticAMD", recommissioned as main desktop.
-- IBM ThinkPad 340 "The Silent Box".
-- IBM ThinkPad 701C.
-- IBM ThinkPad X20 "Y2K Multimedia Station".
-- IBM ThinkPad A31/p "Y2K Multimedia Station v2".
-- Lenovo ThinkPad T420, built from scratch for future classmate.
-- Lenovo ThinkPad T430, built and sold.
-- Lenovo ThinkPad X24/5/60 "FrankenPad" (decommissioned, ULV sucks).
-- Toshiba Libretto 50CT "Mini Multimedia Station".
-- And many more (have a chat with me on Telegram!)...
+### Hobby Projects
+
+- Loads, a majority of which dedicated to AOSC OS/Retro development and testing.
+    - I might detail this on my blog down the road.
