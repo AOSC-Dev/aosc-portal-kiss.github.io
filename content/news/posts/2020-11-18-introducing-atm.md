@@ -22,6 +22,9 @@ could enroll in topics and receive early updates with ease. Likewise, whenever
 you feel like it, you could pull out and revert packages back to their "stable"
 versions.
 
+![atm](https://i.imgur.com/Pq5AWsY.png)
+ATM displaying a list of available update topics.
+
 If you are using a standardised AOSC OS distribution (and `admin-base` is still
 installed), ATM is installed automatically on your AOSC OS installation with a
 recent update, and available as the `atm` command. ATM will be pre-installed
