@@ -17,10 +17,10 @@ times. As users, this means that you can test these topics individually based
 on your interest.
 
 To help better manage these topics on your AOSC OS installation, we have
-developed ATM, or AOSC OS APT Topic Manager. With ATM's TUI interface, you
-could enroll in topics and receive early updates with ease. Likewise, whenever
-you feel like it, you could pull out and revert packages back to their "stable"
-versions.
+developed [ATM](https://github.com/AOSC-Dev/atm/), or AOSC OS APT Topic
+Manager. With ATM's TUI interface, you could enroll in topics and receive early
+updates with ease. Likewise, whenever you feel like it, you could pull out and
+revert packages back to their "stable" versions.
 
 ![atm](https://i.imgur.com/Pq5AWsY.png)
 ATM displaying a list of available update topics.
