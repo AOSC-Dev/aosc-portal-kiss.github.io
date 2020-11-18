@@ -32,6 +32,14 @@ gallery:
         date: November 15, 2020
         file: 2020-ospp-aosc-stall-devices-alt.jpg
       -
+        desc: "PowerBook G4 (AOSC OS/Retro PowerPC 32-bit) at Our Stall (credit: Ruikai Liu)."
+        date: November 15, 2020
+        file: 2020-ospp-aosc-stall-g4.jpg
+      -
+        desc: "Olimex TERES-I (AOSC OS AArch64) at Our Stall (credit: Ruikai Liu)."
+        date: November 15, 2020
+        file: 2020-ospp-aosc-stall-teres-i.jpg
+      -
         desc: "The Open Source Software Supply Chain Summit 2020 'Hall of Fame' (credit: Ruikai Liu)."
         date: November 15, 2020
         file: 2020-ospp-hall-of-fame.jpg
