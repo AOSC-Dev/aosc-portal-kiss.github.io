@@ -117,6 +117,58 @@ other = "AOSC OS/Retro 展示机：Apple iBook G3 贝壳机及索尼 Vaio C1VN�
 other = "金黃色葡萄球菌 (Staph Zhang) 会前准备抽奖奖品。"
 [2019-junde-yhi-libreboot]
 other = "以俊德 (Junde Yhi) 介绍在 Lenovo ThinkPad X200 上部署多 Payload LibreBoot 固件的探索过程。"
+[2020-day1-atcamber]
+other = "Attending Virtual AOSCC 2020 (Telegram: @atCamber)."
+[2020-day1-szc1sya]
+other = "Attending Virtual AOSCC 2020 (Telegram: @szc1sya)."
+[2020-day1-gowee]
+other = "Attending Virtual AOSCC 2020 (Telegram: @Gowee)."
+[2020-day1-jeffbai-0]
+other = "Attending Virtual AOSCC 2020 (Telegram: @JeffBai)."
+[2020-day1-jeffbai-1]
+other = "Attending Virtual AOSCC 2020 (Telegram: @JeffBai)."
+[2020-day1-liushuyu]
+other = "Attending Virtual AOSCC 2020 (Telegram: @liushuyu)."
+[2020-day1-megabits_mzq]
+other = "Attending Virtual AOSCC 2020 (Telegram: @Megabits_mzq)."
+[2020-day1-moe_canary]
+other = "Attending Virtual AOSCC 2020 (Telegram: @moe_canary)."
+[2020-day1-neruthes-0]
+other = "Attending Virtual AOSCC 2020 (Telegram: @neruthes)."
+[2020-day1-neruthes-1]
+other = "Attending Virtual AOSCC 2020 (Telegram: @neruthes)."
+[2020-day1-o0_0b]
+other = "Attending Virtual AOSCC 2020 (Telegram: @o0_0b)."
+[2020-day1-relie]
+other = "Attending Virtual AOSCC 2020 (Telegram: @Relie)."
+[2020-day1-nobootleg]
+other = "Attending Virtual AOSCC 2020 (Telegram: @nobootleg)."
+[2020-day1-staph]
+other = "Attending Virtual AOSCC 2020 (Telegram: @Staph)."
+[2020-day1-eatradish_wtf]
+other = "Attending Virtual AOSCC 2020 (Telegram: @eatradish_wtf)."
+[2020-day1-thesaltedfish]
+other = "Attending Virtual AOSCC 2020 (Telegram: @TheSaltedFish)."
+[2020-ospp-aosc-reporting]
+other = "AOSC Reporting at the Open Source Software Supply Chain Summit 2020 (credit: Ruikai Liu)."
+[2020-ospp-aosc-stall]
+other = "Our Stall at the Open Source Software Supply Chain Summit 2020 (credit: Ruikai Liu)."
+[2020-ospp-aosc-stall-devices]
+other = "Demo Devices at Our Stall (credit: Ruikai Liu)."
+[2020-ospp-aosc-stall-devices-alt]
+other = "Demo Devices at Our Stall, Alt. Angle (credit: Ruikai Liu)."
+[2020-ospp-aosc-stall-g4]
+other = "PowerBook G4 (AOSC OS/Retro PowerPC 32-bit) at Our Stall (credit: Ruikai Liu)."
+[2020-ospp-aosc-stall-teres-i]
+other = "Olimex TERES-I (AOSC OS AArch64) at Our Stall (credit: Ruikai Liu)."
+[2020-ospp-hall-of-fame]
+other = "The Open Source Software Supply Chain Summit 2020 'Hall of Fame' (credit: Ruikai Liu)."
+[anan-laptop]
+other = "An-An (安安) with Her Laptop (credit: Tyson Tan)."
+[anan-mac]
+other = "An-An (安安) Holding A Retro Computer (credit: Tyson Tan)."
+[anan-playing]
+other = "An-An (安安) Playing with the AOSC Logo (credit: Tyson Tan)."
 
 # distro translations
 [kde-desc]
