@@ -8,7 +8,7 @@ important: true
 
 ![welcome-to-core-8](https://i.imgur.com/PpSCv5F.png)
 
-After weeks of hard work (mostly by our [BuildBots](https://wiki.aosc.io/developer/infrastructure/buildbots/)
+After weeks of hard work (mostly by our [BuildBots](https://wiki.aosc.io/developer/infrastructure/buildbots/))
 and testing by our maintainers and users, AOSC OS Core 8 is now available from
 the `stable` repository!
 
