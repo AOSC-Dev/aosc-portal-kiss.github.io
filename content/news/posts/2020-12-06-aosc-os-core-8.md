@@ -35,6 +35,8 @@ distribution). The update could take more than 30 minutes to complete on older
 systems, so it is advised that you update your system according to your
 own schedule.
 
+Should you run into any issue updating to AOSC OS Core 8, please [let us know](https://github.com/AOSC-Dev/aosc-os-abbs/issues/new/choose).
+
 ----
 
 — Mingcong Bai
