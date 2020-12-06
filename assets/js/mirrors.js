@@ -78,7 +78,7 @@ function genList() {
     for (var i = 0; i < final_result.length; i++) {
         var prefix = (i ? '# ' : '');
         output += `# ${final_result[i].name}\n${prefix}deb ${final_result[i].url}`;
-        output += ' main\n#\n';
+        output += ' stable main\n#\n';
     }
     download('sources.list', output);
 }
