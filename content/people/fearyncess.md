@@ -32,7 +32,7 @@ Contact
 
 Main Works
 ------------
-- IoT systems development
+- IoT systems engineering
 - AOSC OS's maintainance
 
 <!--
