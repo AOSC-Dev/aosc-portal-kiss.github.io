@@ -35,9 +35,21 @@ Main Works
 - IoT systems development
 - AOSC OS's maintainance
 
+<!--
+Dev Stacks
+------------
+- C
+- Rust
+- NodeJS
+- Web Design (HTML5/CSS)
+- Python
+- Scheme
+- C#
+-->
+
 Hobbies 
 ---------
-- [Ar Tonelico](https://en.wikipedia.org/wiki/Ar_tonelico)`(jp:アルトネリコ zh:魔塔大陆)` Backgrounds
+- [Ar Tonelico](https://en.wikipedia.org/wiki/Ar_tonelico)`(jp:アルトネリコ zh:魔塔大陆)` Backgrounds Research
 - Social Research
 - Play [Overwatch (守望先锋/凉凉游戏)](https://playoverwatch.com)
 
