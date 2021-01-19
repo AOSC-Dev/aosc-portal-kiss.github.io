@@ -10,7 +10,7 @@ Who am I?
 -----------
 - L. "Fearyncess" Yang 
 ```
-       "Fearyncess" == "Fearless" (also me-liked a Overwatch pro-player who is in Dallas Fuel, named Lee Eui-soek) 
+       "Fearyncess" == "Fearless" (also a Overwatch pro-player named Lee Eui-soek) 
                      + "Princess"
 ```
 - A polytechic college student (Since 2018)
