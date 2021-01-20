@@ -10,7 +10,7 @@ Who am I?
 -----------
 - L. "Fearyncess" Yang 
 ```
-       "Fearyncess" == "Fearless" (also a Overwatch pro-player named Lee Eui-seok) 
+       "Fearyncess" == "Fearless"
                      + "Princess"
 ```
 - A polytechic college student (Since 2018)
