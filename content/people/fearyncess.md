@@ -29,8 +29,9 @@ Contact
 
 Main Works
 ------------
-- IoT systems engineering
-- AOSC OS's maintainance
+- IoT Systems Engineering
+- System Admin
+- Network Operator
 
 <!--
 Dev Stacks
@@ -44,8 +45,9 @@ Dev Stacks
 - C#
 -->
 
-Hobbies 
----------
+Off-time Works 
+----------------
+- AOSC OS's Maintainance
 - [Ar Tonelico](https://en.wikipedia.org/wiki/Ar_tonelico)`(jp:アルトネリコ zh:魔塔大陆)` Backgrounds Research
 - Social Research
 - Play [Overwatch (守望先锋/凉凉游戏)](https://playoverwatch.com)
