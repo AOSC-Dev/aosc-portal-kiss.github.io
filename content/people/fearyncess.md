@@ -8,11 +8,7 @@ WANT TO BE A GIRL
 
 Who am I?
 -----------
-- L. "Fearyncess" Yang 
-```
-       "Fearyncess" == "Fearless"
-                     + "Princess"
-```
+- Lain "Fearyncess" Yang 
 - A polytechic college student (Since 2018)
 - Shemale (may or MtF?)
 - Lesbian :))))
@@ -23,8 +19,9 @@ Who am I?
 
 Contact
 ---------
+- Blog: https://b.lain.vg
 - E-Mail: ｆｓｆ＠ｌｉｖｅ．ｃｏｍ (for anti-spam, used full-width chars)
-- Discord: Fearyncess#7918 (add friend forbidden)
+- Discord: Fearyncess＃7918 (add friend forbidden)
 - WeChat: Hidden Temporary (熟了自然会给)
 - Telegram: Hidden (熟了自然会给)
 - Mobile Phone: Hidden (熟了自然会给)
