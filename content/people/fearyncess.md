@@ -1,7 +1,6 @@
 ---
 layout: people
 url: /people/~fearyncess/
-title: Lain "Fearyncess" Yang
 ---
 
 WANT TO BE A GIRL
@@ -9,20 +8,21 @@ WANT TO BE A GIRL
 
 Who am I?
 -----------
-- Lain "Fearyncess" Yang 
+- Lain Yang
+- Fearyncess -> Homonym of "Fearless" and "Princess"
 - A polytechic college student (Since 2018)
 - Shemale (may or MtF?)
 - Lesbian :))))
 - Overwatch Player `(SR ~2600 both in CN/KR)`
-- [TEIWAZ](https://artonelico.fandom.com/wiki/Mir)
+- [TEIWAZ](https://artonelico.fandom.com/wiki/Mir) [Reyvateil](https://artonelico.fandom.com/wiki/Reyvateil)
 - Pseudo-Arkaya
-- Empolyee of "Lucheng Interstellar" (Pseudo)
+- Empolyee of "[Lucheng Interstellar](https://overwatch.gamepedia.com/Lucheng_Interstellar)" (Pseudo)
 
 Contact
 ---------
 - Blog: https://b.lain.vg
 - E-Mail: ｆｓｆ＠ｌｉｖｅ．ｃｏｍ (for anti-spam, used full-width chars)
-- Discord: Fearyncess＃7918 (add friend forbidden)
+- Discord: Ｆｅａｒｙｎｃｅｓｓ＃７９１８ (adding friend forbidden)
 - WeChat: Hidden Temporary (熟了自然会给)
 - Telegram: Hidden (熟了自然会给)
 - Mobile Phone: Hidden (熟了自然会给)
