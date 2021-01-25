@@ -1,6 +1,7 @@
 ---
 layout: people
 url: /people/~fearyncess/
+title: Lain "Fearyncess" Yang
 ---
 
 WANT TO BE A GIRL
@@ -47,17 +48,20 @@ Dev Stacks
 
 Off-time Works 
 ----------------
-- AOSC OS's Maintainance
-- [Ar Tonelico](https://en.wikipedia.org/wiki/Ar_tonelico)`(jp:アルトネリコ zh:魔塔大陆)` Backgrounds Research
-- Social Research
-- Play [Overwatch (守望先锋/凉凉游戏)](https://playoverwatch.com)
+- AOSC OS Maintainer
+- [Ar Tonelico](https://en.wikipedia.org/wiki/Ar_tonelico)`(jp:アルトネリコ zh:魔塔大陆)` Backgrounds Researcher
+- Social Researcher
+- Telecom Industry Observer
+- [Overwatch (守望先锋/凉凉游戏)](https://playoverwatch.com) Player
 
 Devices
 ---------
-- [Lenovo ThinkPad E485 (R7 variant)](https://www.thinkwiki.org/wiki/Category:E485)  <--- Mainly Use
+- [Lenovo ThinkPad E485 (R7 variant)](https://www.thinkwiki.org/wiki/Category:E485)  <--- Mainly Use (AMD64)
+- [Phytium (Feiteng)](https://phytium.com.cn/) [FT-1500A/4](https://en.wikichip.org/wiki/phytium/feiteng/ft-1500a-4) Evaluation Board <--- Mainly Use (ARM64)
 - [Lenovo ThinkPad X200 (P8600 variant)](https://www.thinkwiki.org/wiki/Category:X200)
 - [Orange Pi One](https://linux-sunxi.org/Xunlong_Orange_Pi_One)
 - [Orange Pi Zero (512MiB RAM variant)](https://linux-sunxi.org/Xunlong_Orange_Pi_Zero)
 - [Xiaomi Mi 8 SE](https://www.gsmarena.com/xiaomi_mi_8_se-9219.php)
+
 - ???
 
