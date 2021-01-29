@@ -3,15 +3,15 @@ layout: people
 url: /people/~fearyncess/
 ---
 
-WANT TO BE A GIRL
-===================
+WANT TO BE A GIRL REALLY
+==========================
 
 Who am I?
 -----------
 - Lain Yang
 - Fearyncess -> Homonym of "Fearless" and "Princess"
 - A polytechic college student (Since 2018)
-- Shemale (may or MtF?)
+- MtF/Shemale, She/Her
 - Lesbian :))))
 - Overwatch Player `(SR ~2600 both in CN/KR)`
 - [TEIWAZ](https://artonelico.fandom.com/wiki/Mir) [Reyvateil](https://artonelico.fandom.com/wiki/Reyvateil)
@@ -62,6 +62,3 @@ Devices
 - [Orange Pi One](https://linux-sunxi.org/Xunlong_Orange_Pi_One)
 - [Orange Pi Zero (512MiB RAM variant)](https://linux-sunxi.org/Xunlong_Orange_Pi_Zero)
 - [Xiaomi Mi 8 SE](https://www.gsmarena.com/xiaomi_mi_8_se-9219.php)
-
-- ???
-
