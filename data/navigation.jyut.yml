@@ -1,22 +1,22 @@
-- title: 資訊
+- title: 新聞
   url: /zh-tw/news
 
-- title: 貢獻者
+- title: 行義者
   url: /zh-tw/people
 
-- title: 套件
+- title: 套件查詢
   url: https://packages.aosc.io
 
 - title: 文檔
   url: https://wiki.aosc.io
 
-- title: 關於
+- title: 我哋
   url: /zh-tw/about
 
-- title: 下載
+- title: 宕落
   url: /zh-tw/downloads
 
-- title: 套件庫
+- title: 套件喺何處
   url: /zh-tw/repo
 
 - title: Git
