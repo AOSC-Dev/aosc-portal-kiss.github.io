@@ -1,8 +1,8 @@
 - title: 新聞
-  url: /zh-tw/news
+  url: /jyut/news
 
 - title: 義士
-  url: /zh-tw/people
+  url: /jyut/people
 
 - title: 套件查詢
   url: https://packages.aosc.io
@@ -11,19 +11,19 @@
   url: https://wiki.aosc.io
 
 - title: 我哋
-  url: /zh-tw/about
+  url: /jyut/about
 
 - title: 宕落
-  url: /zh-tw/downloads
+  url: /jyut/downloads
 
 - title: 套件喺何處
-  url: /zh-tw/repo
+  url: /jyut/repo
 
 - title: Git
   url: https://github.com/AOSC-Dev/
 
 - title: 電子郵件
-  url: /zh-tw/mail
+  url: /jyut/mail
 
 - title: 共用剪貼簿
   url: https://paste.aosc.io/
