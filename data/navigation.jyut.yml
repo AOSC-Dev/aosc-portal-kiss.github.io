@@ -1,0 +1,29 @@
+- title: 新聞
+  url: /jyut/news
+
+- title: 義士
+  url: /jyut/people
+
+- title: 套件查詢
+  url: https://packages.aosc.io
+
+- title: 文檔
+  url: https://wiki.aosc.io
+
+- title: 我哋
+  url: /jyut/about
+
+- title: 宕落
+  url: /jyut/downloads
+
+- title: 套件喺何處
+  url: /jyut/repo
+
+- title: Git
+  url: https://github.com/AOSC-Dev/
+
+- title: 電子郵件
+  url: /jyut/mail
+
+- title: 共用剪貼簿
+  url: https://paste.aosc.io/
