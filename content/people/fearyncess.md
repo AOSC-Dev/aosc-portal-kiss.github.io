@@ -11,28 +11,24 @@ Who am I?
 - Lain Yang
 - Fearyncess -> Homonym of "Fearless" and "Princess"
 - A polytechic college student (Since 2018)
-- MtF/Shemale, She/Her
-- Lesbian :))))
+- Pro-Establishment
+- MtF, TransLes, She/Her
 - Overwatch Player `(SR ~2600 both in CN/KR)`
 - [TEIWAZ](https://artonelico.fandom.com/wiki/Mir) [Reyvateil](https://artonelico.fandom.com/wiki/Reyvateil)
 - Pseudo-Arkaya
-- Empolyee of "[Lucheng Interstellar](https://overwatch.gamepedia.com/Lucheng_Interstellar)" (Pseudo)
 
 Contact
 ---------
 - Blog: https://b.lain.vg
-- E-Mail: ｆｓｆ＠ｌｉｖｅ．ｃｏｍ (for anti-spam, used full-width chars)
-- Discord: Ｆｅａｒｙｎｃｅｓｓ＃７９１８ (adding friend forbidden)
+- E-Mail: ｆｓｆ＠ｌｉｖｅ．ｃｏｍ 
+- Discord: Ｆｅａｒｙｎｃｅｓｓ＃７９１８
 - WeChat: Hidden Temporary (熟了自然会给)
-- Telegram: Hidden (熟了自然会给)
 - Mobile Phone: Hidden (熟了自然会给)
-- Matrix: fearyncess@converser.eu (rarely used)
 
 Main Works
 ------------
 - IoT Systems Engineering
 - System Admin
-- Network Operator
 
 <!--
 Dev Stacks
@@ -49,9 +45,8 @@ Dev Stacks
 Off-time Works 
 ----------------
 - AOSC OS Maintainer
-- [Ar Tonelico](https://en.wikipedia.org/wiki/Ar_tonelico)`(jp:アルトネリコ zh:魔塔大陆)` Backgrounds Researcher
 - Social Researcher
-- Telecom Industry Observer
+- Telecom Industry Researcher
 - [Overwatch (守望先锋/凉凉游戏)](https://playoverwatch.com) Player
 
 Devices
@@ -61,4 +56,3 @@ Devices
 - [Lenovo ThinkPad X200 (P8600 variant)](https://www.thinkwiki.org/wiki/Category:X200)
 - [Orange Pi One](https://linux-sunxi.org/Xunlong_Orange_Pi_One)
 - [Orange Pi Zero (512MiB RAM variant)](https://linux-sunxi.org/Xunlong_Orange_Pi_Zero)
-- [Xiaomi Mi 8 SE](https://www.gsmarena.com/xiaomi_mi_8_se-9219.php)
