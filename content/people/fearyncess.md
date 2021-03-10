@@ -3,50 +3,37 @@ layout: people
 url: /people/~fearyncess/
 ---
 
-WANT TO BE A GIRL REALLY
+少说多做。   Few Words and Many Deeds.
 ==========================
 
 Who am I?
 -----------
-- Lain Yang
-- Fearyncess -> Homonym of "Fearless" and "Princess"
-- A polytechic college student (Since 2018)
-- Pro-Establishment
+- Lain Yang (Realname)
+- Fearyncess -> Homonym of "Fearless"
+- Alt, "Lily"
 - MtF, TransLes, She/Her
 - Overwatch Player `(SR ~2600 both in CN/KR)`
 - [TEIWAZ](https://artonelico.fandom.com/wiki/Mir) [Reyvateil](https://artonelico.fandom.com/wiki/Reyvateil)
-- Pseudo-Arkaya
 
 Contact
 ---------
-- Blog: https://b.lain.vg
-- E-Mail: ｆｓｆ＠ｌｉｖｅ．ｃｏｍ 
-- Discord: Ｆｅａｒｙｎｃｅｓｓ＃７９１８
-- WeChat: Hidden Temporary (熟了自然会给)
-- Mobile Phone: Hidden (熟了自然会给)
+- Blog:     https://b.lain.vg
+- E-Mail:   ｆｓｆ＠ｌｉｖｅ．ｃｏｍ 
+- Discord:  Ｆｅａｒｙｎｃｅｓｓ＃７９１８
+- WeChat:   Acquaintances Only
+- MP:       Acquaintances Only
+- and more.. (acq.)
 
 Main Works
 ------------
 - IoT Systems Engineering
 - System Admin
 
-<!--
-Dev Stacks
-------------
-- C
-- Rust
-- NodeJS
-- Web Design (HTML5/CSS)
-- Python
-- Scheme
-- C#
--->
-
-Off-time Works 
+Off-time Interests 
 ----------------
-- AOSC OS Maintainer
-- Social Researcher
-- Telecom Industry Researcher
+- AOSC OS Contributor
+- Social Researcher (nooooob)
+- Industry Researcher (nooooob)
 - [Overwatch (守望先锋/凉凉游戏)](https://playoverwatch.com) Player
 
 Devices
