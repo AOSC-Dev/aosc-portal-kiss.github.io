@@ -3,6 +3,11 @@ title: '社群門戶'
 ---
 
 <div class="blog">
+    {% card(type="warning") %}
+        <ul>
+            {{< news-listing category="warning" short="true" >}}
+        </ul>
+    {% end %}
     <h1 id="welcome">歡迎來訪 AOSC</h1>
     <p>歡迎來到安同開放原始碼社群 —— AOSC OS 之家！</p>
     <p>
@@ -35,10 +40,6 @@ title: '社群門戶'
     <p>
         <a href="https://wiki.aosc.io/zh/community/guidelines/">AOSC 人際關係準則</a>
     </p>
-    <h1 id="warnings">AOSC OS 踩坑預警</h1>
-    <ul>
-        {{< news-listing category="warning" short="true" >}}
-    </ul>
     <div id="quote-zh">
         <em>
             信任 systemd 的人，<br>
