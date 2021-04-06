@@ -2,7 +2,7 @@
   <div class="content">
     {{ .Inner }}
     {{- range .Site.Taxonomies -}}
-      {{ $pages := (index . "news")}}
+      {{ $pages := (index . "warning")}}
       {{- range first 3 $pages.Pages.ByDate.Reverse -}}
         <div class="item">
           <span>{{ .Date.Format "2006-01-02" }}</span>
