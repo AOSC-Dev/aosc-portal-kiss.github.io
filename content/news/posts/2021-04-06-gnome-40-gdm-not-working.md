@@ -2,7 +2,7 @@
 categories:
   - warning
 title: "GDM Not Working on GNOME 40"
-date: 2021-04-06T19:33:54+08:00
+date: 2021-04-06T18:34:00+08:00
 important: false
 ---
 

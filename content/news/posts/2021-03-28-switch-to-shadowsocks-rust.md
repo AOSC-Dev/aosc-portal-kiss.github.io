@@ -2,7 +2,7 @@
 categories:
   - warning
 title: Switch to `shadowsocks-rust`
-date: 2021-04-06T13:19:07+08:00
+date: 2021-03-28T09:51:00+08:00
 important: false
 ---
 
