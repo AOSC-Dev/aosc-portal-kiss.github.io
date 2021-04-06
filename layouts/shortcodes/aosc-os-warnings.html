@@ -1,10 +1,9 @@
 <div class="card warning">
   <div class="content">
     {{ .Inner }}
-    {{ $category := slice "warning"}}
     {{ $posts := .Site.RegularPages }}
     {{ $merged_posts := lang.Merge .Site.AllPages $posts }}
-    {{ $posts := where (where $merged_posts ".Section" "news") ".Params.categories" "intersect" $category }}
+    {{ $posts := where (where $merged_posts ".Section" "news") ".Params.categories" "intersect" (slice "warning") }}
     {{ $posts := first 3 $posts }}
     {{- range $post := $posts -}}
       <div class="item">
