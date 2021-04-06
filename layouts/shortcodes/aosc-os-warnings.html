@@ -1,16 +1,16 @@
 <div class="card warning">
   <div class="content">
     {{ .Inner }}
-    {{- range .Site.Taxonomies -}}
-      {{ $pages := (index . "warning")}}
-      {{- range first 3 $pages.Pages.ByDate.Reverse -}}
-        <div class="item">
-          <span>{{ .Date.Format "2006-01-02" }}</span>
-          <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </div>
-      {{- end -}}
+    {{ $category := slice "warning"}}
+    {{ $posts := .Site.RegularPages }}
+    {{ $merged_posts := lang.Merge .Site.AllPages $posts }}
+    {{ $posts := where (where $merged_posts ".Section" "news") ".Params.categories" "intersect" $category }}
+    {{ $posts := first 3 $posts }}
+    {{- range $post := $posts -}}
+      <div class="item">
+        <span>{{ $post.Date.Format "2006-01-02" }}</span>
+        <a href="{{ $post.Permalink }}">{{ $post.Title }}</a>
+      </div>
     {{- end -}}
-
-    <a href="#">See Older...</a>
   </div>
 </div>
