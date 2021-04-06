@@ -3,11 +3,6 @@ title: 'Portal'
 ---
 
 <div class="blog">
-    {% card(type="warning") %}
-        <ul>
-            {{< news-listing category="warning" short="true" >}}
-        </ul>
-    {% end %}
     <h1 id="welcome">Welcome to AOSC</h1>
     <p>Welcome to Anthon Open Source Community - the home of AOSC OS!</p>
     <p>
@@ -40,17 +35,18 @@ title: 'Portal'
     </p>
     <h1 id="our-values">Our Values</h1>
     <p>
-        At AOSC, we consider<div id="index-warning">
-            <h1 id="warnings">AOSC OS Warnings</h1>
-            <ul>
-                {{< news-listing category="warning" short="true">}}
-            </ul>
-        </div>n the AOSC OS project, with various other
+        At AOSC, we consider our common interest as the discovery of fun
+        in computing. Over the years, AOSC has focused most of its
+        development effort on the AOSC OS project, with various other
         projects spun out from community interests.
     </p>
     <p>
         <a href="https://wiki.aosc.io/community/guidelines/">The AOSC Inter-Personal Guidelines</a>
     </p>
+    <h1 id="warnings">AOSC OS Warnings</h1>
+    <ul>
+        {{< news-listing category="warning" short="true" >}}
+    </ul>
     <div id="quote">
         <em>
             Those who trust systemd...<br>
