@@ -1,7 +1,7 @@
 ---
 categories:
   - warning
-title: "[SOLVED] GDM Not Working on GNOME 40 test test test test test"
+title: "[SOLVED] GDM Not Working on GNOME 40"
 date: 2021-04-06T18:34:00+08:00
 important: false
 ---
