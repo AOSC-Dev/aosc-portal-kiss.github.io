@@ -1,7 +1,7 @@
 ---
 categories:
   - warning
-title: "GDM Not Working on GNOME 40"
+title: "[SOLVED] GDM Not Working on GNOME 40"
 date: 2021-04-06T18:34:00+08:00
 important: false
 ---
@@ -11,6 +11,14 @@ However, GDM cannot start due to incorrect configuration of authentication, you 
 to start your GNOME / GNOME on Xorg session.
 
 We will release a fix for GDM after this problem is solved.
+
+2021-04-07 Update:
+
+    gnome-40-main amd64
+    ^ [gdm](https://packages.aosc.io/packages/gdm) 40~rc ⇒ 40.0
+    ^ [gdm-dbg](https://packages.aosc.io/packages/gdm-dbg) 40~rc ⇒ 40.0
+
+The update above has solved the issue.
 
 ----
 
