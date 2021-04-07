@@ -6,11 +6,15 @@
     {{ $posts := where (where $merged_posts ".Section" "news") ".Params.categories" "intersect" (slice "warning") }}
     {{ $posts := first 3 $posts }}
     {{- range $post := $posts -}}
-      <div class="item">
-        <span>{{ $post.Date.Format "2006-01-02" }}</span>
-        <a href="{{ $post.Permalink }}">{{ $post.Title }}</a>
-      </div>
+    <div class="item">
+      <table class="list">
+        <tr>
+          <td class="date"><span>{{ $post.Date.Format "2006-01-02" }}</span></td>
+          <td class="link"><a href="{{ $post.Permalink }}">{{ $post.Title }}</a></td>
+        </tr>
+      </table>
+    </div>
     {{- end -}}
-    <a href="{{ .Get "more-link" }}">{{ .Get "more-msg" }}</a>
+    <a href="{{ .Get " more-link" }}">{{ .Get "more-msg" }}</a>
   </div>
 </div>
