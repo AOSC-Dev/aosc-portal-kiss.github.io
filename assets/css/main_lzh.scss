@@ -171,4 +171,24 @@ ul {
 
 .downloads-description {
 	padding: 0;
-  }
+}
+
+.card {
+	padding: unset;
+	margin: unset;
+	margin: 0 1em;
+	padding-top: 1em;
+	border-left: unset;
+	border-top: 2px solid;
+	.item {
+		.date {
+			padding: unset;
+			span {
+				margin: unset;
+			}
+		}
+		td {
+			padding: .5em 0;
+		}
+	}
+}
