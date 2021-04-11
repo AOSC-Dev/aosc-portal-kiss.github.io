@@ -1,7 +1,7 @@
 ---
 categories:
   - warning
-title: "Dracut Trigger Cycle Error"
+title: "Dracut Trigger Fails with Error while Updating System"
 date: 2021-04-10T17:03:31+08:00
 important: false
 ---

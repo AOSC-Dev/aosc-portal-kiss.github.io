@@ -1,7 +1,7 @@
 ---
 categories:
   - warning
-title: Switch to `shadowsocks-rust`
+title: Upstream Advises Migration to `shadowsocks-rust`
 date: 2021-03-28T09:51:00+08:00
 important: false
 ---
