@@ -38,4 +38,4 @@ The following updates are now available to address the issue above:
 
 ----
 
-— Jack Wu (Original Author: Mag Mell, Translate: Mingcong Bai)
+— Jack Wu (Original Author: Mag Mell, Translation: Mingcong Bai)
