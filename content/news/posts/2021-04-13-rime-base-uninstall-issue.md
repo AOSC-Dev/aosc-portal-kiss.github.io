@@ -24,18 +24,12 @@ The following updates are now available to address the issue above:
     + rime-schema-manager (https://packages.aosc.io/packages/rime-schema-manager) 1:0.2.1
     + rime-schema-manager-dbg (https://packages.aosc.io/packages/rime-schema-manager-dbg) 1:0.2.1
 
-    rime-schema-manager-0.2.1-main loongson3
-    + rime-schema-manager (https://packages.aosc.io/packages/rime-schema-manager) 1:0.2.1
-
     stable-main arm64
     + rime-schema-manager-dbg (https://packages.aosc.io/packages/rime-schema-manager-dbg) 1:0.2.1
     + rime-schema-manager (https://packages.aosc.io/packages/rime-schema-manager) 1:0.2.1
 
     stable-main loongson3
     + rime-schema-manager (https://packages.aosc.io/packages/rime-schema-manager) 1:0.2.1
-
-    rime-schema-manager-0.2.1-main all
-    * rime-prelude (https://packages.aosc.io/packages/rime-prelude) 20210208-1
 
     stable-main ppc64el
     + rime-schema-manager-dbg (https://packages.aosc.io/packages/rime-schema-manager-dbg) 1:0.2.1
