@@ -182,13 +182,13 @@ ul {
 	border-top: 2px solid;
 	.item {
 		.date {
-			padding: unset;
-			span {
-				margin: unset;
-			}
+			display: none;
 		}
 		td {
 			padding: .5em 0;
+		}
+		.link {
+			padding-top: unset;
 		}
 	}
 }
