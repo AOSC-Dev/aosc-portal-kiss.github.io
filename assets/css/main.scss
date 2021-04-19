@@ -20,6 +20,19 @@
 	}
 }
 
+@media screen and (max-width: 767px) {
+	.card {
+		.item {
+			.date {
+				display: none;
+			}
+			.link {
+				padding-left: unset;
+			}
+		}
+	}
+}
+
 .page-title {
 	cursor: pointer;
 }
