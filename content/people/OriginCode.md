@@ -11,8 +11,8 @@ url: /people/~OriginCode/
 - AOSC OS Player since 2020
 
 ## Websites
-- ![OriginCode Base](https://originco.de/)
-- ![OriginCode Remote Service](https://origincode.me/)
+- [OriginCode Base](https://originco.de/)
+- [OriginCode Remote Service](https://origincode.me/)
 
 ## Devices
 - Lenovo Legion R7000P (CN) => Current
