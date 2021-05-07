@@ -9,11 +9,8 @@ url: /people/~fearyncess/
 Who am I?
 -----------
 - Lain Yang (Realname)
-- Fearyncess -> Homonym of "Fearless"
+- Nick, Fearyncess
 - Alt, "Lily"
-- MtF, TransLes, She/Her
-- Overwatch Player `(SR ~2600 both in CN/KR)`
-- [TEIWAZ](https://artonelico.fandom.com/wiki/Mir) [Reyvateil](https://artonelico.fandom.com/wiki/Reyvateil)
 
 Contact
 ---------
@@ -26,15 +23,14 @@ Contact
 
 Main Works
 ------------
-- IoT Systems Engineering
 - System Admin
+- Front-End Engineer
 
 Off-time Interests 
-----------------
+--------------------
 - AOSC OS Contributor
 - Social Researcher (nooooob)
 - Industry Researcher (nooooob)
-- [Overwatch (守望先锋/凉凉游戏)](https://playoverwatch.com) Player
 
 Devices
 ---------
