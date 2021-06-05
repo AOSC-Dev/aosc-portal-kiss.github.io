@@ -27,9 +27,9 @@ general:
         - name: AArch64 (Rockchip)
           url: https://releases.aosc.io/os-arm64/rockchip64/kde/
         - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/
+          url: https://releases.aosc.io/os-loongson3/kde/
         - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/
+          url: https://releases.aosc.io/os-ppc64el/kde/
     - name: GNOME
       description: |
         GNOME is a desktop environment with a strong emphasis on human
@@ -56,9 +56,9 @@ general:
         - name: AArch64 (Rockchip)
           url: https://releases.aosc.io/os-arm64/rockchip64/gnome/
         - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/
+          url: https://releases.aosc.io/os-loongson3/gnome/
         - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/
+          url: https://releases.aosc.io/os-ppc64el/gnome/
     - name: XFCE
       description: |
         XFCE, like its logo, is a quick and smart little rat on your desktop.
@@ -85,9 +85,9 @@ general:
         - name: AArch64 (Rockchip)
           url: https://releases.aosc.io/os-arm64/rockchip64/xfce/
         - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/
+          url: https://releases.aosc.io/os-loongson3/xfce/
         - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/
+          url: https://releases.aosc.io/os-ppc64el/xfce/
     - name: MATE
       description: |
         MATE is a desktop environment that sticks to the traditions - in which
@@ -114,9 +114,9 @@ general:
         - name: AArch64 (Rockchip)
           url: https://releases.aosc.io/os-arm64/rockchip64/mate/
         - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/
+          url: https://releases.aosc.io/os-loongson3/mate/
         - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/
+          url: https://releases.aosc.io/os-ppc64el/mate/
     - name: Cinnamon
       description: |
         Cinnamon was initially a fork of GNOME Shell in an effor to provide a
@@ -140,9 +140,9 @@ general:
         - name: AArch64 (Rockchip)
           url: https://releases.aosc.io/os-arm64/rockchip64/cinnamon/
         - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/
+          url: https://releases.aosc.io/os-loongson3/cinnamon/
         - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/
+          url: https://releases.aosc.io/os-ppc64el/cinnamon/
     - name: LXDE
       description: |
         LXDE, or Lightweight X11 Desktop Environment in full is a lightweight
@@ -170,9 +170,9 @@ general:
         - name: AArch64 (Rockchip)
           url: https://releases.aosc.io/os-arm64/rockchip64/lxde/
         - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/
+          url: https://releases.aosc.io/os-loongson3/lxde/
         - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/
+          url: https://releases.aosc.io/os-ppc64el/lxde/
     - name: Base
       description: |
         While AOSC OS focuses itself in providing complete and refined desktop
@@ -192,13 +192,13 @@ general:
         - name: AArch64 (EFI/SBSA/SystemReady ES)
           url: https://releases.aosc.io/os-arm64/base/
         - name: AArch64 (Sunxi)
-          url: https://releases.aosc.io/os-arm64/sunxi64/lxde/
+          url: https://releases.aosc.io/os-arm64/sunxi64/base/
         - name: AArch64 (Rockchip)
-          url: https://releases.aosc.io/os-arm64/rockchip64/lxde/
+          url: https://releases.aosc.io/os-arm64/rockchip64/base/
         - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/
+          url: https://releases.aosc.io/os-loongson3/base/
         - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/
+          url: https://releases.aosc.io/os-ppc64el/base/
     - name: Server
       description: |
         Server releases are base system releases with additional tools
@@ -213,13 +213,13 @@ general:
         - name: AArch64 (EFI/SBSA/SystemReady ES)
           url: https://releases.aosc.io/os-arm64/base/
         - name: AArch64 (Sunxi)
-          url: https://releases.aosc.io/os-arm64/sunxi64/lxde/
+          url: https://releases.aosc.io/os-arm64/sunxi64/server/
         - name: AArch64 (Rockchip)
-          url: https://releases.aosc.io/os-arm64/rockchip64/lxde/
+          url: https://releases.aosc.io/os-arm64/rockchip64/server/
         - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/
+          url: https://releases.aosc.io/os-loongson3/server/
         - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/
+          url: https://releases.aosc.io/os-ppc64el/server/
     - name: BuildKit
       description: |
         BuildKit is essentially a non-bootable AOSC OS Base with full
@@ -237,9 +237,9 @@ general:
         - name: AArch64
           url: https://releases.aosc.io/os-arm64/buildkit/
         - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/
+          url: https://releases.aosc.io/os-loongson3/buildkit/
         - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/
+          url: https://releases.aosc.io/os-ppc64el/buildkit/
 
 retro:
   list:
