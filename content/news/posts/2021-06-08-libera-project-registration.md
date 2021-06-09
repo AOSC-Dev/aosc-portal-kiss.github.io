@@ -1,7 +1,7 @@
 ---
 categories:
   - news
-title: Migrating #aosc to Libera Chat, and IRC Cloaks
+title: 'Migrating #aosc to Libera Chat, and IRC Cloaks'
 date: '2021-06-08'
 important: false
 ---
