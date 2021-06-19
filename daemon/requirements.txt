@@ -3,6 +3,6 @@ chardet==3.0.4
 falcon==2.0.0
 idna==2.8
 requests==2.22.0
-urllib3==1.25.6
+urllib3==1.26.5
 PyYAML==5.4
 uwsgi
