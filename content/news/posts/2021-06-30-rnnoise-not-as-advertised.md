@@ -1,7 +1,7 @@
 ---
 categories:
   - warning
-title: "[SOLVED] Incorrect Software Packaged in `rnnoise`"
+title: "[SOLVED] Incorrect Software Packaged in rnnoise"
 date: 2021-06-30T08:28:30+08:00
 important: false
 ---

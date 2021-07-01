@@ -1,7 +1,7 @@
 ---
 categories:
   - warning
-title: "[已解决] `rnnoise` 包含的软件不正确"
+title: "[已解决] rnnoise 包含的软件不正确"
 date: 2021-06-30T08:28:30+08:00
 important: false
 ---
