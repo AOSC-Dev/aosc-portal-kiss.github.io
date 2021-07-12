@@ -7,7 +7,7 @@ general:
         with an elegant interface. With a strong set of utilities, games,
         and tools, KDE is quite suitable for day-to-day desktop computing
         with a refreshing sense of aesthetic.
-      # assets/i/de-preview/$DE_NAME_SLUG/$SCREENSHOT_FILE
+      # /static/img/de-preview/$DE_NAME_SLUG/$SCREENSHOT_FILE
       screenshots:
         - 1.png
         - 2.png
@@ -181,7 +181,8 @@ general:
         variant provides a minimal set of features, just enough for you to get
         started. Base is still a pre-configured variant like other AOSC OS variants.
         Therefore, Base is suitable for performance constrained devices and servers.
-        Base is also available as a Docker image.
+        Base is also available as a Docker image and Windows Subsystem for Linux
+        distribution.
       screenshots:
         - 1.png
       downloads:
@@ -199,6 +200,10 @@ general:
           url: https://releases.aosc.io/os-loongson3/base/
         - name: POWER (8+)
           url: https://releases.aosc.io/os-ppc64el/base/
+        - name: Windows Subsystem for Linux (Microsoft Store)
+          url: https://www.microsoft.com/store/apps/9NMDF21NV65Z
+        - name: Windows Subsystem for Linux (GitHub Releases)
+          url: https://github.com/AOSC-Dev/AOSCOSLauncher/releases
     - name: Server
       description: |
         Server releases are base system releases with additional tools
