@@ -233,7 +233,8 @@ those who prefers all choices remained on their hands. The Base
 variant provides a minimal set of features, just enough for you to get
 started. Base is still a pre-configured variant like other AOSC OS variants.
 Therefore, Base is suitable for performance constrained devices and servers.
-Base is also available as a Docker image.
+Base is also available as a Docker image and a Windows Subsystem for Linux
+distribution.
 """
 
 [buildkit-desc]
