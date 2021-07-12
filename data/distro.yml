@@ -200,9 +200,9 @@ general:
           url: https://releases.aosc.io/os-loongson3/base/
         - name: POWER (8+)
           url: https://releases.aosc.io/os-ppc64el/base/
-        - name: Windows Subsystem for Linux (Microsoft Store)
+        - name: WSL (Microsoft Store)
           url: https://www.microsoft.com/store/apps/9NMDF21NV65Z
-        - name: Windows Subsystem for Linux (GitHub Releases)
+        - name: WSL (GitHub Releases)
           url: https://github.com/AOSC-Dev/AOSCOSLauncher/releases
     - name: Server
       description: |
