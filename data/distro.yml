@@ -294,4 +294,30 @@ retro:
 
 docker:
 
-deploykits:
+livekit:
+  list:
+    - arch: AArch64
+      url: https://releases.aosc.io/os-arm64/livekit/aosc-os_livekit_20210616_arm64.iso
+    - arch: AMD64
+      url: https://releases.aosc.io/os-amd64/livekit/aosc-os_livekit_20210614_amd64.iso
+    - arch: Loongson 3
+      url: https://releases.aosc.io/os-loongson3/livekit/aosc-os_livekit_20210614_loongson3.iso
+    - arch: POWER8+
+      url: https://releases.aosc.io/os-ppc64el/livekit/aosc-os_livekit_20210615_ppc64el.iso
+
+rlivekit:
+  list:
+    - arch: ARMv4
+      url: https://releases.aosc.io/os-amd64/livekit/aosc-os_livekit_20210614_amd64.iso
+    - arch: ARMv6HF
+      url: https://releases.aosc.io/os-arm64/livekit/aosc-os_livekit_20210616_arm64.iso
+    - arch: ARMv7HF
+      url: https://releases.aosc.io/os-loongson3/livekit/aosc-os_livekit_20210614_loongson3.iso
+    - arch: i486
+      url: https://releases.aosc.io/os-amd64/livekit/aosc-os_livekit_20210614_amd64.iso
+    - arch: Loongson 2F
+      url: https://releases.aosc.io/os-arm64/livekit/aosc-os_livekit_20210616_arm64.iso
+    - arch: PowerPC G3/G4
+      url: https://releases.aosc.io/os-loongson3/livekit/aosc-os_livekit_20210614_loongson3.iso
+    - arch: PowerPC G5
+      url: https://releases.aosc.io/os-ppc64el/livekit/aosc-os_livekit_20210615_ppc64el.iso

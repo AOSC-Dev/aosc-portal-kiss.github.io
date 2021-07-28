@@ -1,0 +1,15 @@
+<table class="livekit">
+     <tbody>
+        {{- range $livekit := .Site.Data.distro.livekit.list -}}
+        {{ $slug := $livekit.arch | anchorize }}
+        <tr>
+            <td>
+                <a href="{{ $livekit.url }}">{{ $livekit.arch }}</a>
+            </td>
+            <td>
+                <a href="{{ $livekit.url }}">SHA256</a>
+            </td>
+        </tr>
+        {{- end -}}
+    </tbody>
+</table>
