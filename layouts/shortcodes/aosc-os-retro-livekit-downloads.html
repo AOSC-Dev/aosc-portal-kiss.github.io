@@ -1,15 +1,9 @@
-<table class="livekit">
-     <tbody>
+<form>
+    <select id="distro-variant" name="distro-variant">
         {{- range $livekit := .Site.Data.distro.rlivekit.list -}}
         {{ $slug := $livekit.arch | anchorize }}
-        <tr>
-            <td>
-                <a href="{{ $livekit.url }}">{{ $livekit.arch }}</a>
-            </td>
-            <td>
-                <a href="{{ $livekit.url }}">SHA256</a>
-            </td>
-        </tr>
+        <option value="{{ $livekit.arch | anchorize }}">{{ $livekit.arch }}</option>
         {{- end -}}
-    </tbody>
-</table>
+    </select>
+    <input class="download-button" type="submit" value="Download">
+</form>
