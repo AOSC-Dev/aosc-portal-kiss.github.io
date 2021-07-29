@@ -1,0 +1,23 @@
+{{- range $release := .Site.Data.distro.general.list -}}
+{{ $slug := $release.name | anchorize }}
+<div id="{{ $slug }}" class="columns">
+    <div class="column downloads-title-column">
+        <h2>{{ $release.name }}</h2>
+        <a href="screenshots/#{{ $slug }}">{{ T "screenshots" }}</a>
+    </div>
+    <div class="column downloads-description is-three-quarters">
+        {{ $localeDescription := T (printf "%s-desc" $slug) }}
+        <p class="no-top-margin">{{ cond (eq $localeDescription "") $release.description $localeDescription }}</p>
+        <p>
+        <form method="post">
+            <select id="distro-variant" name="distro-variant">
+                {{- range $download := $release.downloads -}}
+                <option value="{{ $release.name | anchorize }}.{{ $download.archid }}">{{ $download.arch }}</option>
+                {{- end -}}
+            </select>
+            <input class="download-button" type="submit" value="Download">
+        </form>
+        </p>
+    </div>
+</div>
+{{- end -}}

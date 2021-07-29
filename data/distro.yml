@@ -18,18 +18,20 @@ general:
         - 7.png
         - 8.png
       downloads:
-        - name: AMD64
-          url: https://releases.aosc.io/os-amd64/kde/
-        - name: AArch64 (EFI/SBSA/SystemReady ES)
-          url: https://releases.aosc.io/os-arm64/kde/
-        - name: AArch64 (Sunxi)
-          url: https://releases.aosc.io/os-arm64/sunxi64/kde/
-        - name: AArch64 (Rockchip)
-          url: https://releases.aosc.io/os-arm64/rockchip64/kde/
-        - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/kde/
-        - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/kde/
+        - archid: amd64
+          arch: x86-64
+        - archid: aarch64
+          arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
+        - archid: aarch64-rpi
+          arch: 'AArch64 (Raspberry Pi)'
+        - archid: aarch64-rk
+          arch: 'AArch64 (Rockchip-based SoCs)'
+        - archid: aarch64-sunxi
+          arch: 'AArch64 (Allwinner-based SoCs)'
+        - archid: loongson3
+          arch: 'Loongson 3A/B (1000 - 4000)'
+        - archid: ppc64el
+          arch: IBM POWER (8+)
     - name: GNOME
       description: |
         GNOME is a desktop environment with a strong emphasis on human
@@ -47,18 +49,20 @@ general:
         - 7.png
         - 8.png
       downloads:
-        - name: AMD64
-          url: https://releases.aosc.io/os-amd64/gnome/
-        - name: AArch64 (EFI/SBSA/SystemReady ES)
-          url: https://releases.aosc.io/os-arm64/gnome/
-        - name: AArch64 (Sunxi)
-          url: https://releases.aosc.io/os-arm64/sunxi64/gnome/
-        - name: AArch64 (Rockchip)
-          url: https://releases.aosc.io/os-arm64/rockchip64/gnome/
-        - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/gnome/
-        - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/gnome/
+        - archid: amd64
+          arch: x86-64
+        - archid: aarch64
+          arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
+        - archid: aarch64-rpi
+          arch: 'AArch64 (Raspberry Pi)'
+        - archid: aarch64-rk
+          arch: 'AArch64 (Rockchip-based SoCs)'
+        - archid: aarch64-sunxi
+          arch: 'AArch64 (Allwinner-based SoCs)'
+        - archid: loongson3
+          arch: 'Loongson 3A/B (1000 - 4000)'
+        - archid: ppc64el
+          arch: IBM POWER (8+)
     - name: XFCE
       description: |
         XFCE, like its logo, is a quick and smart little rat on your desktop.
@@ -76,18 +80,20 @@ general:
         - 7.png
         - 8.png
       downloads:
-        - name: AMD64
-          url: https://releases.aosc.io/os-amd64/xfce/
-        - name: AArch64 (EFI/SBSA/SystemReady ES)
-          url: https://releases.aosc.io/os-arm64/xfce/
-        - name: AArch64 (Sunxi)
-          url: https://releases.aosc.io/os-arm64/sunxi64/xfce/
-        - name: AArch64 (Rockchip)
-          url: https://releases.aosc.io/os-arm64/rockchip64/xfce/
-        - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/xfce/
-        - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/xfce/
+        - archid: amd64
+          arch: x86-64
+        - archid: aarch64
+          arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
+        - archid: aarch64-rpi
+          arch: 'AArch64 (Raspberry Pi)'
+        - archid: aarch64-rk
+          arch: 'AArch64 (Rockchip-based SoCs)'
+        - archid: aarch64-sunxi
+          arch: 'AArch64 (Allwinner-based SoCs)'
+        - archid: loongson3
+          arch: 'Loongson 3A/B (1000 - 4000)'
+        - archid: ppc64el
+          arch: IBM POWER (8+)
     - name: MATE
       description: |
         MATE is a desktop environment that sticks to the traditions - in which
@@ -105,18 +111,20 @@ general:
         - 7.png
         - 8.png
       downloads:
-        - name: AMD64
-          url: https://releases.aosc.io/os-amd64/mate/
-        - name: AArch64 (EFI/SBSA/SystemReady ES)
-          url: https://releases.aosc.io/os-arm64/mate/
-        - name: AArch64 (Sunxi)
-          url: https://releases.aosc.io/os-arm64/sunxi64/mate/
-        - name: AArch64 (Rockchip)
-          url: https://releases.aosc.io/os-arm64/rockchip64/mate/
-        - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/mate/
-        - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/mate/
+        - archid: amd64
+          arch: x86-64
+        - archid: aarch64
+          arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
+        - archid: aarch64-rpi
+          arch: 'AArch64 (Raspberry Pi)'
+        - archid: aarch64-rk
+          arch: 'AArch64 (Rockchip-based SoCs)'
+        - archid: aarch64-sunxi
+          arch: 'AArch64 (Allwinner-based SoCs)'
+        - archid: loongson3
+          arch: 'Loongson 3A/B (1000 - 4000)'
+        - archid: ppc64el
+          arch: IBM POWER (8+)
     - name: Cinnamon
       description: |
         Cinnamon was initially a fork of GNOME Shell in an effor to provide a
@@ -133,46 +141,20 @@ general:
         - 7.png
         - 8.png
       downloads:
-        - name: AMD64
-          url: https://releases.aosc.io/os-amd64/cinnamon/
-        - name: AArch64 (EFI/SBSA/SystemReady ES)
-          url: https://releases.aosc.io/os-arm64/cinnamon/
-        - name: AArch64 (Rockchip)
-          url: https://releases.aosc.io/os-arm64/rockchip64/cinnamon/
-        - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/cinnamon/
-        - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/cinnamon/
-    - name: LXDE
-      description: |
-        LXDE, or Lightweight X11 Desktop Environment in full is a lightweight
-        desktop environment with a seemingly microscopic memory footprint. This
-        is one of the better choices to go for on a older PC or low performance
-        device. LXDE is extremely customizable, a perfect choice for those
-        looking for a full desktop environment while wanting to keep in control
-        of every aspect of their desktop.
-      screenshots:
-        - 1.png
-        - 2.png
-        - 3.png
-        - 4.png
-        - 5.png
-        - 6.png
-        - 7.png
-        - 8.png
-      downloads:
-        - name: AMD64
-          url: https://releases.aosc.io/os-amd64/lxde/
-        - name: AArch64 (EFI/SBSA/SystemReady ES)
-          url: https://releases.aosc.io/os-arm64/lxde/
-        - name: AArch64 (Sunxi)
-          url: https://releases.aosc.io/os-arm64/sunxi64/lxde/
-        - name: AArch64 (Rockchip)
-          url: https://releases.aosc.io/os-arm64/rockchip64/lxde/
-        - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/lxde/
-        - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/lxde/
+        - archid: amd64
+          arch: x86-64
+        - archid: aarch64
+          arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
+        - archid: aarch64-rpi
+          arch: 'AArch64 (Raspberry Pi)'
+        - archid: aarch64-rk
+          arch: 'AArch64 (Rockchip-based SoCs)'
+        - archid: aarch64-sunxi
+          arch: 'AArch64 (Allwinner-based SoCs)'
+        - archid: loongson3
+          arch: 'Loongson 3A/B (1000 - 4000)'
+        - archid: ppc64el
+          arch: IBM POWER (8+)
     - name: Base
       description: |
         While AOSC OS focuses itself in providing complete and refined desktop
@@ -185,20 +167,20 @@ general:
       screenshots:
         - 1.png
       downloads:
-        - name: AMD64
-          url: https://releases.aosc.io/os-amd64/base/
-        - name: AMD64 (Docker)
-          url: https://hub.docker.com/r/aosc/aosc-os/
-        - name: AArch64 (EFI/SBSA/SystemReady ES)
-          url: https://releases.aosc.io/os-arm64/base/
-        - name: AArch64 (Sunxi)
-          url: https://releases.aosc.io/os-arm64/sunxi64/base/
-        - name: AArch64 (Rockchip)
-          url: https://releases.aosc.io/os-arm64/rockchip64/base/
-        - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/base/
-        - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/base/
+        - archid: amd64
+          arch: x86-64
+        - archid: aarch64
+          arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
+        - archid: aarch64-rpi
+          arch: 'AArch64 (Raspberry Pi)'
+        - archid: aarch64-rk
+          arch: 'AArch64 (Rockchip-based SoCs)'
+        - archid: aarch64-sunxi
+          arch: 'AArch64 (Allwinner-based SoCs)'
+        - archid: loongson3
+          arch: 'Loongson 3A/B (1000 - 4000)'
+        - archid: ppc64el
+          arch: IBM POWER (8+)
     - name: Server
       description: |
         Server releases are base system releases with additional tools
@@ -208,18 +190,20 @@ general:
       screenshots:
         - 1.png
       downloads:
-        - name: AMD64
-          url: https://releases.aosc.io/os-amd64/base/
-        - name: AArch64 (EFI/SBSA/SystemReady ES)
-          url: https://releases.aosc.io/os-arm64/base/
-        - name: AArch64 (Sunxi)
-          url: https://releases.aosc.io/os-arm64/sunxi64/server/
-        - name: AArch64 (Rockchip)
-          url: https://releases.aosc.io/os-arm64/rockchip64/server/
-        - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/server/
-        - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/server/
+        - archid: amd64
+          arch: x86-64
+        - archid: aarch64
+          arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
+        - archid: aarch64-rpi
+          arch: 'AArch64 (Raspberry Pi)'
+        - archid: aarch64-rk
+          arch: 'AArch64 (Rockchip-based SoCs)'
+        - archid: aarch64-sunxi
+          arch: 'AArch64 (Allwinner-based SoCs)'
+        - archid: loongson3
+          arch: 'Loongson 3A/B (1000 - 4000)'
+        - archid: ppc64el
+          arch: IBM POWER (8+)
     - name: BuildKit
       description: |
         BuildKit is essentially a non-bootable AOSC OS Base with full
@@ -230,24 +214,51 @@ general:
       screenshots:
         - 1.png
       downloads:
-        - name: AMD64
-          url: https://releases.aosc.io/os-amd64/buildkit/
-        - name: AMD64 (Docker)
-          url: https://hub.docker.com/r/aosc/aosc-os-buildkit/
-        - name: AArch64
-          url: https://releases.aosc.io/os-arm64/buildkit/
-        - name: Loongson (3A/B 1000+)
-          url: https://releases.aosc.io/os-loongson3/buildkit/
-        - name: POWER (8+)
-          url: https://releases.aosc.io/os-ppc64el/buildkit/
+        - archid: amd64
+          arch: x86-64
+        - archid: aarch64
+          arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
+        - archid: loongson3
+          arch: 'Loongson 3A/B (1000 - 4000)'
+        - archid: ppc64el
+          arch: IBM POWER (8+)
 
 retro:
   list:
+    - name: Trinity
+      description: |
+        Full-featured release featuring the Trinity Desktop Environment,
+        a spiritual successor to the venerable KDE 3.5. Experience the
+        pinnacle of meticulous user interface design, still aspired by
+        desktop environments of our day.
+      screenshots:
+        - 1.png
+        - 2.png
+        - 3.png
+        - 4.png
+        - 5.png
+        - 6.png
+        - 7.png
+      downloads:
+        - archid: armv4
+          arch: ARMv4
+        - archid: armv6hf
+          arch: ARMv6 (Hard Float)
+        - archid: armv7hf
+          arch: ARMv7 (Hard Float, NEON)
+        - archid: i486
+          arch: i486 (Intel 80486 or Compatible/Above)
+        - archid: loongson2f
+          arch: Loongson 2F
+        - archid: powerpc
+          arch: PowerPC 32-bit (Big Endian, POWER2+)
+        - archid: ppc64
+          arch: PowerPC 64-bit (Big Endian, G5+)
     - name: X11
       description: |
         A basic system release bundled with X graphical
         user interface support. This release contains
-        a basic desktop environment and graphical tools
+        a basic desktop environment (IceWM) and graphical tools
         for devices with graphical hardware acceleration.
       screenshots:
         - 1.png
@@ -258,8 +269,20 @@ retro:
         - 6.png
         - 7.png
       downloads:
-        - name: i486
-          url: 'https://releases.aosc.io/os-i486/x11/'
+        - archid: armv4
+          arch: ARMv4
+        - archid: armv6hf
+          arch: ARMv6 (Hard Float)
+        - archid: armv7hf
+          arch: ARMv7 (Hard Float, NEON)
+        - archid: i486
+          arch: i486 (Intel 80486 or Compatible/Above)
+        - archid: loongson2f
+          arch: Loongson 2F
+        - archid: powerpc
+          arch: PowerPC 32-bit (Big Endian, POWER2+)
+        - archid: ppc64
+          arch: PowerPC 64-bit (Big Endian, G5+)
     - name: Base
       description: |
         A base system release with a minimal set of applications
@@ -269,16 +292,40 @@ retro:
       screenshots:
         - 1.png
       downloads:
-        - name: i486
-          url: 'https://releases.aosc.io/os-i486/base/'
+        - archid: armv4
+          arch: ARMv4
+        - archid: armv6hf
+          arch: ARMv6 (Hard Float)
+        - archid: armv7hf
+          arch: ARMv7 (Hard Float, NEON)
+        - archid: i486
+          arch: i486 (Intel 80486 or Compatible/Above)
+        - archid: loongson2f
+          arch: Loongson 2F
+        - archid: powerpc
+          arch: PowerPC 32-bit (Big Endian, POWER2+)
+        - archid: ppc64
+          arch: PowerPC 64-bit (Big Endian, G5+)
     - name: Server
       description: |
         A base system release bundled with server applications,
         for performance and storage contraint servers and older
         development boards.
       downloads:
-        - name: 'i486 (Coming Soon)'
-          url: '#aosc-os-retro'
+        - archid: armv4
+          arch: ARMv4
+        - archid: armv6hf
+          arch: ARMv6 (Hard Float)
+        - archid: armv7hf
+          arch: ARMv7 (Hard Float, NEON)
+        - archid: i486
+          arch: i486 (Intel 80486 or Compatible/Above)
+        - archid: loongson2f
+          arch: Loongson 2F
+        - archid: powerpc
+          arch: PowerPC 32-bit (Big Endian, POWER2+)
+        - archid: ppc64
+          arch: PowerPC 64-bit (Big Endian, G5+)
     - name: BuildKit
       description: |
         BuildKit is essentially a non-bootable AOSC OS Base with full
@@ -289,19 +336,47 @@ retro:
       screenshots:
         - 1.png
       downloads:
-        - name: i486
-          url: 'https://releases.aosc.io/os-i486/buildkit/'
+        - archid: armv4
+          arch: ARMv4
+        - archid: armv6hf
+          arch: ARMv6 (Hard Float)
+        - archid: armv7hf
+          arch: ARMv7 (Hard Float, NEON)
+        - archid: i486
+          arch: i486 (Intel 80486 or Compatible/Above)
+        - archid: loongson2f
+          arch: Loongson 2F
+        - archid: powerpc
+          arch: PowerPC 32-bit (Big Endian, POWER2+)
+        - archid: ppc64
+          arch: PowerPC 64-bit (Big Endian, G5+)
 
-docker:
+appliances:
+  list:
+    - name: Virtual Machines
+      description: |
+        Pre-built AOSC OS images targetting various virtualisation platforms.
+        Please consult user manuals of each respective platform for deployment
+        procedures.
+      downloads:
+        - archid: hyperv-x86_64
+          arch: Hyper-V (x86_64)
+    - name: Containers
+      description: |
+        Pre-built images targetting containerised, application-specific, and
+        cloud usages.
+      downloads:
+        - archid: docker-x86_64
+          arch: Docker (x86_64)
 
 livekit:
   list:
     - archid: amd64
-      arch: AMD64 / Intel 64
+      arch: x86-64
     - archid: aarch64
       arch: AArch64 (EFI/SBSA/SystemReady ES)
     - archid: loongson3
-      arch: 'Loongson 3A/B (1000 - 4000) [Experimental]'
+      arch: 'Loongson 3A/B (1000 - 4000)'
     - archid: ppc64el
       arch: IBM POWER (8+)
 
@@ -312,7 +387,7 @@ rlivekit:
     - archid: armv6hf
       arch: ARMv6 (Hard Float)
     - archid: armv7hf
-      arch: ARMv7HF (Hard Float, NEON)
+      arch: ARMv7 (Hard Float, NEON)
     - archid: i486
       arch: i486 (Intel 80486 or Compatible/Above)
     - archid: loongson2f

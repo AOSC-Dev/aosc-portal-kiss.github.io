@@ -1,5 +1,5 @@
 {{- range $release := .Site.Data.distro.retro.list -}}
-{{ $slug := printf "retro-%s" ($release.name | anchorize) }}
+{{ $slug := $release.name | anchorize }}
 <div id="{{ $slug }}" class="columns">
     <div class="column downloads-title-column">
         <h2>{{ $release.name }}</h2>
@@ -9,16 +9,15 @@
         {{ $localeDescription := T (printf "%s-desc" $slug) }}
         <p class="no-top-margin">{{ cond (eq $localeDescription "") $release.description $localeDescription }}</p>
         <p>
-            {{- range $i, $download := $release.downloads -}}
-            {{ if $i }}
-            |
-            {{ end }}
-            <a href="{{ $download.url }}">{{ $download.name }}</a>
-            {{- end -}}
+        <form method="post">
+            <select id="distro-variant" name="distro-variant">
+                {{- range $download := $release.downloads -}}
+                <option value="{{ $release.name | anchorize }}.{{ $download.archid }}">{{ $download.arch }}</option>
+                {{- end -}}
+            </select>
+            <input class="download-button" type="submit" value="Download">
+        </form>
         </p>
-{{/*        <p style="font-size:0.7em;">
-            {{ T "retro-newworld-rom" }}
-        </p> */}}
     </div>
 </div>
 {{- end -}}
