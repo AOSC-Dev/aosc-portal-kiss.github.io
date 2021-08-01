@@ -24,10 +24,13 @@ general:
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
         - archid: aarch64-rpi
           arch: 'AArch64 (Raspberry Pi)'
+          url: 'https://releases.aosc.io/os-arm64/rpi/kde/'
         - archid: aarch64-rk
           arch: 'AArch64 (Rockchip-based SoCs)'
+          url: 'https://releases.aosc.io/os-arm64/rockchip64/kde/'
         - archid: aarch64-sunxi
           arch: 'AArch64 (Allwinner-based SoCs)'
+          url: 'https://releases.aosc.io/os-arm64/sunxi64/kde/'
         - archid: loongson3
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: ppc64el
@@ -55,10 +58,13 @@ general:
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
         - archid: aarch64-rpi
           arch: 'AArch64 (Raspberry Pi)'
+          url: 'https://releases.aosc.io/os-arm64/rpi/gnome/'
         - archid: aarch64-rk
           arch: 'AArch64 (Rockchip-based SoCs)'
+          url: 'https://releases.aosc.io/os-arm64/rockchip64/gnome/'
         - archid: aarch64-sunxi
           arch: 'AArch64 (Allwinner-based SoCs)'
+          url: 'https://releases.aosc.io/os-arm64/sunxi64/gnome/'
         - archid: loongson3
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: ppc64el
@@ -86,10 +92,13 @@ general:
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
         - archid: aarch64-rpi
           arch: 'AArch64 (Raspberry Pi)'
+          url: 'https://releases.aosc.io/os-arm64/rpi/xfce/'
         - archid: aarch64-rk
           arch: 'AArch64 (Rockchip-based SoCs)'
+          url: 'https://releases.aosc.io/os-arm64/rockchip64/xfce/'
         - archid: aarch64-sunxi
           arch: 'AArch64 (Allwinner-based SoCs)'
+          url: 'https://releases.aosc.io/os-arm64/sunxi64/xfce/'
         - archid: loongson3
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: ppc64el
@@ -117,10 +126,13 @@ general:
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
         - archid: aarch64-rpi
           arch: 'AArch64 (Raspberry Pi)'
+          url: 'https://releases.aosc.io/os-arm64/rpi/mate/'
         - archid: aarch64-rk
           arch: 'AArch64 (Rockchip-based SoCs)'
+          url: 'https://releases.aosc.io/os-arm64/rockchip64/mate/'
         - archid: aarch64-sunxi
           arch: 'AArch64 (Allwinner-based SoCs)'
+          url: 'https://releases.aosc.io/os-arm64/sunxi64/mate/'
         - archid: loongson3
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: ppc64el
@@ -147,10 +159,13 @@ general:
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
         - archid: aarch64-rpi
           arch: 'AArch64 (Raspberry Pi)'
+          url: 'https://releases.aosc.io/os-arm64/rpi/cinnamon/'
         - archid: aarch64-rk
           arch: 'AArch64 (Rockchip-based SoCs)'
+          url: 'https://releases.aosc.io/os-arm64/rockchip64/cinnamon/'
         - archid: aarch64-sunxi
           arch: 'AArch64 (Allwinner-based SoCs)'
+          url: 'https://releases.aosc.io/os-arm64/sunxi64/cinnamon/'
         - archid: loongson3
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: ppc64el
@@ -173,10 +188,13 @@ general:
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
         - archid: aarch64-rpi
           arch: 'AArch64 (Raspberry Pi)'
+          url: 'https://releases.aosc.io/os-arm64/rpi/base/'
         - archid: aarch64-rk
           arch: 'AArch64 (Rockchip-based SoCs)'
+          url: 'https://releases.aosc.io/os-arm64/rockchip64/base/'
         - archid: aarch64-sunxi
           arch: 'AArch64 (Allwinner-based SoCs)'
+          url: 'https://releases.aosc.io/os-arm64/sunxi64/base/'
         - archid: loongson3
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: ppc64el
