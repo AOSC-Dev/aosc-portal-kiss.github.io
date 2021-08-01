@@ -1,6 +1,7 @@
-<form method="post">
+{{- $target_list := index .Site.Data.distro (.Get "category") -}}
+<form action="https://releases.aosc.io/download/livekit" method="post">
     <select id="distro-variant" name="distro-variant">
-        {{- range $livekit := .Site.Data.distro.livekit.list -}}
+        {{- range $livekit := index $target_list "list" -}}
         {{ $slug := $livekit.arch | anchorize }}
         <option value="{{ $livekit.archid }}">{{ $livekit.arch }}</option>
         {{- end -}}

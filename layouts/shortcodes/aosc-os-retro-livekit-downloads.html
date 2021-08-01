@@ -1,9 +1,0 @@
-<form method="post">
-    <select id="distro-variant" name="distro-variant">
-        {{- range $livekit := .Site.Data.distro.rlivekit.list -}}
-        {{ $slug := $livekit.arch | anchorize }}
-        <option value="{{ $livekit.archid }}">{{ $livekit.arch }}</option>
-        {{- end -}}
-    </select>
-    <input class="download-button" type="submit" value="Download">
-</form>
