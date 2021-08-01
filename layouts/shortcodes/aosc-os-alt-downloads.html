@@ -12,7 +12,11 @@
         <form method="post">
             <select id="distro-variant" name="distro-variant">
                 {{- range $download := $release.downloads -}}
-                <option value="{{ $release.name | anchorize }}.{{ $download.archid }}">{{ $download.arch }}</option>
+                {{ $value := printf "%s.%s" ($release.name | anchorize)  $download.archid }}
+                {{- if isset $download "url" -}}
+                {{ $value = $download.url }}
+                {{- end -}}
+                <option value="{{ $value }}">{{ $download.arch }}</option>
                 {{- end -}}
             </select>
             <input class="download-button" type="submit" value="Download">
