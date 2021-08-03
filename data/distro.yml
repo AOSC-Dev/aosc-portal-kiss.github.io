@@ -386,6 +386,7 @@ appliances:
       downloads:
         - archid: docker-x86_64
           arch: Docker (x86_64)
+          url: https://hub.docker.com/u/aosc
 
 livekit:
   list:
