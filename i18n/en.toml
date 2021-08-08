@@ -239,6 +239,14 @@ Therefore, Base is suitable for performance constrained devices and servers.
 Base is also available as a Docker image.
 """
 
+[server-desc]
+other = """
+Server releases are base system releases with additional tools
+for hosting remote files and Web contents, providing network routing,
+and other functions that enriches network access and resources for
+client devices.
+"""
+
 [buildkit-desc]
 other = """
 BuildKit is essentially a non-bootable AOSC OS Base with full

@@ -236,6 +236,14 @@ Therefore, Base is suitable for performance constrained devices and servers.
 Base is also available as a Docker image.
 """
 
+[server-desc]
+other = """
+Server releases are base system releases with additional tools
+for hosting remote files and Web contents, providing network routing,
+and other functions that enriches network access and resources for
+client devices.
+"""
+
 [buildkit-desc]
 other = """
 BuildKit is essentially a non-bootable AOSC OS Base with full
@@ -275,4 +283,25 @@ development support. This particular variant of AOSC OS comes with
 Autobuild3 and other AOSC OS packaging and maintenance tools, so that
 you could quickly get started with AOSC OS development or building
 packages for personal use.
+"""
+
+[retro-trinity-desc]
+other = """
+Full-featured release featuring the Trinity Desktop Environment,
+a spiritual successor to the venerable KDE 3.5. Experience the
+pinnacle of meticulous user interface design, still aspired by
+desktop environments of our day.
+"""
+
+[appliances-virtual-machines-desc]
+other = """
+Pre-built AOSC OS images targetting various virtualisation platforms.
+Please consult user manuals of each respective platform for deployment
+procedures.
+"""
+
+[appliances-containers-desc]
+other = """
+Pre-built images targetting containerised, application-specific, and
+cloud usages.
 """
