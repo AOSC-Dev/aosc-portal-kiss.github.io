@@ -1,0 +1,53 @@
+---
+layout: default
+title: 下载
+---
+
+<div class="blog">
+    <h1 id="downloads" class="title no-top-margin">其他下载</h1>
+    <p>
+        本页面展示 AOSC OS 的各式其他下载格式，如供手动部署的系统文件
+        压缩包 (tar.xz)，针对特定 ARM 设备的系统镜像和用于云计算及容器的
+        特殊发行（Docker, Hyper-V 等）。
+    </p>
+    <a href="#aosc-os">AOSC OS</a>
+    |
+    <a href="#aosc-os-appliances">AOSC OS 专用镜像</a>
+    |
+    <a href="#aosc-os-dp">AOSC OS/Retro</a>
+    <h1 id="aosc-os" class="title">AOSC OS</h1>
+    <p>
+        AOSC OS 主线发行版的其他下载，如系统文件压缩包及设备镜像。
+    </p>
+    <p>
+        <a href="https://wiki.aosc.io/aosc-os/installation/livekit">安装指南</a>
+    </p>
+    <br>
+    <div>
+        {{< aosc-os-alt-downloads category="general" >}}
+    </div>
+
+    <h1 id="aosc-os-appliances" class="title">AOSC OS 专用镜像</h1>
+    <p>
+        AOSC OS 的专用镜像下载，这些镜像针对各种虚拟机及容器管理器。
+    </p>
+    <p>
+        <a href="https://wiki.aosc.io/aosc-os/installation/livekit">安装指南</a>
+    </p>
+    <br>
+    <div>
+        {{< aosc-os-alt-downloads category="appliances" no-screenshots="true" >}}
+    </div>
+
+    <h1 id="aosc-os-retro" class="title">AOSC OS/Retro</h1>
+    <p>
+        AOSC OS/Retro 的其他下载，如系统文件压缩包及设备镜像。
+    </p>
+    <p>
+        <a href="https://wiki.aosc.io/aosc-os/installation/livekit">安装指南</a>
+    </p>
+    <br />
+    <div>
+        {{< aosc-os-alt-downloads category="retro" >}}
+    </div>
+</div>
