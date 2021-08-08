@@ -22,6 +22,9 @@ other = "Retro"
 [sitelang]
 other = "Site Language"
 
+[download]
+other = "Download"
+
 # gallery captions
 [2016-aoscc-day1-a-warm-note-from-geekpie]
 other = "A warm note from the Geekpie Association."

@@ -22,6 +22,9 @@ other = "Retro"
 [sitelang]
 other = "站点语言 / Site Language"
 
+[download]
+other = "下载"
+
 # gallery captions
 [2016-aoscc-day1-a-warm-note-from-geekpie]
 other = "来自 GeekPie 协会的温馨指引。"
