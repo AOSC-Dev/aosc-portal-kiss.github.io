@@ -1,4 +1,5 @@
-{{- $target_list := index .Site.Data.distro (.Get "category") -}}
+{{- $category := (.Get "category") -}}
+{{- $target_list := index .Site.Data.distro $category -}}
 {{- $screenshots := not (.Get "no-screenshots") -}}
 {{- range $release := index $target_list "list" -}}
 {{- $slug := $release.name | anchorize -}}
@@ -8,7 +9,12 @@
         {{ if $screenshots }}<a href="screenshots/#{{ $slug }}">{{ T "screenshots" }}</a>{{ end }}
     </div>
     <div class="column downloads-description is-three-quarters">
-        {{ $localeDescription := T (printf "%s-desc" $slug) }}
+        {{ $localeDescription := "" }}
+        {{- if eq $category "general" -}}
+        {{ $localeDescription = T (printf "%s-desc" $slug) }}
+        {{- else -}}
+        {{ $localeDescription = T (printf "%s-%s-desc" $category $slug) }}
+        {{- end }}
         <p class="no-top-margin">{{ cond (eq $localeDescription "") $release.description $localeDescription }}</p>
         <p>
         <form action="https://releases.aosc.io/download/alt" method="post">
