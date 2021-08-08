@@ -254,3 +254,24 @@ BuildKit 是基于 Base 制作的开发环境，一般用于容器（因此移�
 该版本还预装了 Autobuild3 及其他 AOSC OS 维护及打包所需的各类工具，适用于
 参与 AOSC OS 开发及构建个人用软件包。
 """
+
+[retro-trinity-desc]
+other = """
+Full-featured release featuring the Trinity Desktop Environment,
+a spiritual successor to the venerable KDE 3.5. Experience the
+pinnacle of meticulous user interface design, still aspired by
+desktop environments of our day.
+"""
+
+[appliances-virtual-machines-desc]
+other = """
+Pre-built AOSC OS images targetting various virtualisation platforms.
+Please consult user manuals of each respective platform for deployment
+procedures.
+"""
+
+[appliances-containers-desc]
+other = """
+Pre-built images targetting containerised, application-specific, and
+cloud usages.
+"""
