@@ -224,10 +224,8 @@ other = """
 
 [server-desc]
 other = """
-Server releases are base system releases with additional tools
-for hosting remote files and Web contents, providing network routing,
-and other functions that enriches network access and resources for
-client devices.
+Server 版本基于 Base 附加了一系列用于托管远程文件及网页内容、管理网络
+路由及其他为客户端提供网络资源的工具。
 """
 
 [buildkit-desc]
@@ -265,21 +263,17 @@ BuildKit 是基于 Base 制作的开发环境，一般用于容器（因此移�
 
 [retro-trinity-desc]
 other = """
-Full-featured release featuring the Trinity Desktop Environment,
-a spiritual successor to the venerable KDE 3.5. Experience the
-pinnacle of meticulous user interface design, still aspired by
-desktop environments of our day.
+该版本为 AOSC OS/Retro 的全功能版本，预装基于 KDE 3.5 开发的 Trinity 桌面
+环境。KDE 3.5 曾因精致的用户界面设计和华丽的视觉效果广受好评，如今仍是许多
+桌面环境模仿学习的目标。
 """
 
 [appliances-virtual-machines-desc]
 other = """
-Pre-built AOSC OS images targetting various virtualisation platforms.
-Please consult user manuals of each respective platform for deployment
-procedures.
+针对虚拟化平台制作的系统镜像。镜像部署方式请参阅对应平台的用户文档。
 """
 
 [appliances-containers-desc]
 other = """
-Pre-built images targetting containerised, application-specific, and
-cloud usages.
+针对容器、云集算及具体应用制作的系统镜像。
 """
