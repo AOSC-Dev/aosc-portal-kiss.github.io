@@ -222,6 +222,14 @@ other = """
 服务器。您也可以部署基于 Base 版本制作的 Docker 镜像。
 """
 
+[server-desc]
+other = """
+Server releases are base system releases with additional tools
+for hosting remote files and Web contents, providing network routing,
+and other functions that enriches network access and resources for
+client devices.
+"""
+
 [buildkit-desc]
 other = """
 BuildKit 是基于 Base 制作的开发环境，一般用于容器（因此移除了启动支持）。
