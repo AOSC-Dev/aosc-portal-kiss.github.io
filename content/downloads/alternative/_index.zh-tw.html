@@ -1,0 +1,57 @@
+---
+layout: default
+title: Downl.
+---
+
+<div class="blog">
+    <h1 id="downloads" class="title no-top-margin">Alternative Downloads</h1>
+    <p>
+        Here you will find alternative downloads for AOSC OS, including
+        individual system root filesystem tarballs (.tar.xz) for manual
+        installation, raw disk images for ARM devices (.img), and
+        cloud- and container-oriented distributions (Docker, Hyper-V, etc.).
+    </p>
+    <a href="#aosc-os">AOSC OS</a>
+    |
+    <a href="#aosc-os-appliances">AOSC OS Appliances</a>
+    |
+    <a href="#aosc-os-dp">AOSC OS/Retro</a>
+    <h1 id="aosc-os" class="title">AOSC OS</h1>
+    <p>
+        Alternative downloads for our mainline releases, including system root
+        filesystem tarballs and raw disk images.
+    </p>
+    <p>
+        <a href="https://wiki.aosc.io/aosc-os/installation/livekit">Installation Guides</a>
+    </p>
+    <br>
+    <div>
+        {{< aosc-os-alt-downloads category="general" >}}
+    </div>
+
+    <h1 id="aosc-os-appliances" class="title">AOSC OS Appliances</h1>
+    <p>
+        Downloads for AOSC OS application-specific images, these releases
+        target virtual machines (VMs) and containers.
+    </p>
+    <p>
+        <a href="https://wiki.aosc.io/aosc-os/installation/livekit">Installation Guides</a>
+    </p>
+    <br>
+    <div>
+        {{< aosc-os-alt-downloads category="appliances" no-screenshots="true" >}}
+    </div>
+
+    <h1 id="aosc-os-retro" class="title">AOSC OS/Retro</h1>
+    <p>
+        Alternative downloads for our Retro releases, including system root
+        filesystem tarballs and raw disk images.
+    </p>
+    <p>
+        <a href="https://wiki.aosc.io/aosc-os/installation/livekit">Installation Guides</a>
+    </p>
+    <br />
+    <div>
+        {{< aosc-os-alt-downloads category="retro" >}}
+    </div>
+</div>
