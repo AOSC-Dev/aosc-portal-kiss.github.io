@@ -258,8 +258,6 @@ retro:
         - 6.png
         - 7.png
       downloads:
-        - archid: armv4
-          arch: ARMv4
         - archid: armv6hf
           arch: ARMv6 (Hard Float)
         - archid: armv7hf
@@ -401,14 +399,15 @@ livekit:
 
 rlivekit:
   list:
+    - archid: i486
+      arch: i486 (Intel 80486 or Compatible/Above)
     - archid: armv4
       arch: ARMv4
+      disabled: true
     - archid: armv6hf
       arch: ARMv6 (Hard Float)
     - archid: armv7hf
       arch: ARMv7 (Hard Float, NEON)
-    - archid: i486
-      arch: i486 (Intel 80486 or Compatible/Above)
     - archid: loongson2f
       arch: Loongson 2F
     - archid: powerpc

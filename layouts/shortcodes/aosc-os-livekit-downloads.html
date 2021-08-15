@@ -3,7 +3,7 @@
     <select id="distro-variant" name="distro-variant">
         {{- range $livekit := index $target_list "list" -}}
         {{ $slug := $livekit.arch | anchorize }}
-        <option value="{{ $livekit.archid }}">{{ $livekit.arch }}</option>
+        <option value="{{ $livekit.archid }}"{{ if $livekit.disabled }}disabled{{ end }}>{{ $livekit.arch }}</option>
         {{- end -}}
     </select>
     <input class="download-button" type="submit" value="{{ T "download" }}">
