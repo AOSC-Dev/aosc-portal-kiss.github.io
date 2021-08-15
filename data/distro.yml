@@ -23,7 +23,8 @@ general:
         - archid: aarch64
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
         - archid: aarch64-rpi
-          arch: 'AArch64 (Raspberry Pi)'
+          arch: 'AArch64 (Raspberry Pi) [Coming Soon]'
+          disabled: true
           url: 'https://releases.aosc.io/os-arm64/rpi/kde/'
         - archid: aarch64-rk
           arch: 'AArch64 (Rockchip-based SoCs)'
@@ -57,7 +58,8 @@ general:
         - archid: aarch64
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
         - archid: aarch64-rpi
-          arch: 'AArch64 (Raspberry Pi)'
+          arch: 'AArch64 (Raspberry Pi) [Coming Soon]'
+          disabled: true
           url: 'https://releases.aosc.io/os-arm64/rpi/gnome/'
         - archid: aarch64-rk
           arch: 'AArch64 (Rockchip-based SoCs)'
@@ -91,7 +93,8 @@ general:
         - archid: aarch64
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
         - archid: aarch64-rpi
-          arch: 'AArch64 (Raspberry Pi)'
+          arch: 'AArch64 (Raspberry Pi) [Coming Soon]'
+          disabled: true
           url: 'https://releases.aosc.io/os-arm64/rpi/xfce/'
         - archid: aarch64-rk
           arch: 'AArch64 (Rockchip-based SoCs)'
@@ -125,7 +128,8 @@ general:
         - archid: aarch64
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
         - archid: aarch64-rpi
-          arch: 'AArch64 (Raspberry Pi)'
+          arch: 'AArch64 (Raspberry Pi) [Coming Soon]'
+          disabled: true
           url: 'https://releases.aosc.io/os-arm64/rpi/mate/'
         - archid: aarch64-rk
           arch: 'AArch64 (Rockchip-based SoCs)'
@@ -158,7 +162,8 @@ general:
         - archid: aarch64
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
         - archid: aarch64-rpi
-          arch: 'AArch64 (Raspberry Pi)'
+          arch: 'AArch64 (Raspberry Pi) [Coming Soon]'
+          disabled: true
           url: 'https://releases.aosc.io/os-arm64/rpi/cinnamon/'
         - archid: aarch64-rk
           arch: 'AArch64 (Rockchip-based SoCs)'
@@ -187,7 +192,8 @@ general:
         - archid: aarch64
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
         - archid: aarch64-rpi
-          arch: 'AArch64 (Raspberry Pi)'
+          arch: 'AArch64 (Raspberry Pi) [Coming Soon]'
+          disabled: true
           url: 'https://releases.aosc.io/os-arm64/rpi/base/'
         - archid: aarch64-rk
           arch: 'AArch64 (Rockchip-based SoCs)'
@@ -213,11 +219,15 @@ general:
         - archid: aarch64
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
         - archid: aarch64-rpi
-          arch: 'AArch64 (Raspberry Pi)'
+          arch: 'AArch64 (Raspberry Pi) [Coming Soon]'
+          disabled: true
+          url: 'https://releases.aosc.io/os-arm64/rpi/server/'
         - archid: aarch64-rk
           arch: 'AArch64 (Rockchip-based SoCs)'
+          url: 'https://releases.aosc.io/os-arm64/rockchip64/server/'
         - archid: aarch64-sunxi
           arch: 'AArch64 (Allwinner-based SoCs)'
+          url: 'https://releases.aosc.io/os-arm64/sunxi64/server/'
         - archid: loongson3
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: ppc64el
@@ -376,7 +386,8 @@ appliances:
         procedures.
       downloads:
         - archid: hyperv-x86_64
-          arch: Hyper-V (x86_64)
+          arch: 'Hyper-V (x86_64) [Coming Soon]'
+          disabled: true
     - name: Containers
       description: |
         Pre-built images targetting containerised, application-specific, and
@@ -402,15 +413,20 @@ rlivekit:
     - archid: i486
       arch: i486 (Intel 80486 or Compatible/Above)
     - archid: armv4
-      arch: ARMv4
+      arch: 'ARMv4 [Coming Soon]'
       disabled: true
     - archid: armv6hf
-      arch: ARMv6 (Hard Float)
+      arch: 'ARMv6 (Hard Float) [Coming Soon]'
+      disabled: true
     - archid: armv7hf
-      arch: ARMv7 (Hard Float, NEON)
+      arch: 'ARMv7 (Hard Float, NEON) [Coming Soon]'
+      disabled: true
     - archid: loongson2f
-      arch: Loongson 2F
+      arch: 'Loongson 2F [Coming Soon]'
+      disabled: true
     - archid: powerpc
-      arch: PowerPC 32-bit (Big Endian, POWER2+)
+      arch: 'PowerPC 32-bit (Big Endian, POWER2+) [Coming Soon]'
+      disabled: true
     - archid: ppc64
-      arch: PowerPC 64-bit (Big Endian, G5+)
+      arch: 'PowerPC 64-bit (Big Endian, G5+) [Coming Soon]'
+      disabled: true
