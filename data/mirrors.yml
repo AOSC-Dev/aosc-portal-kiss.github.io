@@ -3,45 +3,48 @@ repo:
     name: AOSC Main Repo
     region: US
 mirrors:
-    - name: Tencent OSS Mirror
-      url: https://mirrors.cloud.tencent.com/anthon/
-      region: China
-    - name: LZUOSS 兰州大学
-      url: https://mirror.lzu.edu.cn/anthon/
-      region: China
+    - name: Fastly CDN
+      url: https://aosc-repo.freetls.fastly.net/
+      region: Worldwide
     - name: Beijing Foreign Studies University
       url: https://mirrors.bfsu.edu.cn/anthon/
-      region: China
-    - name: Tsinghua University (TUNA)
-      url: https://mirrors.tuna.tsinghua.edu.cn/anthon/
-      region: China
-    - name: LUG@USTC
-      url: https://mirrors.ustc.edu.cn/anthon/
       region: China
     - name: Geekpie Association
       url: https://mirrors.geekpie.club/anthon/
       region: China
+    - name: LZUOSS 兰州大学
+      url: https://mirror.lzu.edu.cn/anthon/
+      region: China
+    - name: Nanjing University LUG (NJU LUG)
+      url: https://git.nju.edu.cn/nju-lug
+      region: China
+    - name: Tencent OSS Mirror
+      url: https://mirrors.cloud.tencent.com/anthon/
+      region: China
+    - name: Tsinghua University (TUNA)
+      url: https://mirrors.tuna.tsinghua.edu.cn/anthon/
+      region: China
     - name: UESTC LUG (IPv6 only)
       url: https://mirrors.uestc.cn/anthon/
       region: China
+    - name: USTC LUG (LUG@USTC)
+      url: https://mirrors.ustc.edu.cn/anthon/
+      region: China
+    - name: KoDDoS
+      url: https://mirror.koddos.net/anthon/
+      region: Europe
+    - name: NLUUG
+      url: https://ftp.nluug.nl/os/Linux/distr/anthon/
+      region: Europe
+    - name: KoDDoS HK
+      url: https://mirror-hk.koddos.net/anthon/
+      region: Hong Kong
     - name: xTom
       url: https://mirror.xtom.com.hk/anthon/
       region: Hong Kong
     - name: University of Tsukuba
       url: http://ftp.tsukuba.wide.ad.jp/Linux/anthon/
       region: Japan
-    - name: NLUUG
-      url: https://ftp.nluug.nl/os/Linux/distr/anthon/
-      region: Europe
-    - name: KoDDoS
-      url: https://mirror.koddos.net/anthon/
-      region: Europe
-    - name: KoDDoS HK
-      url: https://mirror-hk.koddos.net/anthon/
-      region: Hong Kong
     - name: OSSPlanet Mirror Server
       url: https://ftp.ubuntu-tw.net/mirror/anthonos/
       region: Taiwan
-    - name: Fastly CDN
-      url: https://aosc-repo.freetls.fastly.net/
-      region: Worldwide
