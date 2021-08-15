@@ -24,7 +24,7 @@
                 {{- if isset $download "url" -}}
                 {{ $value = $download.url }}
                 {{- end -}}
-                <option value="{{ $value }}">{{ $download.arch }}</option>
+                <option value="{{ $value }}"{{ if $download.disabled }}disabled{{ end }}>{{ $download.arch }}</option>
                 {{- end -}}
             </select>
             <input class="download-button" type="submit" value="{{ T "download" }}">
