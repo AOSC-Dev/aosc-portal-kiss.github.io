@@ -5,15 +5,15 @@
 -
   sponsor: xTom
   homepage: https://xtom.com/
-  gratitude: Host of our repository server.
+  gratitude: Host of our community repository server (2016 - 2020).
 -
   sponsor: QingCloud
   homepage: https://www.qingcloud.com/
-  gratitude: Provider of our internal services like relay.
+  gratitude: Provider of our internal services like buildbot relay.
 -
   sponsor: OSSPlanet
   homepage: http://ossplanet.net/
-  gratitude: Host of our build server.
+  gratitude: Host of our build server (2014 - 2019)
 -
   sponsor: Shanghai University Open Source Community
   homepage: https://www.shuosc.org/
@@ -96,9 +96,13 @@
   gratitude: Fast and stable mirror for our repository.
 -
   sponsor: SolidRun
-  homepage: https://www.solid-run.com
+  homepage: https://www.solid-run.com/
   gratitude: Discounted hardware for AOSC OS AArch64 maintenance.
 -
   sponsor: Nanjing University LUG (NJU LUG)
-  homepage: https://git.nju.edu.cn/nju-lug
+  homepage: https://git.nju.edu.cn/nju-lug/
   gratitude: Fast and stable mirror for our repository.
+-
+  sponsor: Aperture Science Limited
+  homepage: https://apernet.io/
+  gratitude: Host of our community repository server.
