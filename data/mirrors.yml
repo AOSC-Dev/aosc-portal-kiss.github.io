@@ -48,3 +48,6 @@ mirrors:
     - name: OSSPlanet Mirror Server
       url: https://ftp.ubuntu-tw.net/mirror/anthonos/
       region: Taiwan
+    - name: Public Mirrors of Open-Source Software Projects by Hexhu with ❤
+      url: https://arch.hu.fo/anthon/
+      region: United States of America
