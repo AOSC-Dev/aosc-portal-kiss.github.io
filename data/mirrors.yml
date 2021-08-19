@@ -12,20 +12,20 @@ mirrors:
     - name: Geekpie Association
       url: https://mirrors.geekpie.club/anthon/
       region: China
+    - name: Harbin Institute of Technology OSS Mirror
+      url: https://mirrors.hit.edu.cn/anthon/
+      region: China
     - name: LZUOSS 兰州大学
       url: https://mirror.lzu.edu.cn/anthon/
       region: China
     - name: Nanjing University LUG (NJU LUG)
-      url: https://git.nju.edu.cn/nju-lug
+      url: https://mirror.nju.edu.cn/anthon/
       region: China
     - name: Tencent OSS Mirror
       url: https://mirrors.cloud.tencent.com/anthon/
       region: China
     - name: Tsinghua University (TUNA)
       url: https://mirrors.tuna.tsinghua.edu.cn/anthon/
-      region: China
-    - name: UESTC LUG (IPv6 only)
-      url: https://mirrors.uestc.cn/anthon/
       region: China
     - name: USTC LUG (LUG@USTC)
       url: https://mirrors.ustc.edu.cn/anthon/
@@ -35,6 +35,9 @@ mirrors:
       region: Europe
     - name: NLUUG
       url: https://ftp.nluug.nl/os/Linux/distr/anthon/
+      region: Europe
+    - name: Staph. aureus
+      url: https://s.aureus.ga/aosc/config/chance-1/
       region: Europe
     - name: KoDDoS HK
       url: https://mirror-hk.koddos.net/anthon/
@@ -46,8 +49,8 @@ mirrors:
       url: http://ftp.tsukuba.wide.ad.jp/Linux/anthon/
       region: Japan
     - name: OSSPlanet Mirror Server
-      url: https://ftp.ubuntu-tw.net/mirror/anthonos/
+      url: https://mirror.ossplanet.net/anthonos/
       region: Taiwan
-    - name: Public Mirrors of Open-Source Software Projects by Hexhu with ❤
-      url: https://arch.hu.fo/anthon/
+    - name: mirror.hu.fo
+      url: https://mirror.hu.fo/anthon/
       region: United States of America
