@@ -3,7 +3,7 @@ layout: people
 url: /people/~fearyncess/
 ---
 
-少说多做。   Few Words and Many Deeds.
+少说多做。请勿乱打标签。
 ==========================
 
 Who am I?
