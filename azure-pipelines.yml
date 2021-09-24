@@ -19,6 +19,6 @@ steps:
 - bash: ./build.sh
   displayName: 'Build the pages'
 
-- bash: rsync -rlOvhze ssh --progress public/* 'upload@$(UPLOAD_HOST):/srv/aosc-portal/'
+- bash: rsync -rlOvhze ssh --progress public/* 'upload@$(UPLOAD_HOST):/srv/aosc-portal/' && echo "Visit your site at: https://aosc.io"
   displayName: 'Upload the files'
   condition: and(ne(variables['Build.Reason'], 'PullRequest'), succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
