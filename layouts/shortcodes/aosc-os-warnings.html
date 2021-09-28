@@ -10,7 +10,12 @@
         {{- range $post := $posts -}}
         <tr>
           <td class="date"><span>{{ $post.Date.Format "2006-01-02" }}</span></td>
-          <td class="link"><a href="{{ $post.Permalink }}">{{ $post.Title }}</a></td>
+          <td class="link">
+            {{ if $post.Params.important }}
+            <span>[!] </span>
+            {{- end -}}
+            <a href="{{ $post.Permalink }}">{{ $post.Title }}</a>
+          </td>
         </tr>
         {{- end -}}
       </tbody>
