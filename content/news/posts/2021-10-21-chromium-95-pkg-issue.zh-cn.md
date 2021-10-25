@@ -1,9 +1,9 @@
 ---
 categories:
   - warning
-title: "Chromium 95.0.4638.54 无法正常启动"
+title: "[已解决] Chromium 95.0.4638.54 无法正常启动"
 date: 2021-10-21T21:20:18-07:00
-important: true
+important: false
 ---
 
 目前源内的 Chromium 95.0.4638.54 存在打包问题，会导致浏览器无法正常启动：
