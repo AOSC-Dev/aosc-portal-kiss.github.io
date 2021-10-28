@@ -1,17 +1,6 @@
 {{ define "main" }}
 <div class="blog">
-    <script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.1.3/dist/js/lightgallery.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/sachinchoolur/lightgallery.js/demo/js/lg-autoplay.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/sachinchoolur/lightgallery.js/demo/js/lg-zoom.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.1.3/dist/css/lightgallery.css" rel="stylesheet">
     {{ .Content }}
-    <script>
-        var boxes = document.getElementsByClassName('screenshot-box', {
-            subHtmlSelectorRelative: true
-        });
-        for (var i = 0; i < boxes.length; i++) {
-            lightGallery(boxes[i], {thumbnail: true});
-        }
-    </script>
+    {{< gallery-script >}}
 </div>
 {{ end }}
