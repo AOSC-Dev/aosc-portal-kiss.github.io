@@ -9,8 +9,13 @@
 <h2 id="{{ $slug }}" class="downloads-title">{{ if eq $prefix "retro-" }}{{ T "retro" }} {{ end }}{{ $release.name }}</h2>
 <div class="columns is-multiline screenshot-box">
     {{- range $item := $release.screenshots -}}
-    <a href="/img/de-preview/{{ $slug }}/{{ $item }}" class="column is-one-quarter screenshot">
-        <img src="/img/de-preview/{{ $slug }}/thumbs/{{ $item }}.jpg">
+    {{- $original := resources.Get (printf "img/de-preview/%s/%s" $slug $item) -}}
+    {{- if not $original }}
+    {{- errorf "Screenshot for %s (%s) not found." $slug $item -}}
+    {{- end -}}
+    {{- $resize := $original.Resize "960x q87 jpg" -}}
+    <a href="{{ $original.Permalink }}" class="column is-one-quarter screenshot">
+        <img src="{{ $resize.Permalink }}" alt="">
     </a>
     {{- end -}}
 </div>
