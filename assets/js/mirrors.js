@@ -118,8 +118,8 @@ function populate_data(response) {
         var this_node = document.createElement('tr');
         var difference = reference - this_row.updated;
         var severity = 'is-latest';
-        if (difference > 0) {
-            if (difference < 21600) {
+        if (difference > 7200) {
+            if (difference < 28800) {
                 severity = 'is-behind';
             } else {
                 severity = 'is-very-behind';
