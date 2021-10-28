@@ -10,7 +10,7 @@
 {{ end }}
 {{- range $post := $posts -}}
 <li>
-    <span class="date">{{ $post.Date.Format "20060102" }}</span> - 
+    <span class="date">{{ $post.Date.Format "2006-01-02" }}</span>&nbsp;
     {{ if $post.Params.important }}
     <span style="color:red;">[!] </span>
     {{- end -}}
