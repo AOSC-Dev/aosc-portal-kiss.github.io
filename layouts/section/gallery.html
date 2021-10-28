@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="blog">
     {{ .Content }}
-    {{< gallery-script >}}
+    {{ partial "gallery-script.html" . }}
 </div>
 {{ end }}
