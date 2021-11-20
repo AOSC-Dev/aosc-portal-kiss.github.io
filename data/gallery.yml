@@ -1,4 +1,82 @@
 gallery:
+  - title: AOSCC 2021
+    album:
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @moe_canary)."
+        date: September 19, 2021
+        file: 2021-aoscc-canary-pwn.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Discord: @Fearyncess)."
+        date: September 19, 2021
+        file: 2021-aoscc-fearyncess.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @Icenowy)."
+        date: September 19, 2021
+        file: 2021-aoscc-icenowy.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @JerryXiao)."
+        date: September 19, 2021
+        file: 2021-aoscc-jerry-xiao.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @neruthes)."
+        date: September 19, 2021
+        file: 2021-aoscc-joy-neop.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @OriginCode)."
+        date: September 19, 2021
+        file: 2021-aoscc-kaiyang-wu.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @KexyBiscuit)."
+        date: September 19, 2021
+        file: 2021-aoscc-kexy-biscuit.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @o0_0b)."
+        date: September 19, 2021
+        file: 2021-aoscc-lion-yang.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @liushuyu)."
+        date: September 19, 2021
+        file: 2021-aoscc-liushuyu.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @jyuzoungaangengjan)."
+        date: September 19, 2021
+        file: 2021-aoscc-mag-mell.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @MariaBombardier)."
+        date: September 19, 2021
+        file: 2021-aoscc-maria-bombardier.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @JeffBai)."
+        date: September 19, 2021
+        file: 2021-aoscc-mingcong-bai.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @JeffBai)."
+        date: September 19, 2021
+        file: 2021-aoscc-mingcong-bai-noodles.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @rickliu2000)."
+        date: September 19, 2021
+        file: 2021-aoscc-rick-liu.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @TheSaltedFish)."
+        date: September 19, 2021
+        file: 2021-aoscc-thesaltedfish.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @cth451)."
+        date: September 19, 2021
+        file: 2021-aoscc-tianhao-chai.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (IRC: WPlanck)."
+        date: September 19, 2021
+        file: 2021-aoscc-wplank.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @yangff)."
+        date: September 19, 2021
+        file: 2021-aoscc-yangff.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @yichen0104)."
+        date: September 19, 2021
+        file: 2021-aoscc-yichen-li.jpg
   - title: An-An
     album:
       -
