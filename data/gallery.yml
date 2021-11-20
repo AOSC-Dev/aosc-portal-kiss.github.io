@@ -14,10 +14,6 @@ gallery:
         date: September 19, 2021
         file: 2021-aoscc-icenowy-zheng.jpg
       -
-        desc: "Attending Virtual AOSCC 2021 (Telegram: @JerryXiao)."
-        date: September 19, 2021
-        file: 2021-aoscc-jerry-xiao.png
-      -
         desc: "Attending Virtual AOSCC 2021 (Telegram: @neruthes)."
         date: September 19, 2021
         file: 2021-aoscc-joy-neop.jpg
@@ -25,10 +21,6 @@ gallery:
         desc: "Attending Virtual AOSCC 2021 (Telegram: @OriginCode)."
         date: September 19, 2021
         file: 2021-aoscc-kaiyang-wu.jpg
-      -
-        desc: "Attending Virtual AOSCC 2021 (Telegram: @KexyBiscuit)."
-        date: September 19, 2021
-        file: 2021-aoscc-kexy-biscuit.jpg
       -
         desc: "Attending Virtual AOSCC 2021 (Telegram: @o0_0b)."
         date: September 19, 2021
@@ -69,6 +61,14 @@ gallery:
         desc: "Attending Virtual AOSCC 2021 (IRC: WPlanck)."
         date: September 19, 2021
         file: 2021-aoscc-wplank.jpg
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @JerryXiao)."
+        date: September 19, 2021
+        file: 2021-aoscc-jerry-xiao.png
+      -
+        desc: "Attending Virtual AOSCC 2021 (Telegram: @KexyBiscuit)."
+        date: September 19, 2021
+        file: 2021-aoscc-kexy-biscuit.jpg
       -
         desc: "Attending Virtual AOSCC 2021 (Telegram: @yangff)."
         date: September 19, 2021
