@@ -43,7 +43,7 @@ Devices
 
 ### Daily Drivers
 
-- Laptop: Lenovo ThinkPad P14s Gen 1 (AMD).
+- Laptop: Panasonic Let's Note CF-SV8.
 - Desktop: IBM System x3200 - with Raptor Computer System's [Blackbird](https://wiki.raptorcs.com/wiki/Blackbird) motherboard (IBM POWER9 Sforza, 4 Core, 16 Threads).
 
 ### AOSC Public BuildBots
