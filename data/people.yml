@@ -42,6 +42,12 @@
   longdesc:
   rurl:
 -
+  fullname: Celeste Liu
+  username: CoelacanthusHex
+  description: FOSS Lover; May world peace forever!
+  longdesc:
+  rurl: https://blog.coelacanthus.moe
+-
   fullname: Rongwei Lin
   username: colin4124
   description: Fight for freedom of software.Just for fun!
@@ -311,12 +317,6 @@
   description: Linux User / Chinese Translator / Noob Programmer
   longdesc:
   rurl:
--
-  fullname: Celeste Liu
-  username: CoelacanthusHex
-  description: FOSS Lover; May world peace forever!
-  longdesc:
-  rurl: https://blog.coelacanthus.moe
 -
   fullname: Leslie Zhai
   username: xiangzhai
