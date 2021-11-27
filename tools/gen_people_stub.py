@@ -3,10 +3,10 @@ import os
 import sys
 
 
-def generate_stubs(name, type='404', link=None):
+def generate_stubs(name: str, type='404', link=None):
     if link is None:
         link = 'https://github.com/{}/'.format(name)
-    template = """---\nlayout: people_{type}\nlink: {link}\npermalink: /people/~{name}/\n---\n<!-- Automatically generated -->\n"""
+    template = """---\nlayout: people_{type}\nlink: {link}\nurl: /people/~{name}/\n---\n<!-- Automatically generated -->\n"""
     return template.format(name=name, type=type, link=link)
 
 
@@ -22,7 +22,7 @@ def what_to_generate(yml, listing):
     return difference
 
 
-def parse_yml(filename):
+def parse_yml(filename: str):
     with open(filename, 'r') as f:
         results = yaml.safe_load(f)
     return results
