@@ -8,7 +8,7 @@ other = "Back"
 other = "Screenshots"
 
 [copyright]
-other = "Copyleft 2011 — {{ $.copyrightYear }}, Members of the Community"
+other = "Copyleft 2011–{{ $.copyrightYear }}, Members of the Community"
 
 [news]
 other = "News"
