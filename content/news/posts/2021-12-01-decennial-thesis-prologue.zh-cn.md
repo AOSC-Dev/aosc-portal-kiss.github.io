@@ -1,7 +1,7 @@
 ---
 categories:
   - news
-title: 十年论安同：序
+title: '十年论安同：序'
 date: '2021-12-01'
 important: false
 ---

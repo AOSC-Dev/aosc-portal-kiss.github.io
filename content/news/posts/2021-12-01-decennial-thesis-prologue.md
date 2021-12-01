@@ -1,7 +1,7 @@
 ---
 categories:
   - news
-title: Decennial Thesis: Prologue
+title: 'Decennial Thesis: Prologue'
 date: '2021-12-01'
 important: false
 ---
