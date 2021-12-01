@@ -35,4 +35,4 @@ training for our community projects.
 
 ----
 
-— Mingcong Bai
+— AOSC Contributors

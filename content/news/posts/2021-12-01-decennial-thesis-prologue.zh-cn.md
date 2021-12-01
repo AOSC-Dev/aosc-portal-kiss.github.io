@@ -24,4 +24,4 @@ important: false
 
 ----
 
-— Mingcong Bai
+— 安同开源社区贡献者
