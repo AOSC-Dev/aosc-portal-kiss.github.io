@@ -185,6 +185,12 @@
   longdesc:
   rurl:
 -
+  fullname: Jinyu Meng
+  username: megabits
+  description: A Goldfish / Indie Developer / UI UX Design / Living in Japan
+  longdesc:
+  rurl: https://megabits.xyz
+-
   fullname: Mingcong Bai
   username: mingcongbai
   description: Heck, what have I started?
@@ -345,9 +351,3 @@
   description:
   longdesc:
   rurl:
--
-  fullname: Jinyu Meng
-  username: megabits
-  description: A Goldfish / Indie Developer / UI UX Design / Living in Japan
-  longdesc:
-  rurl: https://megabits.xyz
