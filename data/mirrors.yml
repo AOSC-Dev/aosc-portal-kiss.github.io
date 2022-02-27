@@ -10,7 +10,7 @@ mirrors:
       url: https://mirrors.bfsu.edu.cn/anthon/
       region: China
     - name: Geekpie Association
-      url: https://mirrors.geekpie.club/anthon/
+      url: https://mirrors.shanghaitech.edu.cn/anthon/
       region: China
     - name: Harbin Institute of Technology OSS Mirror
       url: https://mirrors.hit.edu.cn/anthon/
