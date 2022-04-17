@@ -1,0 +1,41 @@
+{{- $pctx := . -}}
+{{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
+{{- $pages := slice -}}
+{{- if or $.IsHome $.IsSection -}}
+{{- $pages = $pctx.RegularPages -}}
+{{- else -}}
+{{- $pages = $pctx.Pages -}}
+{{- end -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+{{- $pages = $pages | first $limit -}}
+{{- end -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AOSC Community News</title>
+  {{- with .OutputFormats.Get "RSS" -}}
+  {{ printf "<link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+  {{- end -}}
+  <link href="{{ .Permalink }}" />
+  <subtitle>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</subtitle>
+  <generator>Hugo -- gohugo.io</generator>
+  <author>{{ with $.Site.Author.name }}<name>{{.}}</name>{{end}}{{ with .Site.Author.email }}<email>{{.}}</email>{{end}}</author>
+  {{ with .Site.Copyright }}
+  <rights>{{.}}</rights>{{end}}{{ if not .Date.IsZero }}
+  <updated>{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}</updated>{{ end }}
+  {{ range $pages }}
+  {{ if in .File.Dir "news/posts" }}
+  <entry>
+    <title>{{ .Title }}</title>
+    {{ range .Params.categories }}<category term="{{.}}"/>{{end}}
+    {{ if .Params.important }}<category term="important"/>{{end}}
+    <link href="{{ .Permalink }}" type="text/html"/>
+    <updated>{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}</updated>
+    <author>{{ with $.Site.Author.name }}<name>{{.}}</name>{{end}}{{ with .Site.Author.email }}<email>{{.}}</email>{{end}}</author>
+    <id>{{ .Permalink }}</id>
+    <summary type="html">{{ .Summary | html }}</summary>
+    <content type="html">{{ .Content | html }}</content>
+  </entry>
+  {{ end }}
+  {{ end }}
+</feed>
