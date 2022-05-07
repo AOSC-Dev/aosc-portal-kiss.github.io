@@ -174,69 +174,21 @@ other = "An-An (安安) Holding A Retro Computer (credit: Tyson Tan)."
 other = "An-An (安安) Playing with the AOSC Logo (credit: Tyson Tan)."
 
 # distro translations
-[kde-desc]
+[desktop-desc]
 other = """
-KDE (Plasma Desktop) provides an extensive set of functionality with
-virtually unlimited amount of customizable settings, and comes complete
-with an elegant interface. With a strong set of utilities, games,
-and tools, KDE is quite suitable for day-to-day desktop computing
-with a refreshing sense of aesthetic.
-"""
-
-[gnome-desc]
-other = """
-GNOME is a desktop environment with a strong emphasis on human
-interactivity, multilingual support, and accessibility. Designed as
-a desktop for humanity, GNOME provides users with a minimal yet elegant
-interface for those who may understand its innovative logic in desktop
-computing.
-"""
-
-[xfce-desc]
-other = """
-XFCE, like its logo, is a quick and smart little rat on your desktop.
-This is a desktop with rich customizability, responsive interface, and
-a small footprint. XFCE can run very quick even on older machines while
-providing a complete desktop experience, making it a near perfect choice
-for performance constrained devices.
-"""
-
-[mate-desc]
-other = """
-MATE is a desktop environment that sticks to the traditions - in which
-the developers of this particular desktop environment believe. Despite
-being a GNOME 2 fork, MATE is never contempt with using older technologies.
-Instead, MATE continuously adapts itself to the newest technologies, while
-trying its best to provide users with a familiar desktop experience.
-"""
-
-[cinnamon-desc]
-other = """
-Cinnamon was initially a fork of GNOME Shell in an effor to provide a
-traditional interface suitable for keyboard and mouse. Cinnamon builds
-upon GNOME's technical frameworks and applications, preserving the
-same ease of use in mind, while providing more customizability.
-"""
-
-[lxde-desc]
-other = """
-LXDE, or Lightweight X11 Desktop Environment in full is a lightweight
-desktop environment with a seemingly microscopic memory footprint. This
-is one of the better choices to go for on a older PC or low performance
-device. LXDE is extremely customizable, a perfect choice for those
-looking for a full desktop environment while wanting to keep in control
-of every aspect of their desktop.
+Our standard desktop distribution, powered by the KDE Plasma Desktop,
+which provides an extensive set of standard applications and features
+with a virtually unlimited amount of customizable settings, complete
+with an elegant interface.
 """
 
 [base-desc]
 other = """
-While AOSC OS focuses itself in providing complete and refined desktop
-experience in all other variants, we understand that there are
-those who prefers all choices remained on their hands. The Base
-variant provides a minimal set of features, just enough for you to get
+Base releases provide a minimal set of features, just enough for you to get
 started. Base is still a pre-configured variant like other AOSC OS variants.
-Therefore, Base is suitable for performance constrained devices and servers.
-Base is also available as a Docker image.
+Therefore, Base is suitable for performance constrained devices and servers,
+or for those who prefer to customise their installation. Base is also
+available as a Docker image.
 """
 
 [server-desc]

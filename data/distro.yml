@@ -1,12 +1,11 @@
 general:
   list:
-    - name: KDE
+    - name: Desktop
       description: |
-        KDE (Plasma Desktop) provides an extensive set of functionality with
-        virtually unlimited amount of customizable settings, and comes complete
-        with an elegant interface. With a strong set of utilities, games,
-        and tools, KDE is quite suitable for day-to-day desktop computing
-        with a refreshing sense of aesthetic.
+        Our standard desktop distribution, powered by the KDE Plasma Desktop,
+        which provides an extensive set of standard applications and features
+        with a virtually unlimited amount of customizable settings, complete
+        with an elegant interface.
       # assets/i/de-preview/$DE_NAME_SLUG/$SCREENSHOT_FILE
       screenshots:
         - 1.png
@@ -36,154 +35,13 @@ general:
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: ppc64el
           arch: IBM POWER (8+)
-    - name: GNOME
-      description: |
-        GNOME is a desktop environment with a strong emphasis on human
-        interactivity, multilingual support, and accessibility. Designed as
-        a desktop for humanity, GNOME provides users with a minimal yet elegant
-        interface for those who may understand its innovative logic in desktop
-        computing.
-      screenshots:
-        - 1.png
-        - 2.png
-        - 3.png
-        - 4.png
-        - 5.png
-        - 6.png
-        - 7.png
-        - 8.png
-      downloads:
-        - archid: amd64
-          arch: x86-64
-        - archid: aarch64
-          arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
-        - archid: aarch64-rpi
-          arch: 'AArch64 (Raspberry Pi) [Coming Soon]'
-          disabled: true
-          url: 'https://releases.aosc.io/os-arm64/rpi/gnome/'
-        - archid: aarch64-rk
-          arch: 'AArch64 (Rockchip-based SoCs)'
-          url: 'https://releases.aosc.io/os-arm64/rockchip64/gnome/'
-        - archid: aarch64-sunxi
-          arch: 'AArch64 (Allwinner-based SoCs)'
-          url: 'https://releases.aosc.io/os-arm64/sunxi64/gnome/'
-        - archid: loongson3
-          arch: 'Loongson 3A/B (1000 - 4000)'
-        - archid: ppc64el
-          arch: IBM POWER (8+)
-    - name: XFCE
-      description: |
-        XFCE, like its logo, is a quick and smart little rat on your desktop.
-        This is a desktop with rich customizability, responsive interface, and
-        a small footprint. XFCE can run very quick even on older machines while
-        providing a complete desktop experience, making it a near perfect choice
-        for performance constrained devices.
-      screenshots:
-        - 1.png
-        - 2.png
-        - 3.png
-        - 4.png
-        - 5.png
-        - 6.png
-        - 7.png
-        - 8.png
-      downloads:
-        - archid: amd64
-          arch: x86-64
-        - archid: aarch64
-          arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
-        - archid: aarch64-rpi
-          arch: 'AArch64 (Raspberry Pi) [Coming Soon]'
-          disabled: true
-          url: 'https://releases.aosc.io/os-arm64/rpi/xfce/'
-        - archid: aarch64-rk
-          arch: 'AArch64 (Rockchip-based SoCs)'
-          url: 'https://releases.aosc.io/os-arm64/rockchip64/xfce/'
-        - archid: aarch64-sunxi
-          arch: 'AArch64 (Allwinner-based SoCs)'
-          url: 'https://releases.aosc.io/os-arm64/sunxi64/xfce/'
-        - archid: loongson3
-          arch: 'Loongson 3A/B (1000 - 4000)'
-        - archid: ppc64el
-          arch: IBM POWER (8+)
-    - name: MATE
-      description: |
-        MATE is a desktop environment that sticks to the traditions - in which
-        the developers of this particular desktop environment believe. Despite
-        being a GNOME 2 fork, MATE is never contempt with using older technologies.
-        Instead, MATE continuously adapts itself to the newest technologies, while
-        trying its best to provide users with a familiar desktop experience.
-      screenshots:
-        - 1.png
-        - 2.png
-        - 3.png
-        - 4.png
-        - 5.png
-        - 6.png
-        - 7.png
-        - 8.png
-      downloads:
-        - archid: amd64
-          arch: x86-64
-        - archid: aarch64
-          arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
-        - archid: aarch64-rpi
-          arch: 'AArch64 (Raspberry Pi) [Coming Soon]'
-          disabled: true
-          url: 'https://releases.aosc.io/os-arm64/rpi/mate/'
-        - archid: aarch64-rk
-          arch: 'AArch64 (Rockchip-based SoCs)'
-          url: 'https://releases.aosc.io/os-arm64/rockchip64/mate/'
-        - archid: aarch64-sunxi
-          arch: 'AArch64 (Allwinner-based SoCs)'
-          url: 'https://releases.aosc.io/os-arm64/sunxi64/mate/'
-        - archid: loongson3
-          arch: 'Loongson 3A/B (1000 - 4000)'
-        - archid: ppc64el
-          arch: IBM POWER (8+)
-    - name: Cinnamon
-      description: |
-        Cinnamon was initially a fork of GNOME Shell in an effor to provide a
-        traditional interface suitable for keyboard and mouse. Cinnamon builds
-        upon GNOME's technical frameworks and applications, preserving the
-        same ease of use in mind, while providing more customizability.
-      screenshots:
-        - 1.png
-        - 2.png
-        - 3.png
-        - 4.png
-        - 5.png
-        - 6.png
-        - 7.png
-        - 8.png
-      downloads:
-        - archid: amd64
-          arch: x86-64
-        - archid: aarch64
-          arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
-        - archid: aarch64-rpi
-          arch: 'AArch64 (Raspberry Pi) [Coming Soon]'
-          disabled: true
-          url: 'https://releases.aosc.io/os-arm64/rpi/cinnamon/'
-        - archid: aarch64-rk
-          arch: 'AArch64 (Rockchip-based SoCs)'
-          url: 'https://releases.aosc.io/os-arm64/rockchip64/cinnamon/'
-        - archid: aarch64-sunxi
-          arch: 'AArch64 (Allwinner-based SoCs)'
-          url: 'https://releases.aosc.io/os-arm64/sunxi64/cinnamon/'
-        - archid: loongson3
-          arch: 'Loongson 3A/B (1000 - 4000)'
-        - archid: ppc64el
-          arch: IBM POWER (8+)
     - name: Base
       description: |
-        While AOSC OS focuses itself in providing complete and refined desktop
-        experience in all other variants, we understand that there are
-        those who prefers all choices remained on their hands. The Base
-        variant provides a minimal set of features, just enough for you to get
-        started. Base is still a pre-configured variant like other AOSC OS variants.
-        Therefore, Base is suitable for performance constrained devices and servers.
-        Base is also available as a Docker image.
+        Base releases provide a minimal set of features, just enough for you
+        to get started. Base is still a pre-configured variant like other
+        AOSC OS variants. Therefore, Base is suitable for performance
+        constrained devices and servers, or for those who prefer to customise
+        their installation. Base is also available as a Docker image.
       screenshots:
         - 1.png
       downloads:
