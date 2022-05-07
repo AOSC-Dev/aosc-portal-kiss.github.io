@@ -27,7 +27,7 @@ hardware support, please get in touch by
 The new Mesa version also dropped OpenGL support for graphic cards based on the
 ATI Radeon [R100](https://en.wikipedia.org/wiki/Radeon_R100_series) (a.k.a.
 Radeon 7000 series) and [R200](https://en.wikipedia.org/wiki/Radeon_R200_series)
-(a.k.a. Radeon 8000/9000 series) cores dropped. If your use these graphic cards
+(a.k.a. Radeon 8000/9000 series) cores dropped. If you use these graphic cards
 on your devices, you may experience degraded graphical performance (especially
 when using the desktop environments with OpenGL composition and effects), most
 OpenGL games will also fallback to software rendering.
