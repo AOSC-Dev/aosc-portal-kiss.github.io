@@ -6,7 +6,7 @@
 <div id="{{ $slug }}" class="columns">
     <div class="column downloads-title-column">
         <h2>{{ $release.name }}</h2>
-        {{ if $screenshots }}<a href="screenshots/#{{ $slug }}">{{ T "screenshots" }}</a>{{ end }}
+        {{ if $screenshots }}<a href="../screenshots/#{{ $slug }}">{{ T "screenshots" }}</a>{{ end }}
     </div>
     <div class="column downloads-description is-three-quarters">
         {{ $localeDescription := "" }}
