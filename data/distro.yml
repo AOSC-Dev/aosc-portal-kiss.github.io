@@ -268,7 +268,7 @@ livekit:
     - archid: loongson3
       arch: 'Loongson 3A/B (1000 - 4000) [Experimental]'
     - archid: ppc64el
-      arch: IBM POWER (8+)
+      arch: 'IBM POWER (8+) [Experimental]'
 
 rlivekit:
   list:
