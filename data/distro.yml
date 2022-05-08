@@ -92,8 +92,6 @@ general:
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: ppc64el
           arch: IBM POWER (8+)
-        - archid: riscv64
-          arch: RISC-V (RV64GC)
     - name: BuildKit
       description: |
         BuildKit is essentially a non-bootable AOSC OS Base with full
@@ -271,8 +269,6 @@ livekit:
       arch: 'Loongson 3A/B (1000 - 4000) [Experimental]'
     - archid: ppc64el
       arch: IBM POWER (8+)
-    - archid: riscv64
-      arch: RISC-V (RV64GC)
 
 rlivekit:
   list:
