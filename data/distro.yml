@@ -35,6 +35,7 @@ general:
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: ppc64el
           arch: IBM POWER (8+)
+          disabled: true
     - name: Base
       description: |
         Base releases provide a minimal set of features, just enough for you
@@ -63,6 +64,7 @@ general:
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: ppc64el
           arch: IBM POWER (8+)
+          disabled: true
         - archid: riscv64
           arch: RISC-V (RV64GC)
     - name: Server
@@ -92,6 +94,7 @@ general:
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: ppc64el
           arch: IBM POWER (8+)
+          disabled: true
     - name: BuildKit
       description: |
         BuildKit is essentially a non-bootable AOSC OS Base with full
@@ -110,6 +113,7 @@ general:
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: ppc64el
           arch: IBM POWER (8+)
+          disabled: true
         - archid: riscv64
           arch: RISC-V (RV64GC)
 
@@ -132,16 +136,22 @@ retro:
       downloads:
         - archid: armv6hf
           arch: ARMv6 (Hard Float)
+          disabled: true
         - archid: armv7hf
           arch: ARMv7 (Hard Float, NEON)
+          disabled: true
         - archid: i486
           arch: i486 (Intel 80486 or Compatible/Above)
+          disabled: true
         - archid: loongson2f
           arch: Loongson 2F
+          disabled: true
         - archid: powerpc
           arch: PowerPC 32-bit (Big Endian, POWER2+)
+          disabled: true
         - archid: ppc64
           arch: PowerPC 64-bit (Big Endian, G5+)
+          disabled: true
     - name: X11
       description: |
         A basic system release bundled with X graphical
@@ -159,18 +169,25 @@ retro:
       downloads:
         - archid: armv4
           arch: ARMv4
+          disabled: true
         - archid: armv6hf
           arch: ARMv6 (Hard Float)
+          disabled: true
         - archid: armv7hf
           arch: ARMv7 (Hard Float, NEON)
+          disabled: true
         - archid: i486
           arch: i486 (Intel 80486 or Compatible/Above)
+          disabled: true
         - archid: loongson2f
           arch: Loongson 2F
+          disabled: true
         - archid: powerpc
           arch: PowerPC 32-bit (Big Endian, POWER2+)
+          disabled: true
         - archid: ppc64
           arch: PowerPC 64-bit (Big Endian, G5+)
+          disabled: true
     - name: Base
       description: |
         A base system release with a minimal set of applications
@@ -182,18 +199,24 @@ retro:
       downloads:
         - archid: armv4
           arch: ARMv4
+          disabled: true
         - archid: armv6hf
           arch: ARMv6 (Hard Float)
+          disabled: true
         - archid: armv7hf
           arch: ARMv7 (Hard Float, NEON)
+          disabled: true
         - archid: i486
           arch: i486 (Intel 80486 or Compatible/Above)
         - archid: loongson2f
           arch: Loongson 2F
+          disabled: true
         - archid: powerpc
           arch: PowerPC 32-bit (Big Endian, POWER2+)
+          disabled: true
         - archid: ppc64
           arch: PowerPC 64-bit (Big Endian, G5+)
+          disabled: true
     - name: Server
       description: |
         A base system release bundled with server applications,
@@ -202,18 +225,24 @@ retro:
       downloads:
         - archid: armv4
           arch: ARMv4
+          disabled: true
         - archid: armv6hf
           arch: ARMv6 (Hard Float)
+          disabled: true
         - archid: armv7hf
           arch: ARMv7 (Hard Float, NEON)
+          disabled: true
         - archid: i486
           arch: i486 (Intel 80486 or Compatible/Above)
         - archid: loongson2f
           arch: Loongson 2F
+          disabled: true
         - archid: powerpc
           arch: PowerPC 32-bit (Big Endian, POWER2+)
+          disabled: true
         - archid: ppc64
           arch: PowerPC 64-bit (Big Endian, G5+)
+          disabled: true
     - name: BuildKit
       description: |
         BuildKit is essentially a non-bootable AOSC OS Base with full
@@ -269,6 +298,7 @@ livekit:
       arch: 'Loongson 3A/B (1000 - 4000) [Experimental]'
     - archid: ppc64el
       arch: 'IBM POWER (8+) [Experimental]'
+      disabled: true
 
 rlivekit:
   list:
