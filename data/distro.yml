@@ -19,16 +19,16 @@ general:
       downloads:
         - archid: amd64
           arch: x86-64
-        - archid: aarch64
+        - archid: arm64
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
-        - archid: aarch64-rpi
+        - archid: arm64-rpi
           arch: 'AArch64 (Raspberry Pi) [Coming Soon]'
           disabled: true
           url: 'https://releases.aosc.io/os-arm64/rpi/kde/'
-        - archid: aarch64-rk
+        - archid: arm64-rk
           arch: 'AArch64 (Rockchip-based SoCs)'
           url: 'https://releases.aosc.io/os-arm64/rockchip64/kde/'
-        - archid: aarch64-sunxi
+        - archid: arm64-sunxi
           arch: 'AArch64 (Allwinner-based SoCs)'
           url: 'https://releases.aosc.io/os-arm64/sunxi64/kde/'
         - archid: loongson3
@@ -48,16 +48,16 @@ general:
       downloads:
         - archid: amd64
           arch: x86-64
-        - archid: aarch64
+        - archid: arm64
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
-        - archid: aarch64-rpi
+        - archid: arm64-rpi
           arch: 'AArch64 (Raspberry Pi) [Coming Soon]'
           disabled: true
           url: 'https://releases.aosc.io/os-arm64/rpi/base/'
-        - archid: aarch64-rk
+        - archid: arm64-rk
           arch: 'AArch64 (Rockchip-based SoCs)'
           url: 'https://releases.aosc.io/os-arm64/rockchip64/base/'
-        - archid: aarch64-sunxi
+        - archid: arm64-sunxi
           arch: 'AArch64 (Allwinner-based SoCs)'
           url: 'https://releases.aosc.io/os-arm64/sunxi64/base/'
         - archid: loongson3
@@ -78,16 +78,16 @@ general:
       downloads:
         - archid: amd64
           arch: x86-64
-        - archid: aarch64
+        - archid: arm64
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
-        - archid: aarch64-rpi
+        - archid: arm64-rpi
           arch: 'AArch64 (Raspberry Pi) [Coming Soon]'
           disabled: true
           url: 'https://releases.aosc.io/os-arm64/rpi/server/'
-        - archid: aarch64-rk
+        - archid: arm64-rk
           arch: 'AArch64 (Rockchip-based SoCs)'
           url: 'https://releases.aosc.io/os-arm64/rockchip64/server/'
-        - archid: aarch64-sunxi
+        - archid: arm64-sunxi
           arch: 'AArch64 (Allwinner-based SoCs)'
           url: 'https://releases.aosc.io/os-arm64/sunxi64/server/'
         - archid: loongson3
@@ -107,7 +107,7 @@ general:
       downloads:
         - archid: amd64
           arch: x86-64
-        - archid: aarch64
+        - archid: arm64
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
         - archid: loongson3
           arch: 'Loongson 3A/B (1000 - 4000)'
@@ -292,7 +292,7 @@ livekit:
   list:
     - archid: amd64
       arch: x86-64
-    - archid: aarch64
+    - archid: arm64
       arch: AArch64 (EFI/SBSA/SystemReady ES)
     - archid: loongson3
       arch: 'Loongson 3A/B (1000 - 4000) [Experimental]'
