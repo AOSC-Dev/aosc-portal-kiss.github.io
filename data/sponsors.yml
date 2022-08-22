@@ -118,3 +118,7 @@
   sponsor: CodeWeavers
   homepage: https://www.codeweavers.com/
   gratitude: Funding for our build servers.
+-
+  sponsor: PLCT Lab at the Institute of Software Chinese Academy of Sciences (ISCAS)
+  homepage: plctlab.org
+  gratitude: HiFive Unmatched development boards for our AOSC OS RISC-V port.
