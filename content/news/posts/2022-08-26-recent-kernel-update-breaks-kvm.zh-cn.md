@@ -29,7 +29,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet rw rd.auto rd.auto=1 splash ibt=off"
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-并重启电脑以应用更改。
+并重启您的设备以应用更改。
 
 ---
 
