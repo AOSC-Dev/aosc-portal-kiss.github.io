@@ -16,6 +16,10 @@ general:
         - 6.png
         - 7.png
         - 8.png
+        - 9.png
+        - 10.png
+        - 11.png
+        - 12.png
       downloads:
         - archid: amd64
           arch: x86-64
