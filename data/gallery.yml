@@ -1,5 +1,23 @@
 gallery:
-  - title: AOSCC 2021
+  - title: Community Mascots (2022)
+    album:
+      -
+        desc: "Community Mascots - Main Visual"
+        date: May 14, 2022
+        file: mascots-full.png
+      -
+        desc: "Community Mascots - Main Visual (without Background)"
+        date: May 14, 2022
+        file: mascots-no-bg.png
+      -
+        desc: "Community Mascots - An-An"
+        date: May 14, 2022
+        file: anan.png
+      -
+        desc: "Community Mascots - Tong-Tong"
+        date: May 14, 2022
+        file: tongtong.png
+    - title: AOSCC 2021
     album:
       -
         desc: "Attending Virtual AOSCC 2021 (Telegram: @moe_canary)."
