@@ -115,7 +115,7 @@ function populateData(response) {
         let severity = 'is-latest';
         if (difference > 7200)
             severity = (difference < 28800) ? 'is-behind' : 'is-very-behind';
-        let difference_human = difference > 0 ? dayjs.duration(difference * 1000).humanize(true) : 'Up-to-date';
+        let difference_human = difference > 0 ? dayjs.duration(difference * 1000).humanize() + ' behind' : 'Up-to-date';
         if (this_row.updated < 0) {
             difference_human = 'Unknown';
             severity = 'is-unknown';
