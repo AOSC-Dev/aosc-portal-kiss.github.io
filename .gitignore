@@ -3,3 +3,4 @@
 assets/css/dist
 *.png.jpg
 .hugo_build.lock
+/venv
