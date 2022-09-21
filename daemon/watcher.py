@@ -7,22 +7,22 @@ import signal
 
 
 def parse_config(filename: str) -> dict:
-    with open(filename, 'rt') as f:
+    with open(filename, "rt") as f:
         return yaml.safe_load(f)
 
 
 def get_last_modified(url: str) -> int:
-    last_updated_url = '%s/last_update' % url.rstrip('/')
+    last_updated_url = "%s/last_update" % url.rstrip("/")
     try:
         response = requests.get(last_updated_url, timeout=10)
         response.raise_for_status()
     except Exception:
-        logging.error('Unable to fetch the status from %s' % url)
+        logging.error("Unable to fetch the status from %s" % url)
         return -1
     try:
         return int(response.text.strip())
     except Exception:
-        logging.error('Unable to parse the status from %s' % url)
+        logging.error("Unable to parse the status from %s" % url)
         return -1
 
 
@@ -33,35 +33,36 @@ class Watcher(object):
         self.results = data
         self.reload(config)
 
-    def start(self) -> None:
+    def start(self):
         logging.info("Starting Watcher...")
+        ref_url = self.config["repo"]["url"]
         while True:
-            results = {'ref': 0, 'mirrors': []}
-            reference = get_last_modified(self.config['repo']['url'])
+            results = {"ref": 0, "mirrors": []}
+            reference = get_last_modified(ref_url)
             if reference < 0:
                 time.sleep(300)
                 continue
-            for mirror in self.config['mirrors']:
+            for mirror in self.config["mirrors"]:
                 current = {
-                    'name': mirror['name'],
-                    'region': mirror['region'],
-                    'url': mirror['url'],
-                    'updated': get_last_modified(mirror['url']),
-                    'checked': time.time()
+                    "name": mirror["name"],
+                    "region": mirror["region"],
+                    "url": mirror["url"],
+                    "updated": get_last_modified(mirror["url"]),
+                    "checked": time.time(),
                 }
-                results['mirrors'].append(current)
-            results['ref'] = reference
-            self.results['m'] = results
+                results["mirrors"].append(current)
+            results["ref"] = reference
+            self.results["m"] = results
+            logging.info("Finished fetching status")
             time.sleep(300)
-
 
     def reload_on_signal(self) -> None:
         return self.reload(self.config_file)
 
-    def reload(self, config: str) -> None:
-        logging.info('loading config file: {}'.format(config))
+    def reload(self, config: str):
+        logging.info("loading config file: {}".format(config))
         try:
             self.config = parse_config(config)
-            logging.info('config loaded.')
+            logging.info("config loaded.")
         except Exception as e:
             logging.exception(e)
