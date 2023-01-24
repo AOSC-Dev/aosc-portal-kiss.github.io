@@ -30,6 +30,9 @@ mirrors:
     - name: USTC LUG (LUG@USTC)
       url: https://mirrors.ustc.edu.cn/anthon/
       region: China
+    - name: ISRC-ISCAS (CSTNET)
+      url: https://mirror.iscas.ac.cn/anthon/
+      region: China
     - name: KoDDoS
       url: https://mirror.koddos.net/anthon/
       region: Europe
