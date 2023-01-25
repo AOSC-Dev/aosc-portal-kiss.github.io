@@ -1,4 +1,66 @@
 gallery:
+  - title: AOSCC 2022
+    album:
+      - desc: "Attending Virtual AOSCC 2022 at CIP United (1)"
+        date: September 17, 2022
+        file: 2022-aoscc-cip-1.jpg
+      - desc: "Attending Virtual AOSCC 2022 at CIP United (2)"
+        date: September 17, 2022
+        file: 2022-aoscc-cip-2.jpg
+      - desc: "Attending Virtual AOSCC 2022 at CIP United (3)"
+        date: September 17, 2022
+        file: 2022-aoscc-cip-3.jpg
+      - desc: "Attending Virtual AOSCC 2022 at CIP United (4)"
+        date: September 17, 2022
+        file: 2022-aoscc-cip-4.jpg
+      - desc: "Attending Virtual AOSCC 2022 at CIP United (5)"
+        date: September 17, 2022
+        file: 2022-aoscc-cip-5.jpg
+      - desc: "Attending Virtual AOSCC 2022 at CIP United (6)"
+        date: September 17, 2022
+        file: 2022-aoscc-cip-6.jpg
+      - desc: "Attending Virtual AOSCC 2022 (Telegram: @atCamber)"
+        date: September 17, 2022
+        file: 2022-aoscc-atcamber.jpg
+      - desc: "Attending Virtual AOSCC 2022 (Telegram: @moe_canary)"
+        date: September 17, 2022
+        file: 2022-aoscc-canarypwn.jpg
+      - desc: "Attending Virtual AOSCC 2022 (Telegram: @catten)"
+        date: September 17, 2022
+        file: 2022-aoscc-catten.jpg
+      - desc: "Attending Virtual AOSCC 2022 (Telegram: @cth451)"
+        date: September 17, 2022
+        file: 2022-aoscc-cth451.jpg
+      - desc: "Attending Virtual AOSCC 2022 (Telegram: Cyanoxygen)"
+        date: September 17, 2022
+        file: 2022-aoscc-cyanoxygen.jpg
+      - desc: "Attending Virtual AOSCC 2022 (Telegram: @DowXu3)"
+        date: September 17, 2022
+        file: 2022-aoscc-dowxu3.jpg
+      - desc: "Attending Virtual AOSCC 2022 (Telegram: @FlyGoat)"
+        date: September 17, 2022
+        file: 2022-aoscc-flygoat.jpg
+      - desc: "Attending Virtual AOSCC 2022 (Telegram: @Hulotte)"
+        date: September 17, 2022
+        file: 2022-aoscc-hulotte.jpg
+      - desc: "Attending Virtual AOSCC 2022 (Telegram: @Icenowy)"
+        date: September 17, 2022
+        file: 2022-aoscc-icenowy-zheng.jpg
+      - desc: "Attending Virtual AOSCC 2022 (Telegram: @liushuyu)"
+        date: September 17, 2022
+        file: 2022-aoscc-liushuyu.jpg
+      - desc: "Attending Virtual AOSCC 2022 (Telegram: @JeffBai)"
+        date: September 17, 2022
+        file: 2022-aoscc-mingcong-bai.jpg
+      - desc: "Attending Virtual AOSCC 2022 (Telegram: @OriginCode)"
+        date: September 17, 2022
+        file: 2022-aoscc-origincode.jpg
+      - desc: "Attending Virtual AOSCC 2022 (Telegram: @rickliu2000)"
+        date: September 17, 2022
+        file: 2022-aoscc-rickliu2000.jpg
+      - desc: "Attending Virtual AOSCC 2022 (Telegram: @realYangff)"
+        date: September 17, 2022
+        file: 2022-aoscc-yangff.jpg
   - title: Community Mascots (2022)
     album:
       -
