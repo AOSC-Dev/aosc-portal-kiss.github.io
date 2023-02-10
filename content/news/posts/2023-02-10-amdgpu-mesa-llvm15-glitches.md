@@ -7,10 +7,12 @@ important: true
 draft: false
 ---
 
-> This issue, caused by incompatibilities between Mesa and Link-Time
-> Optimisation (LTO), has been resolved with `mesa` v1:22.3.1-2.
->
-> Ref: https://gitlab.freedesktop.org/mesa/mesa/-/issues/6911
+This issue, caused by incompatibilities between Mesa and Link-Time
+Optimisation (LTO), has been resolved with `mesa` v1:22.3.1-2.
+
+Ref: https://gitlab.freedesktop.org/mesa/mesa/-/issues/6911
+
+---
 
 One of our AOSC OS maintainers has recently discovered that, after the LLVM
 15.0.7 update, characters went missing in certain SDDM and KDE applications.
