@@ -40,6 +40,7 @@ general:
         - archid: mips64r6el
           arch: 'MIPS64 R6'
           disabled: true
+          url: 'https://releases.aosc.io/os-mips64r6el/desktop/'
         - archid: mips64r6el-qemu
           arch: 'MIPS64 R6 (Qemu/EvaluationKit)'
           disabled: true
@@ -75,6 +76,7 @@ general:
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: mips64r6el
           arch: 'MIPS64 R6'
+          url: 'https://releases.aosc.io/os-mips64r6el/base/'
         - archid: mips64r6el-qemu
           arch: 'MIPS64 R6 (Qemu/EvaluationKit)'
           url: 'https://releases.aosc.io/os-mips64r6el/base/rawimg/'
@@ -110,6 +112,7 @@ general:
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: mips64r6el
           arch: 'MIPS64 R6'
+          url: 'https://releases.aosc.io/os-mips64r6el/server/'
         - archid: mips64r6el-qemu
           arch: 'MIPS64 R6 (Qemu/EvaluationKit)'
           url: 'https://releases.aosc.io/os-mips64r6el/server/rawimg/'
