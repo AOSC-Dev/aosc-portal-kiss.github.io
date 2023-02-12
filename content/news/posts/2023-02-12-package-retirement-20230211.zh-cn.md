@@ -2,7 +2,7 @@
 categories:
   - warning
 title: "通知：软件源中移除了超过 700 个软件包"
-date: 2023-02-12T22:55:48-07:00
+date: 2023-02-11T22:55:48-07:00
 important: true
 draft: false
 ---

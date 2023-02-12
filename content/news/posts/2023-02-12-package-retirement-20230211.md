@@ -2,7 +2,7 @@
 categories:
   - warning
 title: "700+ Packages Retired - What You Should Know"
-date: 2023-02-12T22:55:48-07:00
+date: 2023-02-11T22:55:48-07:00
 important: true
 draft: false
 ---
@@ -37,7 +37,7 @@ What does this mean? This means that some packages that you may be using could
 be removed from repository and will receive no further updates and fixes.
 Continue using these package may potentially be risky, as security
 vulnerabilities will no longer be addressed. To help you be aware of what
-packages were retired, we have developed [hunter](https://github.com/AOSC-Dev/hunter).
+packages were retired, we have developed [Hunter](https://github.com/AOSC-Dev/hunter).
 
 Unless you removed `util-base` at some point, a system update should install
 this tool automatically. Otherwise, execute the following command to do so:
