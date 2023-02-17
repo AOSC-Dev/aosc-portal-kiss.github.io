@@ -37,6 +37,14 @@ general:
           url: 'https://releases.aosc.io/os-arm64/sunxi64/kde/'
         - archid: loongson3
           arch: 'Loongson 3A/B (1000 - 4000)'
+        - archid: mips64r6el
+          arch: 'MIPS64 R6'
+          disabled: true
+          url: 'https://releases.aosc.io/os-mips64r6el/desktop/'
+        - archid: mips64r6el-qemu
+          arch: 'MIPS64 R6 (Qemu/EvaluationKit)'
+          disabled: true
+          url: 'https://releases.aosc.io/os-mips64r6el/desktop/rawimg/'
         - archid: ppc64el
           arch: IBM POWER (8+)
           disabled: true
@@ -66,6 +74,12 @@ general:
           url: 'https://releases.aosc.io/os-arm64/sunxi64/base/'
         - archid: loongson3
           arch: 'Loongson 3A/B (1000 - 4000)'
+        - archid: mips64r6el
+          arch: 'MIPS64 R6'
+          url: 'https://releases.aosc.io/os-mips64r6el/base/'
+        - archid: mips64r6el-qemu
+          arch: 'MIPS64 R6 (Qemu/EvaluationKit)'
+          url: 'https://releases.aosc.io/os-mips64r6el/base/rawimg/'
         - archid: ppc64el
           arch: IBM POWER (8+)
           disabled: true
@@ -96,6 +110,12 @@ general:
           url: 'https://releases.aosc.io/os-arm64/sunxi64/server/'
         - archid: loongson3
           arch: 'Loongson 3A/B (1000 - 4000)'
+        - archid: mips64r6el
+          arch: 'MIPS64 R6'
+          url: 'https://releases.aosc.io/os-mips64r6el/server/'
+        - archid: mips64r6el-qemu
+          arch: 'MIPS64 R6 (Qemu/EvaluationKit)'
+          url: 'https://releases.aosc.io/os-mips64r6el/server/rawimg/'
         - archid: ppc64el
           arch: IBM POWER (8+)
           disabled: true
@@ -115,6 +135,8 @@ general:
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
         - archid: loongson3
           arch: 'Loongson 3A/B (1000 - 4000)'
+        - archid: mips64r6el
+          arch: 'MIPS64 R6'
         - archid: ppc64el
           arch: IBM POWER (8+)
           disabled: true
