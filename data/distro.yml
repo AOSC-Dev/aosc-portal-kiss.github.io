@@ -77,9 +77,11 @@ general:
         - archid: mips64r6el
           arch: 'MIPS64 R6'
           url: 'https://releases.aosc.io/os-mips64r6el/base/'
+          disabled: true
         - archid: mips64r6el-qemu
           arch: 'MIPS64 R6 (Qemu/EvalKit)'
           url: 'https://releases.aosc.io/os-mips64r6el/base/rawimg/'
+          disabled: true
         - archid: ppc64el
           arch: IBM POWER (8+)
           disabled: true
