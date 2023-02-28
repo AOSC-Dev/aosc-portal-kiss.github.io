@@ -42,7 +42,7 @@ general:
           disabled: true
           url: 'https://releases.aosc.io/os-mips64r6el/desktop/'
         - archid: mips64r6el-qemu
-          arch: 'MIPS64 R6 (Qemu/EvaluationKit)'
+          arch: 'MIPS64 R6 (Qemu/EvalKit)'
           disabled: true
           url: 'https://releases.aosc.io/os-mips64r6el/desktop/rawimg/'
         - archid: ppc64el
@@ -78,7 +78,7 @@ general:
           arch: 'MIPS64 R6'
           url: 'https://releases.aosc.io/os-mips64r6el/base/'
         - archid: mips64r6el-qemu
-          arch: 'MIPS64 R6 (Qemu/EvaluationKit)'
+          arch: 'MIPS64 R6 (Qemu/EvalKit)'
           url: 'https://releases.aosc.io/os-mips64r6el/base/rawimg/'
         - archid: ppc64el
           arch: IBM POWER (8+)
@@ -114,7 +114,7 @@ general:
           arch: 'MIPS64 R6'
           url: 'https://releases.aosc.io/os-mips64r6el/server/'
         - archid: mips64r6el-qemu
-          arch: 'MIPS64 R6 (Qemu/EvaluationKit)'
+          arch: 'MIPS64 R6 (Qemu/EvalKit)'
           url: 'https://releases.aosc.io/os-mips64r6el/server/rawimg/'
         - archid: ppc64el
           arch: IBM POWER (8+)
