@@ -138,11 +138,11 @@
   longdesc:
   rurl:
 -
-  fullname: Anonymous Chen
+  fullname: Jiajie Chen
   username: jiegec
-  description: Yet another Senior 3 student. Love Emacs more than Vim.
-  longdesc: A typical Chinese student busy preparing for College Entrance Examination. Currently the main maintainer of MacGesture. Few contributions are made to the AOSC project.
-  rurl: https://github.com/jiegec
+  description: PhD student in Tsinghua University.
+  longdesc:
+  rurl: https://jia.je/
 -
   fullname: Kexy Biscuit
   username: kexybiscuit
