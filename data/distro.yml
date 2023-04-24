@@ -45,7 +45,6 @@ general:
           disabled: true
         - archid: ppc64el
           arch: IBM POWER (8+)
-          disabled: true
     - name: Base
       description: |
         Base releases provide a minimal set of features, just enough for you
@@ -80,7 +79,6 @@ general:
           url: https://releases.aosc.io/os-mips64r6el/base/rawimg/
         - archid: ppc64el
           arch: IBM POWER (8+)
-          disabled: true
         - archid: riscv64
           arch: RISC-V (RV64GC)
     - name: Server
@@ -116,7 +114,6 @@ general:
           disabled: true
         - archid: ppc64el
           arch: IBM POWER (8+)
-          disabled: true
     - name: BuildKit
       description: |
         BuildKit is essentially a non-bootable AOSC OS Base with full
@@ -137,7 +134,6 @@ general:
           arch: 'MIPS64 R6'
         - archid: ppc64el
           arch: IBM POWER (8+)
-          disabled: true
         - archid: riscv64
           arch: RISC-V (RV64GC)
 
@@ -321,8 +317,7 @@ livekit:
     - archid: loongson3
       arch: 'Loongson 3A/B (1000 - 4000) [Experimental]'
     - archid: ppc64el
-      arch: 'IBM POWER (8+) [Experimental]'
-      disabled: true
+      arch: 'IBM POWER (8+)'
 
 rlivekit:
   list:
