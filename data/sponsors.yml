@@ -122,3 +122,7 @@
   sponsor: PLCT Lab at the Institute of Software Chinese Academy of Sciences (ISCAS)
   homepage: plctlab.org
   gratitude: HiFive Unmatched development boards for our AOSC OS RISC-V port.
+-
+  sponsor: Loongson Technology (Wuhan)
+  homepage: https://www.loongson.cn/
+  gratitude: Build server for our AOSC OS LoongArch port.
