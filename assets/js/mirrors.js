@@ -58,7 +58,7 @@ function fetchSample(url, callback) {
 function checkSpeed(url, name, lag) {
     const start = Date.now();
     scratch.innerHTML = '';
-    fetchSample(url + 'misc/u-boot-sunxi-with-spl.bin', function () {
+    fetchSample(url + '.repotest', function () {
         const score = (lag / 3600) * 0.39 + (Date.now() - start) * 0.61;
         lists.push({
             name: name,
