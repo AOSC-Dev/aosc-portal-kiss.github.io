@@ -35,6 +35,8 @@ general:
         - archid: arm64-sunxi
           arch: 'AArch64 (Allwinner-based SoCs)'
           url: 'https://releases.aosc.io/os-arm64/sunxi64/kde/'
+        - archid: loongarch64
+          arch: 'LoongArch64 (Experimental)'
         - archid: loongson3
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: mips64r6el
@@ -69,6 +71,8 @@ general:
         - archid: arm64-sunxi
           arch: 'AArch64 (Allwinner-based SoCs)'
           url: 'https://releases.aosc.io/os-arm64/sunxi64/base/'
+        - archid: loongarch64
+          arch: 'LoongArch64 (Experimental)'
         - archid: loongson3
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: mips64r6el
@@ -104,6 +108,8 @@ general:
         - archid: arm64-sunxi
           arch: 'AArch64 (Allwinner-based SoCs)'
           url: 'https://releases.aosc.io/os-arm64/sunxi64/server/'
+        - archid: loongarch64
+          arch: 'LoongArch64 (Experimental)'
         - archid: loongson3
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: mips64r6el
@@ -128,6 +134,8 @@ general:
           arch: x86-64
         - archid: arm64
           arch: 'AArch64 (EFI/SBSA/SystemReady ES)'
+        - archid: loongarch64
+          arch: 'LoongArch64 (Experimental)'
         - archid: loongson3
           arch: 'Loongson 3A/B (1000 - 4000)'
         - archid: mips64r6el
@@ -314,6 +322,8 @@ livekit:
       arch: x86-64
     - archid: arm64
       arch: AArch64 (EFI/SBSA/SystemReady ES)
+    - archid: loongarch64
+      arch: 'LoongArch64 (Experimental)'
     - archid: loongson3
       arch: 'Loongson 3A/B (1000 - 4000) [Experimental]'
     - archid: ppc64el
