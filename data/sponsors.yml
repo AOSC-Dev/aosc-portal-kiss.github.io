@@ -126,3 +126,7 @@
   sponsor: Loongson Technology (Wuhan)
   homepage: https://www.loongson.cn/
   gratitude: Dedicated build server for our AOSC OS LoongArch port.
+-
+  sponsor: Jilin University Linux User Group
+  homepage: http://mirrors.jlu.edu.cn
+  gratitude: Fast and stable mirror for our repository.
