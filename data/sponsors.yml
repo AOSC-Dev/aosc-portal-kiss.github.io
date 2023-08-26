@@ -17,15 +17,15 @@
 -
   sponsor: Shanghai University Open Source Community
   homepage: https://www.shuosc.org/
-  gratitude: 'Fast and stable mirror for our repository.'
+  gratitude: 'Fast and reliable mirror for our repository.'
 -
   sponsor: TUNA Association
   homepage: https://tuna.moe/
-  gratitude: Fast and stable mirror for our repository.
+  gratitude: Fast and reliable mirror for our repository.
 -
   sponsor: LUG@USTC
   homepage: https://lug.ustc.edu.cn/
-  gratitude: Fast and stable mirror for our repository.
+  gratitude: Fast and reliable mirror for our repository.
 -
   sponsor: Geekpie Association
   homepage: https://geekpie.club
@@ -77,23 +77,23 @@
 -
   sponsor: Tencent
   homepage: https://www.tencent.com
-  gratitude: Fast and stable mirror for our repository.
+  gratitude: Fast and reliable mirror for our repository.
 -
   sponsor: Beijing Foreign Studies University
   homepage: https://www.bfsu.edu.cn
-  gratitude: Fast and stable mirror for our repository.
+  gratitude: Fast and reliable mirror for our repository.
 -
   sponsor: University of Electronic Science and Technology of China
   homepage: https://en.uestc.edu.cn/
-  gratitude: Fast and stable mirror for our repository.
+  gratitude: Fast and reliable mirror for our repository.
 -
   sponsor: Harbin Institute of Technology
   homepage: https://www.hit.edu.cn/
-  gratitude: Fast and stable mirror for our repository.
+  gratitude: Fast and reliable mirror for our repository.
 -
   sponsor: Hexhu
   homepage: https://arch.hu.fo/
-  gratitude: Fast and stable mirror for our repository.
+  gratitude: Fast and reliable mirror for our repository.
 -
   sponsor: SolidRun
   homepage: https://www.solid-run.com/
@@ -101,7 +101,7 @@
 -
   sponsor: Nanjing University LUG (NJU LUG)
   homepage: https://git.nju.edu.cn/nju-lug/
-  gratitude: Fast and stable mirror for our repository.
+  gratitude: Fast and reliable mirror for our repository.
 -
   sponsor: Aperture Science Limited
   homepage: https://apernet.io/
@@ -129,4 +129,8 @@
 -
   sponsor: Jilin University Linux User Group
   homepage: http://mirrors.jlu.edu.cn
-  gratitude: Fast and stable mirror for our repository.
+  gratitude: Fast and reliable mirror for our repository.
+-
+  sponsor: SJTU *NIX User Group
+  homepage: https://sjtug.org/
+  gratitude: Fast and reliable mirror for our repository.
