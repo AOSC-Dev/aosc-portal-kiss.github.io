@@ -1,7 +1,7 @@
 ---
 categories:
   - warning
-title: "Thunderbird 115 更新可能存在缩放问题"
+title: "[已解决] Thunderbird 115 更新可能存在缩放问题"
 date: 2023-09-21T01:00:00+08:00
 important: false
 draft: false
