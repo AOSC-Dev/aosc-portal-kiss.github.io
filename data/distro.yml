@@ -325,7 +325,8 @@ livekit:
     - archid: loongarch64
       arch: 'LoongArch64 (Experimental)'
     - archid: loongson3
-      arch: 'Loongson 3A/B (1000 - 4000) [Experimental]'
+      arch: 'Loongson 3A/B (1000 - 4000) (Experimental)'
+      disabled: true
     - archid: ppc64el
       arch: 'IBM POWER (8+)'
 
