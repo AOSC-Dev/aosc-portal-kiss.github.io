@@ -322,6 +322,9 @@ livekit:
       arch: x86-64
     - archid: arm64
       arch: AArch64 (EFI/SBSA/SystemReady ES)
+    - archid: arm64-asahi
+      arch: Apple Silicon-based Macs
+      url: 'https://aosc.io/downloads/asahi'
     - archid: loongarch64
       arch: 'LoongArch64 (Experimental)'
     - archid: loongson3
