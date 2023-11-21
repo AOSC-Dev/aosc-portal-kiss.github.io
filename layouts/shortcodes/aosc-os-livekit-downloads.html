@@ -1,10 +1,27 @@
 {{- $target_list := index .Site.Data.distro (.Get "category") -}}
-<form action="https://releases.aosc.io/download/livekit" method="post">
-    <select id="distro-variant" name="distro-variant">
+{{- $postfix := math.Counter -}}
+<form id="livekit-form-{{$postfix}}" action="https://releases.aosc.io/download/livekit" method="post">
+    <select id="distro-variant-{{$postfix}}" name="distro-variant">
         {{- range $livekit := index $target_list "list" -}}
         {{ $slug := $livekit.arch | anchorize }}
-        <option value="{{ $livekit.archid }}"{{ if $livekit.disabled }}disabled{{ end }}>{{ $livekit.arch }}</option>
+        {{ $value := $livekit.archid }}
+        {{- if isset $livekit "url" -}}
+        {{ $value = $livekit.url }}
+        {{- end -}}
+        <option value="{{ $value }}"{{ if $livekit.disabled }}disabled{{ end }}>{{ $livekit.arch }}</option>
         {{- end -}}
     </select>
-    <input class="download-button" type="submit" value="{{ T "download" }}">
+    <input id="livekit-submit-{{$postfix}}" class="download-button" type="submit" value="{{ T "download" }}">
 </form>
+<script>
+    document.getElementById('livekit-submit-{{$postfix}}').addEventListener('click', function(e) {
+        e.preventDefault();
+        const form = document.getElementById('livekit-form-{{$postfix}}');
+        const formVal = document.getElementById("distro-variant-{{$postfix}}").value;
+        if (URL.canParse(formVal)) {
+            window.location = formVal;
+            return;
+        }
+        document.getElementById('livekit-form-{{$postfix}}').submit();
+    });
+</script>
