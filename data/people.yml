@@ -311,11 +311,17 @@
   longdesc:
   rurl:
 -
+  fullname: Miao Wang
+  username: shankerwangmiao
+  description:
+  longdesc:
+  rurl: https://innull.com
+-
   fullname: ZjeuhPiung Liu
   username: sophgn
   description: A finance undergraduate who knows little about programming.
   longdesc: Corrected a typo for aosc-os-abbs long ago.（
-  rurl: sophgn.github.io 
+  rurl: sophgn.github.io
 -
   fullname: Staph. aureus
   username: stephdc
@@ -394,9 +400,3 @@
   description:
   longdesc:
   rurl:
--
-  fullname: Miao Wang
-  username: shankerwangmiao
-  description:
-  longdesc:
-  rurl: https://innull.com
