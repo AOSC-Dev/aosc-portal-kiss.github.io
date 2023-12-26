@@ -33,9 +33,9 @@ mirrors:
     - name: ISRC-ISCAS (CSTNET)
       url: https://mirror.iscas.ac.cn/anthon/
       region: China
-    - name: KoDDoS
-      url: https://mirror.koddos.net/anthon/
-      region: Europe
+    - name: SJTU 上海交通大学 (SJTUG)
+      url: https://mirror.sjtu.edu.cn/anthon/
+      region: China
     - name: NLUUG
       url: https://ftp.nluug.nl/os/Linux/distr/anthon/
       region: Europe
@@ -51,9 +51,6 @@ mirrors:
     - name: University of Tsukuba
       url: http://ftp.tsukuba.wide.ad.jp/Linux/anthon/
       region: Japan
-    - name: OSSPlanet Mirror Server
-      url: https://mirror.ossplanet.net/anthonos/
-      region: Taiwan
     - name: mirror.hu.fo
       url: https://mirror.hu.fo/anthon/
       region: United States of America
