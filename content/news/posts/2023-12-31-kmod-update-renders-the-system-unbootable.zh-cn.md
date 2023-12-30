@@ -7,7 +7,7 @@ important: true
 draft: false
 ---
 
-我们发现近期引入的软件包 `kmod` 的更新会生成有问题的初始化内存盘 (initramfs) 镜像，最终导致系统无法启动。
+我们发现近期引入的软件包 `kmod` 的更新会导致无法正常加载 xz 压缩的内核模块，并且影响初始化内存盘 (initramfs) 引导期间的启动过程，最终导致系统无法启动。
 此问题具体表现为启动时报告以下错误信息：
 ```
 decompression failed with status 6
