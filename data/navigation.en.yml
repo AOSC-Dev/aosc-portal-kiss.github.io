@@ -1,14 +1,17 @@
 - title: News
   url: /news
 
-- title: People
-  url: /people
+- title: BBS
+  url: https://bbs.aosc.io/
 
 - title: Packages
-  url: https://packages.aosc.io
+  url: https://packages.aosc.io/
 
 - title: Wiki
-  url: https://wiki.aosc.io
+  url: https://wiki.aosc.io/
+
+- title: People
+  url: /people
 
 - title: About
   url: /about

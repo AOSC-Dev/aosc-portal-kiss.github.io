@@ -1,14 +1,17 @@
 - title: 資訊
   url: /zh-tw/news
 
-- title: 貢獻者
-  url: /zh-tw/people
+- title: 論壇
+  url: https://bbs.aosc.io/
 
 - title: 套件
-  url: https://packages.aosc.io
+  url: https://packages.aosc.io/
 
 - title: 文檔
-  url: https://wiki.aosc.io
+  url: https://wiki.aosc.io/
+
+- title: 貢獻者
+  url: /zh-tw/people
 
 - title: 關於
   url: /zh-tw/about

@@ -1,14 +1,17 @@
 - title: 资讯
   url: /zh-cn/news
 
-- title: 贡献者
-  url: /zh-cn/people
+- title: 论坛
+  url: https://bbs.aosc.io/
 
 - title: 软件包
-  url: https://packages.aosc.io
+  url: https://packages.aosc.io/
 
 - title: 文档
-  url: https://wiki.aosc.io
+  url: https://wiki.aosc.io/
+
+- title: 贡献者
+  url: /zh-cn/people
 
 - title: 关于
   url: /zh-cn/about
