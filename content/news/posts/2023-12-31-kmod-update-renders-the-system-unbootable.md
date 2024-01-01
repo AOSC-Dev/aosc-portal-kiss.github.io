@@ -1,10 +1,22 @@
 ---
 categories:
   - warning
-title: "Recent kmod 31 Update May Prevent System from Booting"
+title: "[SOLVED] Recent kmod 31 Update May Prevent System from Booting"
 date: 2023-12-31T02:26:59+08:00
 important: true
 draft: false
+---
+
+We have since issued kernel updates to address this issue. You may now update
+your system as usual. If you have held `kmod`'s package version, please use
+the following command to unhold:
+
+```
+sudo oma mark unhold kmod
+```
+
+Thank you for your patience and our apologies for any inconvenience caused.
+
 ---
 
 The `modprobe` utility in recently updated kmod 31 uses a potentially broken
