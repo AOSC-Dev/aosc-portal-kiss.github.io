@@ -31,6 +31,10 @@
 
     <link rel="icon" href="/assets/img/aosc.png">
     <link rel="icon" sizes="any" type="image/svg+xml" href="{{ $logo_svg.Permalink }}" />
+    {{ range .AlternativeOutputFormats -}}
+    {{ printf `
+    <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
     {{ if eq .Site.Language.Lang "lzh" }}
     <script>
         (function (d) {
