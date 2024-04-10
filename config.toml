@@ -1,6 +1,5 @@
 DefaultContentLanguage = "en"
 baseURL = "https://aosc.io/"
-languageCode = "en-us"
 hasCJKLanguage = true
 
 [languages]
