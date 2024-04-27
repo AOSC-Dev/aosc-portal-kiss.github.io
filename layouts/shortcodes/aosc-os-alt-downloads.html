@@ -3,6 +3,7 @@
 {{- $screenshots := not (.Get "no-screenshots") -}}
 {{- range $release := index $target_list "list" -}}
 {{- $slug := $release.name | anchorize -}}
+{{- $postfix := math.Counter -}}
 <div id="{{ $slug }}" class="columns">
     <div class="column downloads-title-column">
         <h2>{{ $release.name }}</h2>
@@ -14,11 +15,11 @@
         {{ $localeDescription = T (printf "%s-desc" $slug) }}
         {{- else -}}
         {{ $localeDescription = T (printf "%s-%s-desc" $category $slug) }}
-        {{- end }}
+        {{- end -}}
         <p class="no-top-margin">{{ cond (eq $localeDescription "") $release.description $localeDescription }}</p>
         <p>
         <form action="https://releases.aosc.io/download/alt" method="post">
-            <select id="distro-variant" name="distro-variant">
+            <select id="distro-variant-{{$postfix}}" name="distro-variant">
                 {{- range $download := $release.downloads -}}
                 {{ $value := printf "%s.%s" ($release.name | anchorize)  $download.archid }}
                 {{- if isset $download "url" -}}
