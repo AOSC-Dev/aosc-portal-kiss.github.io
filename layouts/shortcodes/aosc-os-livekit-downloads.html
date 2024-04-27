@@ -18,7 +18,7 @@
         e.preventDefault();
         const form = document.getElementById('livekit-form-{{$postfix}}');
         const formVal = document.getElementById("distro-variant-{{$postfix}}").value;
-        if (URL.canParse(formVal)) {
+        if (!!/^https?:.+/.exec(formVal)) {
             window.location = formVal;
             return;
         }
