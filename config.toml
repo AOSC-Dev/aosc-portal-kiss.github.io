@@ -1,6 +1,7 @@
 DefaultContentLanguage = "en"
 baseURL = "https://aosc.io/"
 hasCJKLanguage = true
+disablePathToLower = true
 
 [languages]
   [languages.en]
